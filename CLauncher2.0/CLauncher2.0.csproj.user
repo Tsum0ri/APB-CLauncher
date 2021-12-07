@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Configs\site_c-killfeed.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Configs\site_c-mission.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Configs\site_c-pre.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ConfigWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="frmPatcher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LauncherSettings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SettingsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Settings\site_ingame.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Settings\site_s-other.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Settings\site_s-settings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Settings\site_textures.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Site_Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Site_Info.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Site_Settings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="site_wip.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SplashScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Configs\site_c-killfeed.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Configs\site_c-mission.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Configs\site_c-pre.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ConfigWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="frmPatcher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LauncherSettings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SettingsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Settings\site_ingame.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Settings\site_s-other.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Settings\site_s-settings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Settings\site_textures.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Site_Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Site_Info.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Site_Settings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="site_wip.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SplashScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

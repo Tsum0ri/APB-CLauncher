@@ -1,0 +1,111 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CLauncher2._0" GeneratedClassName="config">
+  <Profiles />
+  <Settings>
+    <Setting Name="KillfeedColorFS" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="KillfeedColorES" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="tdmS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DM</Value>
+    </Setting>
+    <Setting Name="takeoverS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DM+</Value>
+    </Setting>
+    <Setting Name="vipS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">VIP</Value>
+    </Setting>
+    <Setting Name="bombS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BOMB</Value>
+    </Setting>
+    <Setting Name="dropS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DROP</Value>
+    </Setting>
+    <Setting Name="holdS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">HOLD</Value>
+    </Setting>
+    <Setting Name="fcS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FIGHTCLUB</Value>
+    </Setting>
+    <Setting Name="captureS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AREA</Value>
+    </Setting>
+    <Setting Name="sprayS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SPRAY</Value>
+    </Setting>
+    <Setting Name="truckS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TRUCK</Value>
+    </Setting>
+    <Setting Name="Color_TeamS" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Color_EnemyS" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Color_AssistS" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Team_KillS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Teammate Killed</Value>
+    </Setting>
+    <Setting Name="Team_KilledS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Killed by</Value>
+    </Setting>
+    <Setting Name="AssistS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Kill Assist</Value>
+    </Setting>
+    <Setting Name="Enemy_KillS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Enemy Killed</Value>
+    </Setting>
+    <Setting Name="Enemy_KilledS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Killed by</Value>
+    </Setting>
+    <Setting Name="Color_TDM" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Color_VIP" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Color_Takeover" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Color_Hold" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Color_Drop" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Color_Spray" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Color_Capture" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Color_Bomb" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Color_FightClub" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Color_Truck" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="enemy_Color" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="team_Color" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="assist_Color" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="enemyKilled_Color" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">23</Value>
+    </Setting>
+    <Setting Name="teamKilled_Color" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
