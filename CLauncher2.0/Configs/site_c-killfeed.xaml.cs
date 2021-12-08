@@ -1245,61 +1245,393 @@ namespace CLauncher2._0.Configs
             // ================================================== Killfeed Below ==================================================
             string[] contentsKillfeedB = File.ReadAllLines(Environment.CurrentDirectory + "\\APBGame\\Localization\\GER\\HUDCombatMessages.GER");
 
-            //EVENT
-            contentsKillfeedB[1] = "HUDCombatMessages_Score_Combat_ArrestEnemy_Line0=" + Color_EnemyKill + "<CharacterNameA>" + ColorEnd;
-            contentsKillfeedB[2] = "HUDCombatMessages_Score_Combat_ArrestEnemy_Line2=" + Color_EnemyKill + Enemy_Kill + ColorEnd;
+            contentsKillfeedB[4] = "======================== APB CLauncher ========================";
+            //Kill
+            contentsKillfeedB[6] = "HUDCombatMessages_Score_Combat_ArrestEnemy_Line0=" + Color_EnemyKill + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeedB[7] = "HUDCombatMessages_Score_Combat_ArrestEnemy_Line2=" + Color_EnemyKill + Enemy_Kill + ColorEnd;
 
-            contentsKillfeedB[3] = "HUDCombatMessages_Score_Combat_KillEnemy_Line0=" + Color_EnemyKill + "<CharacterNameA>" + ColorEnd;
-            contentsKillfeedB[4] = "HUDCombatMessages_Score_Combat_KillEnemy_Line2=" + Color_EnemyKill + Enemy_Kill + ColorEnd;
+            contentsKillfeedB[8] = "HUDCombatMessages_Score_Combat_KillEnemy_Line0=" + Color_EnemyKill + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeedB[9] = "HUDCombatMessages_Score_Combat_KillEnemy_Line2=" + Color_EnemyKill + Enemy_Kill + ColorEnd;
 
-            contentsKillfeedB[5] = "HUDCombatMessages_Score_Combat_KillEnemyAssist_Line0=" + Color_EnemyKill + "<CharacterNameA>" + ColorEnd;
-            contentsKillfeedB[6] = "HUDCombatMessages_Score_Combat_KillEnemyAssist_Line2" + Color_EnemyKill + Assist + ColorEnd;
+            contentsKillfeedB[10] = "HUDCombatMessages_Score_Combat_KillEnemyAssist_Line0=" + Color_EnemyKill + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeedB[11] = "HUDCombatMessages_Score_Combat_KillEnemyAssist_Line2=" + Color_EnemyKill + Assist + ColorEnd;
 
-            contentsKillfeedB[66] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_1_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
-            contentsKillfeedB[68] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_10_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
-            contentsKillfeedB[70] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_2_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
-            contentsKillfeedB[72] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_3_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
-            contentsKillfeedB[74] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_4_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
-            contentsKillfeedB[76] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_5_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
-            contentsKillfeedB[78] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_6_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
-            contentsKillfeedB[80] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_7_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
-            contentsKillfeedB[82] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_8_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
-            contentsKillfeedB[84] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_9_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
+            //FriendlyKill
+            contentsKillfeedB[70] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_1_Line0" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[71] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_1_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
 
+            contentsKillfeedB[72] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_10_Line0" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[73] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_10_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
 
+            contentsKillfeedB[74] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_2_Line0" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[75] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_2_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
 
+            contentsKillfeedB[76] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_3_Line0" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[77] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_3_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
+
+            contentsKillfeedB[78] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_4_Line0" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[79] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_4_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
+
+            contentsKillfeedB[80] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_5_Line0" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[81] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_5_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
+
+            contentsKillfeedB[82] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_6_Line0" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[83] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_6_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
+
+            contentsKillfeedB[84] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_7_Line0" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[85] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_7_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
+
+            contentsKillfeedB[86] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_8_Line0" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[87] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_8_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
+
+            contentsKillfeedB[88] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_9_Line0" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[89] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyKill_9_Line2" + Color_TeamKill + Team_Kill + ColorEnd;
+
+            //FriendlyStun
+            contentsKillfeedB[90] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyStun_1_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[91] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyStun_1_Line2=" + Color_TeamKill + "Demerit!" + ColorEnd;
+
+            contentsKillfeedB[92] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyStun_2_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[93] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyStun_2_Line2=" + Color_TeamKill + "Demerit!" + ColorEnd;
+
+            contentsKillfeedB[94] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyStun_3_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[95] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyStun_3_Line2=" + Color_TeamKill + "Demerit!" + ColorEnd;
+
+            contentsKillfeedB[96] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyStun_4_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[97] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyStun_4_Line2=" + Color_TeamKill + "Demerit!" + ColorEnd;
+
+            contentsKillfeedB[98] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyStun_5_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[99] = "HUDCombatMessages_Score_Earned_MedalDishonour_FriendlyStun_5_Line2=" + Color_TeamKill + "Demerit!" + ColorEnd;
+
+            //SelfKill
+            contentsKillfeedB[100] = "HUDCombatMessages_Score_Earned_MedalDishonour_SelfKill_02_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[101] = "HUDCombatMessages_Score_Earned_MedalDishonour_SelfKill_02_Line2=" + Color_TeamKill + "Demerit!" + ColorEnd;
+
+            contentsKillfeedB[102] = "HUDCombatMessages_Score_Earned_MedalDishonour_SelfKill_03_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[103] = "HUDCombatMessages_Score_Earned_MedalDishonour_SelfKill_03_Line2=" + Color_TeamKill + "Demerit!" + ColorEnd;
+
+            contentsKillfeedB[104] = "HUDCombatMessages_Score_Earned_MedalDishonour_SelfKill_04_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[105] = "HUDCombatMessages_Score_Earned_MedalDishonour_SelfKill_04_Line2=" + Color_TeamKill + "Demerit!" + ColorEnd;
+
+            contentsKillfeedB[106] = "HUDCombatMessages_Score_Earned_MedalDishonour_SelfKill_05_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[107] = "HUDCombatMessages_Score_Earned_MedalDishonour_SelfKill_05_Line2=" + Color_TeamKill + "Demerit!" + ColorEnd;
+
+            contentsKillfeedB[108] = "HUDCombatMessages_Score_Earned_MedalDishonour_SelfKill_06_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[109] = "HUDCombatMessages_Score_Earned_MedalDishonour_SelfKill_06_Line2=" + Color_TeamKill + "Demerit!" + ColorEnd;
+
+            contentsKillfeedB[110] = "HUDCombatMessages_Score_Earned_MedalDishonour_SelfKill_07_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[111] = "HUDCombatMessages_Score_Earned_MedalDishonour_SelfKill_07_Line2=" + Color_TeamKill + "Demerit!" + ColorEnd;
+
+            //KillStreak
+            contentsKillfeedB[114] = "HUDCombatMessages_Score_Earned_MedalKillStreak_05_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[115] = "HUDCombatMessages_Score_Earned_MedalKillStreak_05_Line2=" + Color_EnemyKill + "KILLING SPREE" + ColorEnd;
+            contentsKillfeedB[116] = "HUDCombatMessages_Score_Earned_MedalKillStreak_10_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[117] = "HUDCombatMessages_Score_Earned_MedalKillStreak_10_Line2=" + Color_EnemyKill + "UNSTOPPABLE" + ColorEnd;
+            contentsKillfeedB[118] = "HUDCombatMessages_Score_Earned_MedalKillStreak_15_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[119] = "HUDCombatMessages_Score_Earned_MedalKillStreak_15_Line2=" + Color_EnemyKill + "GOD LIKE" + ColorEnd;
+            contentsKillfeedB[120] = "HUDCombatMessages_Score_Earned_MedalKillStreak_20_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[121] = "HUDCombatMessages_Score_Earned_MedalKillStreak_20_Line2=" + Color_EnemyKill + "GOD LIKE" + ColorEnd;
+            contentsKillfeedB[122] = "HUDCombatMessages_Score_Earned_MedalKillStreak_25_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[123] = "HUDCombatMessages_Score_Earned_MedalKillStreak_25_Line2=" + Color_EnemyKill + "GOD LIKE" + ColorEnd;
+            contentsKillfeedB[124] = "HUDCombatMessages_Score_Earned_MedalKillStreak_30_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[125] = "HUDCombatMessages_Score_Earned_MedalKillStreak_30_Line2=" + Color_EnemyKill + "GOD LIKE" + ColorEnd;
+
+            //Stun
+            contentsKillfeedB[12] = "HUDCombatMessages_Score_Combat_StunnedEnemy_Line0=" + Color_EnemyKill + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeedB[13] = "HUDCombatMessages_Score_Combat_StunnedEnemy_Line2=" + Color_EnemyKill + Enemy_Kill + ColorEnd;
+
+            //OTHER -v-
+            contentsKillfeedB[14] = "HUDCombatMessages_Score_Earned_MedalBigWin_All_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[15] = "HUDCombatMessages_Score_Earned_MedalBigWin_All_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[16] = "HUDCombatMessages_Score_Earned_MedalBigWin_Arrest_10_100_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[17] = "HUDCombatMessages_Score_Earned_MedalBigWin_Arrest_10_100_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[18] = "HUDCombatMessages_Score_Earned_MedalBigWin_Arrest_10_25_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[19] = "HUDCombatMessages_Score_Earned_MedalBigWin_Arrest_10_25_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[20] = "HUDCombatMessages_Score_Earned_MedalBigWin_Arrest_10_33_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[21] = "HUDCombatMessages_Score_Earned_MedalBigWin_Arrest_10_33_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[22] = "HUDCombatMessages_Score_Earned_MedalBigWin_Arrest_10_50_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[23] = "HUDCombatMessages_Score_Earned_MedalBigWin_Arrest_10_50_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[24] = "HUDCombatMessages_Score_Earned_MedalBigWin_Arrest_10_75_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[25] = "HUDCombatMessages_Score_Earned_MedalBigWin_Arrest_10_75_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[26] = "HUDCombatMessages_Score_Earned_MedalBigWin_Defuse_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[27] = "HUDCombatMessages_Score_Earned_MedalBigWin_Defuse_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[28] = "HUDCombatMessages_Score_Earned_MedalBigWin_Detonate_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[29] = "HUDCombatMessages_Score_Earned_MedalBigWin_Detonate_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[30] = "HUDCombatMessages_Score_Earned_MedalBigWin_Rescue_12_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[31] = "HUDCombatMessages_Score_Earned_MedalBigWin_Rescue_12_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[32] = "HUDCombatMessages_Score_Earned_MedalBigWin_Rescue_15_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[33] = "HUDCombatMessages_Score_Earned_MedalBigWin_Rescue_15_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[34] = "HUDCombatMessages_Score_Earned_MedalBigWin_Rescue_3_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[35] = "HUDCombatMessages_Score_Earned_MedalBigWin_Rescue_3_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[36] = "HUDCombatMessages_Score_Earned_MedalBigWin_Rescue_6_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[37] = "HUDCombatMessages_Score_Earned_MedalBigWin_Rescue_6_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[38] = "HUDCombatMessages_Score_Earned_MedalBigWin_Rescue_9_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[39] = "HUDCombatMessages_Score_Earned_MedalBigWin_Rescue_9_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[40] = "HUDCombatMessages_Score_Earned_MedalBigWin_Takeout_11_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[41] = "HUDCombatMessages_Score_Earned_MedalBigWin_Takeout_11_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[42] = "HUDCombatMessages_Score_Earned_MedalBigWin_Takeout_15_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[43] = "HUDCombatMessages_Score_Earned_MedalBigWin_Takeout_15_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[44] = "HUDCombatMessages_Score_Earned_MedalBigWin_Takeout_5_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[45] = "HUDCombatMessages_Score_Earned_MedalBigWin_Takeout_5_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[46] = "HUDCombatMessages_Score_Earned_MedalBigWin_Takeout_7_Line=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[47] = "HUDCombatMessages_Score_Earned_MedalBigWin_Takeout_7_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[48] = "HUDCombatMessages_Score_Earned_MedalBigWin_Takeout_9_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[49] = "HUDCombatMessages_Score_Earned_MedalBigWin_Takeout_9_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[50] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_1_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[51] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_1_Line2=" + Color_TeamKill + Enemy_Kill + ColorEnd;
+            contentsKillfeedB[52] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_10_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[53] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_10_Line2=" + Color_TeamKill + Enemy_Kill + ColorEnd;
+            contentsKillfeedB[54] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_2_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[55] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_2_Line2=" + Color_TeamKill + Enemy_Kill + ColorEnd;
+            contentsKillfeedB[56] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_3_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[57] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_3_Line2=" + Color_TeamKill + Enemy_Kill + ColorEnd;
+            contentsKillfeedB[58] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_4_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[59] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_4_Line2=" + Color_TeamKill + Enemy_Kill + ColorEnd;
+            contentsKillfeedB[60] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_5_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[61] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_5_Line2=" + Color_TeamKill + Enemy_Kill + ColorEnd;
+            contentsKillfeedB[62] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_6_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[63] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_6_Line2=" + Color_TeamKill + Enemy_Kill + ColorEnd;
+            contentsKillfeedB[64] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_7_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[65] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_7_Line2=" + Color_TeamKill + Enemy_Kill + ColorEnd;
+            contentsKillfeedB[66] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_8_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[67] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_8_Line2=" + Color_TeamKill + Enemy_Kill + ColorEnd;
+            contentsKillfeedB[68] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_9_Line0=" + Color_TeamKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[69] = "HUDCombatMessages_Score_Earned_MedalDishonour_ArrestedKill_9_Line2=" + Color_TeamKill + Enemy_Kill + ColorEnd;
+
+            contentsKillfeedB[112] = "HUDCombatMessages_Score_Earned_MedalKillBehind_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[113] = "HUDCombatMessages_Score_Earned_MedalKillBehind_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            
+            contentsKillfeedB[126] = "HUDCombatMessages_Score_Earned_MedalSituational_AntiGraffitiKill_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[127] = "HUDCombatMessages_Score_Earned_MedalSituational_AntiGraffitiKill_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[128] = "HUDCombatMessages_Score_Earned_MedalSituational_ArrestStreakKiller_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[129] = "HUDCombatMessages_Score_Earned_MedalSituational_ArrestStreakKiller_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[130] = "HUDCombatMessages_Score_Earned_MedalSituational_ArsonKill_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[131] = "HUDCombatMessages_Score_Earned_MedalSituational_ArsonKill_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[132] = "HUDCombatMessages_Score_Earned_MedalSituational_DriverAssistKill_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[133] = "HUDCombatMessages_Score_Earned_MedalSituational_DriverAssistKill_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[134] = "HUDCombatMessages_Score_Earned_MedalSituational_GraffitiingKill_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[135] = "HUDCombatMessages_Score_Earned_MedalSituational_GraffitiingKill_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[136] = " HUDCombatMessages_Score_Earned_MedalSituational_GrenadeKill_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[137] = "HUDCombatMessages_Score_Earned_MedalSituational_GrenadeKill_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[138] = "HUDCombatMessages_Score_Earned_MedalSituational_KillStreakArrest_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[139] = "HUDCombatMessages_Score_Earned_MedalSituational_KillStreakArrest_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[140] = "HUDCombatMessages_Score_Earned_MedalSituational_KillStreakKiller_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[141] = "HUDCombatMessages_Score_Earned_MedalSituational_KillStreakKiller_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[142] = "HUDCombatMessages_Score_Earned_MedalSituational_MeleeKill_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[143] = "HUDCombatMessages_Score_Earned_MedalSituational_MeleeKill_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[144] = "HUDCombatMessages_Score_Earned_MedalSituational_PostDeathKill_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[145] = "HUDCombatMessages_Score_Earned_MedalSituational_PostDeathKill_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[146] = "HUDCombatMessages_Score_Earned_MedalSituational_SuperKill_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[147] = "HUDCombatMessages_Score_Earned_MedalSituational_SuperKill_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[148] = "HUDCombatMessages_Score_Earned_MedalSituational_TaskItemKill_1_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[149] = "HUDCombatMessages_Score_Earned_MedalSituational_TaskItemKill_1_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[150] = "HUDCombatMessages_Score_Earned_MedalSituational_VehicleKill_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[151] = "HUDCombatMessages_Score_Earned_MedalSituational_VehicleKill_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+
+            contentsKillfeedB[152] = "HUDCombatMessages_Score_Earned_MedalSituational_VIPKill_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[153] = "HUDCombatMessages_Score_Earned_MedalSituational_VIPKill_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            
+            contentsKillfeedB[154] = "HUDCombatMessages_Score_Earned_MedalTimeLimit_Kills_2_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[155] = "HUDCombatMessages_Score_Earned_MedalTimeLimit_Kills_2_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[156] = "HUDCombatMessages_Score_Earned_MedalTimeLimit_Kills_3_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[157] = "HUDCombatMessages_Score_Earned_MedalTimeLimit_Kills_3_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[158] = "HUDCombatMessages_Score_Earned_MedalTimeLimit_Kills_4_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[159] = "HUDCombatMessages_Score_Earned_MedalTimeLimit_Kills_4_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            contentsKillfeedB[160] = "HUDCombatMessages_Score_Earned_MedalTimeLimit_Kills_5_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[161] = "HUDCombatMessages_Score_Earned_MedalTimeLimit_Kills_5_Line2=" + Color_EnemyKill + "Medal Earned" + ColorEnd;
+            
+            contentsKillfeedB[162] = "HUDCombatMessages_Score_Mission_CSA_Arson_Line0=" + Color_EnemyKill + "Arson" + ColorEnd;
+            contentsKillfeedB[163] = "HUDCombatMessages_Score_Mission_CSA_Arson_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[164] = "HUDCombatMessages_Score_Mission_CSA_Bombings_Line0=" + Color_EnemyKill + "Bomb Plant" + ColorEnd;
+            contentsKillfeedB[165] = "HUDCombatMessages_Score_Mission_CSA_Bombings_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[166] = "HUDCombatMessages_Score_Mission_CSA_Burglary_Line0=" + Color_EnemyKill + "Burglary" + ColorEnd;
+            contentsKillfeedB[167] = "HUDCombatMessages_Score_Mission_CSA_Burglary_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[168] = "HUDCombatMessages_Score_Mission_CSA_CarTheft_Line0=" + Color_EnemyKill + "Vehicle Theft" + ColorEnd;
+            contentsKillfeedB[169] = "HUDCombatMessages_Score_Mission_CSA_CarTheft_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[170] = "HUDCombatMessages_Score_Mission_CSA_DefuseBomb_Line0=" + Color_EnemyKill + "Bomb Defusal" + ColorEnd;
+            contentsKillfeedB[171] = "HUDCombatMessages_Score_Mission_CSA_DefuseBomb_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[172] = "HUDCombatMessages_Score_Mission_CSA_DeliverItem_Line0=" + Color_EnemyKill + "Delivery" + ColorEnd;
+            contentsKillfeedB[173] = "HUDCombatMessages_Score_Mission_CSA_DeliverItem_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[174] = "HUDCombatMessages_Score_Mission_CSA_ForcedEntry_Line0=" + Color_EnemyKill + "Forced Entry" + ColorEnd;
+            contentsKillfeedB[175] = "HUDCombatMessages_Score_Mission_CSA_ForcedEntry_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[176] = "HUDCombatMessages_Score_Mission_CSA_Graffiti_Line0=" + Color_EnemyKill + "Graffiti" + ColorEnd;
+            contentsKillfeedB[177] = "HUDCombatMessages_Score_Mission_CSA_Graffiti_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[178] = "HUDCombatMessages_Score_Mission_CSA_HackingSabotage_Line0=" + Color_EnemyKill + "Hacking" + ColorEnd;
+            contentsKillfeedB[179] = "HUDCombatMessages_Score_Mission_CSA_HackingSabotage_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[180] = "HUDCombatMessages_Score_Mission_CSA_Investigate_Line0=" + Color_EnemyKill + "Investigation" + ColorEnd;
+            contentsKillfeedB[181] = "HUDCombatMessages_Score_Mission_CSA_Investigate_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[182] = "HUDCombatMessages_Score_Mission_CSA_Vandalism_Line0=" + Color_EnemyKill + "Vandalism" + ColorEnd;
+            contentsKillfeedB[183] = "HUDCombatMessages_Score_Mission_CSA_Vandalism_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[184] = "HUDCombatMessages_Score_Mission_CSA_Checkpoint_Line0=" + Color_EnemyKill + "Checkpoint Capture" + ColorEnd;
+            contentsKillfeedB[185] = "HUDCombatMessages_Score_Mission_CSA_Checkpoint_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[186] = "HUDCombatMessages_Score_Mission_Assist_CSA_Arson_Line0=" + Color_EnemyKill + "Arson" + ColorEnd;
+            contentsKillfeedB[187] = "HUDCombatMessages_Score_Mission_Assist_CSA_Arson_Line2=" + Color_EnemyKill + "Objective Assist" + ColorEnd;
+
+            contentsKillfeedB[188] = "HUDCombatMessages_Score_Mission_Assist_CSA_Bombings_Line0=" + Color_EnemyKill + "Bomb Plant" + ColorEnd;
+            contentsKillfeedB[189] = "HUDCombatMessages_Score_Mission_Assist_CSA_Bombings_Line2=" + Color_EnemyKill + "Objective Assist" + ColorEnd;
+
+            contentsKillfeedB[190] = "HUDCombatMessages_Score_Mission_Assist_CSA_Burglary_Line0=" + Color_EnemyKill + "Burglary" + ColorEnd;
+            contentsKillfeedB[191] = "HUDCombatMessages_Score_Mission_Assist_CSA_Burglary_Line2=" + Color_EnemyKill + "Objective Assist" + ColorEnd;
+
+            contentsKillfeedB[192] = "HUDCombatMessages_Score_Mission_Assist_CSA_CarTheft_Line0=" + Color_EnemyKill + "Vehicle Theft" + ColorEnd;
+            contentsKillfeedB[193] = "HUDCombatMessages_Score_Mission_Assist_CSA_CarTheft_Line2=" + Color_EnemyKill + "Objective Assist" + ColorEnd;
+
+            contentsKillfeedB[194] = "HUDCombatMessages_Score_Mission_Assist_CSA_DefuseBomb_Line0=" + Color_EnemyKill + "Bomb Defusal" + ColorEnd;
+            contentsKillfeedB[195] = "HUDCombatMessages_Score_Mission_Assist_CSA_DefuseBomb_Line2=" + Color_EnemyKill + "Objective Assist" + ColorEnd;
+
+            contentsKillfeedB[196] = "HUDCombatMessages_Score_Mission_Assist_CSA_DeliverItem_Line0=" + Color_EnemyKill + "Item Delivery" + ColorEnd;
+            contentsKillfeedB[197] = "HUDCombatMessages_Score_Mission_Assist_CSA_DeliverItem_Line2=" + Color_EnemyKill + "Objective Assist" + ColorEnd;
+
+            contentsKillfeedB[198] = "HUDCombatMessages_Score_Mission_Assist_CSA_ForcedEntry_Line0=" + Color_EnemyKill + "Forced Entry" + ColorEnd;
+            contentsKillfeedB[199] = "HUDCombatMessages_Score_Mission_Assist_CSA_ForcedEntry_Line2=" + Color_EnemyKill + "Objective Assist" + ColorEnd;
+
+            contentsKillfeedB[200] = "HUDCombatMessages_Score_Mission_Assist_CSA_Graffiti_Line0=" + Color_EnemyKill + "Graffiti" + ColorEnd;
+            contentsKillfeedB[201] = "HUDCombatMessages_Score_Mission_Assist_CSA_Graffiti_Line2=" + Color_EnemyKill + "Objective Assist" + ColorEnd;
+
+            contentsKillfeedB[202] = "HUDCombatMessages_Score_Mission_Assist_CSA_HackingSabotage_Line0=" + Color_EnemyKill + "Hacking" + ColorEnd;
+            contentsKillfeedB[203] = "HUDCombatMessages_Score_Mission_Assist_CSA_HackingSabotage_Line2=" + Color_EnemyKill + "Objective Assist" + ColorEnd;
+
+            contentsKillfeedB[204] = "HUDCombatMessages_Score_Mission_Assist_CSA_Investigate_Line0=" + Color_EnemyKill + "Investigation" + ColorEnd;
+            contentsKillfeedB[205] = "HUDCombatMessages_Score_Mission_Assist_CSA_Investigate_Line2=" + Color_EnemyKill + "Objective Assist" + ColorEnd;
+
+            contentsKillfeedB[206] = "HUDCombatMessages_Score_Mission_Assist_CSA_Vandalism_Line0=" + Color_EnemyKill + "Vandalism" + ColorEnd;
+            contentsKillfeedB[207] = "HUDCombatMessages_Score_Mission_Assist_CSA_Vandalism_Line2=" + Color_EnemyKill + "Objective Assist" + ColorEnd;
+
+            contentsKillfeedB[208] = "HUDCombatMessages_Score_Match_Won_Line0=";
+            contentsKillfeedB[209] = "HUDCombatMessages_Score_Match_Won_Line2=" + Color_EnemyKill + "Match Won" + ColorEnd;
+
+            contentsKillfeedB[210] = "HUDCombatMessages_Score_Combat_RescueTeammate_Line0=" + Color_EnemyKill + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeedB[211] = "HUDCombatMessages_Score_Combat_RescueTeammate_Line2=" + Color_EnemyKill + "Teammate Rescued" + ColorEnd;
+
+            contentsKillfeedB[212] = "HUDCombatMessages_Score_Combat_StunnedTeammate_Line0=" + Color_EnemyKill + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeedB[213] = "HUDCombatMessages_Score_Combat_StunnedTeammate_Line2=" + Color_EnemyKill + "Teammate Stunned!" + ColorEnd;
+
+            contentsKillfeedB[214] = "HUDCombatMessages_Score_Mission_Pickup_Line0=" + Color_EnemyKill + "Pickup" + ColorEnd;
+            contentsKillfeedB[215] = "HUDCombatMessages_Score_Mission_Pickup_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[216] = "HUDCombatMessages_Score_KillTeam_Chaos_Line0=" + Color_EnemyKill + "Teamkill" + ColorEnd;
+            contentsKillfeedB[217] = "HUDCombatMessages_Score_KillTeam_Chaos_Line2=" + Color_EnemyKill + "CHAOS!" + ColorEnd;
+
+            contentsKillfeedB[232] = "HUDCombatMessages_Score_Earned_MedalDishonour_AFK_Line0=" + Color_EnemyKill + "<MedalName>" + ColorEnd;
+            contentsKillfeedB[233] = "HUDCombatMessages_Score_Earned_MedalDishonour_AFK_Line2=" + Color_EnemyKill + "Demerit!" + ColorEnd;
+
+            contentsKillfeedB[234] = "HUDCombatMessages_Score_Minigame_Generic_Line0=" + Color_EnemyKill + "=Minigame Objective" + ColorEnd;
+            contentsKillfeedB[235] = "HUDCombatMessages_Score_Minigame_Generic_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[236] = "HUDCombatMessages_Score_Mission_CSA_Mugging_Line0=" + Color_EnemyKill + "Mugging" + ColorEnd;
+            contentsKillfeedB[237] = "HUDCombatMessages_Score_Mission_CSA_Mugging_Line2=" + Color_EnemyKill + "Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[238] = "HUDCombatMessages_Score_Minigame_Mugging_NPC_Kill_Line0=" + Color_EnemyKill + "Drug Mule" + ColorEnd;
+            contentsKillfeedB[239] = "HUDCombatMessages_Score_Minigame_Mugging_NPC_Kill_Line2=" + Color_EnemyKill + "Killed Pedestrian" + ColorEnd;
+
+            contentsKillfeedB[240] = "HUDCombatMessages_Score_Minigame_Mugging_Easter_NPC_Kill_Line0=" + Color_EnemyKill + "Egg Carrier" + ColorEnd;
+            contentsKillfeedB[241] = "HUDCombatMessages_Score_Minigame_Mugging_Easter_NPC_Kill_Line2=" + Color_EnemyKill + "Killed Pedestrian" + ColorEnd;
+
+            contentsKillfeedB[242] = "HUDCombatMessages_Minigame_Infection_PlayerConverted_TeammatesNearby_Line0=" + Color_EnemyKill + "Survivor Converted Nearby" + ColorEnd;
+            contentsKillfeedB[243] = "HUDCombatMessages_Minigame_Infection_PlayerConverted_TeammatesNearby_Line2=" + Color_EnemyKill + "Swarm Bonus!" + ColorEnd;
+
+            contentsKillfeedB[244] = "HUDCombatMessages_Minigame_Infection_Survivor_Gong_Line0=" + Color_EnemyKill + "Chime Bonus" + ColorEnd;
+            contentsKillfeedB[245] = "HUDCombatMessages_Minigame_Infection_Survivor_Gong_Line2=" + Color_EnemyKill + "Keep Surviving!" + ColorEnd;
+
+            contentsKillfeedB[246] = "HUDCombatMessages_Minigame_Infection_KillHeadless_Line0=" + Color_EnemyKill + "Headless Kill!" + ColorEnd;
+            contentsKillfeedB[247] = "HUDCombatMessages_Minigame_Infection_KillHeadless_Line2=";
+
+            contentsKillfeedB[248] = "HUDCombatMessages_Minigame_Infection_Survived_Line0=" + Color_EnemyKill + "You Survived" + ColorEnd;
+            contentsKillfeedB[249] = "HUDCombatMessages_Minigame_Infection_Survived_Line2=";
+
+            contentsKillfeedB[250] = "HUDCombatMessages_Minigame_Infection_Pumpkin_Line0=" + Color_EnemyKill + "Pumpkin Destroyed" + ColorEnd;
+            contentsKillfeedB[251] = "HUDCombatMessages_Minigame_Infection_Pumpkin_Line2=";
+
+            contentsKillfeedB[252] = "HUDCombatMessages_Minigame_Mugging_Easter_GainedItems_Line0=";
+            contentsKillfeedB[253] = "HUDCombatMessages_Minigame_Mugging_Easter_GainedItems_Line2=";
+
+            contentsKillfeedB[254] = "HUDCombatMessages_Minigame_Mugging_Easter_GainedItems_Single_Line0=";
+            contentsKillfeedB[255] = "HUDCombatMessages_Minigame_Mugging_Easter_GainedItems_Single_Line2=";
+
+            contentsKillfeedB[256] = "HUDCombatMessages_Minigame_Mugging_Easter_LostItems_Line0=";
+            contentsKillfeedB[257] = "HUDCombatMessages_Minigame_Mugging_Easter_LostItems_Line2=";
+
+            contentsKillfeedB[258] = "HUDCombatMessages_Minigame_Mugging_Easter_LostItems_Single_Line0=";
+            contentsKillfeedB[259] = "HUDCombatMessages_Minigame_Mugging_Easter_LostItems_Single_Line2=";
+
+            contentsKillfeedB[260] = "HUDCombatMessages_Minigame_Mugging_Easter_PlayerMug_Muggee_Line0=" + Color_EnemyKill + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeedB[261] = "HUDCombatMessages_Minigame_Mugging_Easter_PlayerMug_Muggee_Line2=" + Color_EnemyKill + "Got Mugged" + ColorEnd;
+            contentsKillfeedB[262] = "HUDCombatMessages_Minigame_Mugging_Easter_PlayerMug_Muggee_Single_Line0=" + Color_EnemyKill + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeedB[263] = "HUDCombatMessages_Minigame_Mugging_Easter_PlayerMug_Muggee_Single_Line2=" + Color_EnemyKill + "Got Mugged" + ColorEnd;
+            contentsKillfeedB[264] = "HUDCombatMessages_Minigame_Mugging_Easter_PlayerMug_Mugger_Line0=" + Color_EnemyKill + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeedB[265] = "HUDCombatMessages_Minigame_Mugging_Easter_PlayerMug_Mugger_Line2=" + Color_EnemyKill + "Mugged Player" + ColorEnd;
+            contentsKillfeedB[266] = "HUDCombatMessages_Minigame_Mugging_Easter_PlayerMug_Mugger_Single_Line0=" + Color_EnemyKill + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeedB[267] = "HUDCombatMessages_Minigame_Mugging_Easter_PlayerMug_Mugger_Single_Line2=" + Color_EnemyKill + "Mugged Player" + ColorEnd;
+
+            contentsKillfeedB[268] = "HUDCombatMessages_Minigame_Mugging_Easter_ItemsHeldScore_Line0=" + Color_EnemyKill + "Held Eggs Bonus" + ColorEnd;
+            contentsKillfeedB[269] = "HUDCombatMessages_Minigame_Mugging_Easter_ItemsHeldScore_Line2=" + Color_EnemyKill + "Minigame Objective Complete" + ColorEnd;
+
+            contentsKillfeedB[270] = "HUDCombatMessages_Minigame_Mugging_Easter_ItemsDeliveredScore_Line0=" + Color_EnemyKill + "Eggs Delivered" + ColorEnd;
+            contentsKillfeedB[271] = "HUDCombatMessages_Minigame_Mugging_Easter_ItemsDeliveredScore_Line2=" + Color_EnemyKill + "Minigame Objective Complete" + ColorEnd;
             File.WriteAllLines(Environment.CurrentDirectory + "\\APBGame\\Localization\\GER\\HUDCombatMessages.GER", contentsKillfeedB);
-
-
 
 
             // ================================================== Killfeed ==================================================
             string[] contentsKillfeed = File.ReadAllLines(Environment.CurrentDirectory + "\\APBGame\\Localization\\GER\\HUDMessages.GER");
 
-            //EVENT
-            contentsKillfeed[99] = "HUDMessages_AM_CombatArrestOpp_DisplayText=" + Color_Enemy + "<ArrestingCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Arrest> " + Color_Team + "<ArrestedCharacterName>" + ColorEnd;
-            contentsKillfeed[101] = "HUDMessages_AM_CombatArrestTeam_DisplayText=" + Color_Team + "<CharacterNameA>" + ColorEnd + " <hudtexture:KillIcon_Arrest> " + Color_Enemy + "<CharacterNameB>" + ColorEnd;
-            contentsKillfeed[103] = "HUDMessages_AM_CombatKillOpp_DisplayText=" + Color_Enemy + "<KillerCharacterName>" + ColorEnd + " " + Color_Assist + " <KillerAssistName> " + ColorEnd + "<WeaponIcon> " + Color_Team + "<KilledCharacterName>" + ColorEnd;
-            contentsKillfeed[105] = "HUDMessages_AM_CombatKillTeam_DisplayText=" + Color_Team + "<KillerCharacterName>" + ColorEnd + Color_Assist + " <KillerAssistName> " + ColorEnd + "<WeaponIcon>" + " " + Color_Enemy + "<KilledCharacterName>" + ColorEnd;
-            contentsKillfeed[107] = "HUDMessages_AM_CombatKillTeamOther_DisplayText=" + Color_Team + "<KillerCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Generic> " + Color_Enemy + "<KilledCharacterName>" + ColorEnd;
-            contentsKillfeed[109] = "HUDMessages_AM_CombatMuggedOpp_DisplayText=" + Color_Enemy + "<KillerCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Generic> " + Color_Team + "<KilledCharacterName>" + ColorEnd;
-            contentsKillfeed[111] = "HUDMessages_AM_CombatMuggedTeam_DisplayText=" + Color_Team + "<KillerCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Generic> " + Color_Enemy + "<KilledCharacterName>" + ColorEnd;
-            contentsKillfeed[113] = "HUDMessages_AM_CombatRescueOpp_DisplayText=" + Color_Enemy + "<CharacterNameA>" + ColorEnd + " <hudtexture:KillIcon_Rescue> " + Color_Enemy + "<CharacterNameB>" + ColorEnd;
-            contentsKillfeed[115] = "HUDMessages_AM_CombatRescueTeam_DisplayText=" + Color_Team + "<CharacterNameA>" + ColorEnd + " <hudtexture:KillIcon_Rescue> " + Color_Team + "<CharacterNameB>" + ColorEnd;
-            contentsKillfeed[117] = "HUDMessages_AM_CombatStunOpp_DisplayText=" + Color_Enemy + "<CharacterNameA>" + ColorEnd + " <hudtexture:KillIcon_Stun> " + Color_Team + "<CharacterNameB>" + ColorEnd;
-            contentsKillfeed[119] = "HUDMessages_AM_CombatStunSelfOpp_DisplayText=" + "<hudtexture:KillIcon_Stun> " + Color_Enemy + "<CharacterNameA>" + ColorEnd;
-            contentsKillfeed[121] = "HUDMessages_AM_CombatStunSelfTeam_DisplayText=" + "<hudtexture:KillIcon_Stun> " + Color_Team + "<CharacterNameA>" + ColorEnd;
-            contentsKillfeed[123] = "HUDMessages_AM_CombatStunTMOpp_DisplayText=" + Color_Enemy + "<CharacterNameB>" + ColorEnd + " <hudtexture:KillIcon_Stun> " + Color_Enemy + "<CharacterNameA>" + ColorEnd;
-            contentsKillfeed[125] = "HUDMessages_AM_CombatStunTMTeam_DisplayText=" + Color_Team + "<CharacterNameB>" + ColorEnd + " <hudtexture:KillIcon_Stun> " + Color_Team + "<CharacterNameA>" + ColorEnd;
-            contentsKillfeed[127] = "HUDMessages_AM_CombatStunTeam_DisplayText=" + Color_Team + "<CharacterNameA>" + ColorEnd + " <hudtexture:KillIcon_Stun> " + Color_Enemy + "<CharacterNameB>" + ColorEnd;
-            contentsKillfeed[129] = "HUDMessages_AM_CombatSuicideOpp_DisplayText=" + "<hudtexture:KillIcon_Generic> " + Color_Enemy + "<CharacterNameA>" + ColorEnd;
-            contentsKillfeed[131] = "HUDMessages_AM_CombatSuicideTeam_DisplayText=" + "<hudtexture:KillIcon_Generic> " + Color_Team + "<CharacterNameA>" + ColorEnd;
-            contentsKillfeed[133] = "HUDMessages_AM_CombatTKOpp_DisplayText=" + Color_Enemy + "<KillerCharacterName>" + ColorEnd + Color_Assist + " <KillerAssistName> " + ColorEnd + "<WeaponIcon> " + Color_Enemy + "<KilledCharacterName>" + ColorEnd;
-            contentsKillfeed[135] = "HUDMessages_AM_CombatTKOppOther_DisplayText=" + Color_Enemy + "<KillerCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Generic> " + Color_Enemy + "<KilledCharacterName>" + ColorEnd;
-            contentsKillfeed[137] = "HUDMessages_AM_CombatTKOpp_DisplayText=" + Color_Team + "<KillerCharacterName>" + ColorEnd + Color_Assist + " <KillerAssistName> " + ColorEnd + "<WeaponIcon> " + Color_Team + "<KilledCharacterName>" + ColorEnd;
-            contentsKillfeed[139] = "HUDMessages_AM_CombatTKOppOther_DisplayText=" + Color_Team + "<KillerCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Generic> " + Color_Team + "<KilledCharacterName>" + ColorEnd;
+            contentsKillfeed[4] = "======================== APB CLauncher ========================";
 
+            contentsKillfeed[104] = "HUDMessages_AM_CombatArrestOpp_DisplayText=" + Color_Enemy + "<ArrestingCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Arrest> " + Color_Team + "<ArrestedCharacterName>" + ColorEnd;
+            contentsKillfeed[106] = "HUDMessages_AM_CombatArrestTeam_DisplayText=" + Color_Team + "<CharacterNameA>" + ColorEnd + " <hudtexture:KillIcon_Arrest> " + Color_Enemy + "<CharacterNameB>" + ColorEnd;
+            contentsKillfeed[108] = "HUDMessages_AM_CombatKillOpp_DisplayText=" + Color_Enemy + "<KillerCharacterName>" + ColorEnd + " " + Color_Assist + " <KillerAssistName> " + ColorEnd + "<WeaponIcon> " + Color_Team + "<KilledCharacterName>" + ColorEnd;
+            contentsKillfeed[110] = "HUDMessages_AM_CombatKillTeam_DisplayText=" + Color_Team + "<KillerCharacterName>" + ColorEnd + Color_Assist + " <KillerAssistName> " + ColorEnd + "<WeaponIcon>" + " " + Color_Enemy + "<KilledCharacterName>" + ColorEnd;
+            contentsKillfeed[112] = "HUDMessages_AM_CombatKillTeamOther_DisplayText=" + Color_Team + "<KillerCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Generic> " + Color_Enemy + "<KilledCharacterName>" + ColorEnd;
+            contentsKillfeed[118] = "HUDMessages_AM_CombatMuggedOpp_DisplayText=" + Color_Enemy + "<KillerCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Generic> " + Color_Team + "<KilledCharacterName>" + ColorEnd;
+            contentsKillfeed[120] = "HUDMessages_AM_CombatMuggedTeam_DisplayText=" + Color_Team + "<KillerCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Generic> " + Color_Enemy + "<KilledCharacterName>" + ColorEnd;
+            contentsKillfeed[122] = "HUDMessages_AM_CombatRescueOpp_DisplayText=" + Color_Enemy + "<CharacterNameA>" + ColorEnd + " <hudtexture:KillIcon_Rescue> " + Color_Enemy + "<CharacterNameB>" + ColorEnd;
+            contentsKillfeed[124] = "HUDMessages_AM_CombatRescueTeam_DisplayText=" + Color_Team + "<CharacterNameA>" + ColorEnd + " <hudtexture:KillIcon_Rescue> " + Color_Team + "<CharacterNameB>" + ColorEnd;
+            contentsKillfeed[126] = "HUDMessages_AM_CombatStunOpp_DisplayText=" + Color_Enemy + "<CharacterNameA>" + ColorEnd + " <hudtexture:KillIcon_Stun> " + Color_Team + "<CharacterNameB>" + ColorEnd;
+            contentsKillfeed[128] = "HUDMessages_AM_CombatStunSelfOpp_DisplayText=" + "<hudtexture:KillIcon_Stun> " + Color_Enemy + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeed[130] = "HUDMessages_AM_CombatStunSelfTeam_DisplayText=" + "<hudtexture:KillIcon_Stun> " + Color_Team + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeed[132] = "HUDMessages_AM_CombatStunTMOpp_DisplayText=" + Color_Enemy + "<CharacterNameB>" + ColorEnd + " <hudtexture:KillIcon_Stun> " + Color_Enemy + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeed[134] = "HUDMessages_AM_CombatStunTMTeam_DisplayText=" + Color_Team + "<CharacterNameB>" + ColorEnd + " <hudtexture:KillIcon_Stun> " + Color_Team + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeed[136] = "HUDMessages_AM_CombatStunTeam_DisplayText=" + Color_Team + "<CharacterNameA>" + ColorEnd + " <hudtexture:KillIcon_Stun> " + Color_Enemy + "<CharacterNameB>" + ColorEnd;
+            contentsKillfeed[138] = "HUDMessages_AM_CombatSuicideOpp_DisplayText=" + "<hudtexture:KillIcon_Generic> " + Color_Enemy + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeed[140] = "HUDMessages_AM_CombatSuicideTeam_DisplayText=" + "<hudtexture:KillIcon_Generic> " + Color_Team + "<CharacterNameA>" + ColorEnd;
+            contentsKillfeed[142] = "HUDMessages_AM_CombatTKOpp_DisplayText=" + Color_Enemy + "<KillerCharacterName>" + ColorEnd + Color_Assist + " <KillerAssistName> " + ColorEnd + "<WeaponIcon> " + Color_Enemy + "<KilledCharacterName>" + ColorEnd;
+            contentsKillfeed[144] = "HUDMessages_AM_CombatTKOppOther_DisplayText=" + Color_Enemy + "<KillerCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Generic> " + Color_Enemy + "<KilledCharacterName>" + ColorEnd;
+            contentsKillfeed[146] = "HUDMessages_AM_CombatTKTeam_DisplayText=" + Color_Team + "<KillerCharacterName>" + ColorEnd + " " + Color_Assist + "<KillerAssistName>" + ColorEnd + "<WeaponIcon>" + Color_Team + "<KillerCharacterName>" + ColorEnd;
+            contentsKillfeed[148] = "HUDMessages_AM_CombatTKTeamOther_Display=" + Color_Team + "<KillerCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Generic> " + Color_Team + "<KilledCharacterName>" + ColorEnd;
+            contentsKillfeed[172] = "HUDMessages_AM_Combat_DeathMsg_KillWeapon_DisplayText=" + "<WeaponIcon> " + "↵Killed By↵" + Color_Enemy + "<CharacterNameA>↵" + ColorEnd + Color_Assist + "<KillerAssistName>" + ColorEnd;
+            contentsKillfeed[174] = "HUDMessages_AM_Combat_DeathMsg_Suicide_DisplayText=" + "<hudtexture:KillIcon_Generic>" + Color_Team + "↵Suicide" + ColorEnd;
+            contentsKillfeed[176] = "HUDMessages_AM_Combat_DeathMsg_TK_DisplayText=" + "<WeaponIcon>" + "↵Killed By↵" + Color_Team + "<CharacterNameA>" + ColorEnd + "↵" + Color_Assist + "<KillerAssistName>" + ColorEnd;
             File.WriteAllLines(Environment.CurrentDirectory + "\\APBGame\\Localization\\GER\\HUDMessages.GER", contentsKillfeed);
+
 
 
 
