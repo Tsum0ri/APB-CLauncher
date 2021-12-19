@@ -5,6 +5,10 @@
 # APB CLauncher 0.985 (C# Code only)
 
 The APB-CLauncher is an extension of the current "Advanced APB Launcher". Which was developed since 2016 but was cancelled several times due to game related problems or due to lack of time.
+The launcher allows you to adjust texture sizes, render distances, and other graphical options but can also edit configs. This means that you can edit mission names, killfeed and mission descriptions.
+This is only available on PC and most of the features phased out once the options are integrated into the game itself.
+However, most advanced settings will still only be adjustable via this launcher. If it is allowed, further adjustments will also come after the engine upgrade. 
+This also allows players to send each other their configs/settings.
 
 
 ## Authors
