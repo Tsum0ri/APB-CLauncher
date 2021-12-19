@@ -39,7 +39,7 @@ If you have any feedback, please reach out to us at https://discord.com/invite/K
 
 ![App Screenshot](https://qu.ax/TQ4E.gif)
 ![App Screenshot](https://i.imgur.com/5edteVs.png)
-![App Screenshot](https://i.imgur.com/ZBJKRNM.gif )
+![App Screenshot](https://i.imgur.com/ZBJKRNM.gif)
 ![App Screenshot](https://i.imgur.com/jjgF9us.png)
 ![App Screenshot](https://i.imgur.com/Vav29t7.png)
 ![App Screenshot](https://i.imgur.com/X3fE8Pc.png)
