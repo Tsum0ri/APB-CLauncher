@@ -45,4 +45,5 @@ If you have any feedback, please reach out to us at https://discord.com/invite/K
 ![App Screenshot](https://i.imgur.com/X3fE8Pc.png)
 ![App Screenshot](https://i.imgur.com/zMxKAkO.png)
 ![App Screenshot](https://i.imgur.com/A3i3oIu.gif)
+![App Screenshot](https://i.imgur.com/NNFAR29.gif)
 
