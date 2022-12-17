@@ -1,20 +1,13 @@
 ﻿using System;
 using Launcher;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Drawing;
+using DisplayChanger;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Linq;
 using Microsoft.VisualBasic.CompilerServices;
+using System.Collections.Generic;
 
 namespace CLauncher2._0.Settings
 {
@@ -24,9 +17,13 @@ namespace CLauncher2._0.Settings
     public partial class site_ingame : Page
     {
 
+        DisplayDevices devices;
+        MonitorMode monitorMode;
 
         public site_ingame()
         {
+            devices = new DisplayDevices();
+            monitorMode = new MonitorMode();
             InitializeComponent();
 
 
@@ -407,10 +404,17 @@ namespace CLauncher2._0.Settings
 
 
         }
+
+        public void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+
+
+
+        }
+
+        private void ResBoxTEST_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+          
+        }
     }
-
-
-
-
-
 }

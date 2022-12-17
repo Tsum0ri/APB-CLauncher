@@ -1,0 +1,37 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CLauncher2._0"
+        xmlns:hc="https://handyorg.github.io/handycontrol" x:Class="CLauncher2._0.frmPatcher"
+        mc:Ignorable="d"
+        Title="frmPatcher" Height="280" Width="585" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Resources/splashscreen.png"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="401*"/>
+            <ColumnDefinition Width="399*"/>
+        </Grid.ColumnDefinitions>
+        <Image Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="92" Margin="209,70,0,0" VerticalAlignment="Top" Width="168" Source="/Resources/kisspng-vehicle-clauncher.png" Stretch="Fill"/>
+        <ProgressBar x:Name="CtrlProgressBar" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="16" Margin="10,203,0,0" VerticalAlignment="Top" Width="565" BorderBrush="#00BCBCBC" Background="#FF909090" Opacity="0.85" SmallChange="0.01">
+            <ProgressBar.Foreground>
+                <LinearGradientBrush EndPoint="0,0" StartPoint="1,1" SpreadMethod="Pad" MappingMode="RelativeToBoundingBox">
+                    <GradientStop Color="#FF0E96FF"/>
+                    <GradientStop Color="#FF004A8E" Offset="1"/>
+                    <GradientStop Color="#FF2778B7" Offset="0.576"/>
+                    <GradientStop Color="#DA1C93ED"/>
+                </LinearGradientBrush>
+            </ProgressBar.Foreground>
+            <ProgressBar.Effect>
+                <hc:ColorMatrixEffect/>
+            </ProgressBar.Effect>
+        </ProgressBar>
+        <Label x:Name="lblStatusText" Content="Checking..." HorizontalAlignment="Left" Margin="7,180,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="506" Height="29" Foreground="White" FontSize="14" FontFamily="{StaticResource Purista}"/>
+        <Label x:Name="lblDownloadSpeed" Content="0,0MB/s" HorizontalAlignment="Left" Margin="69,214,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="506" Height="24" Foreground="White" HorizontalContentAlignment="Right" FontFamily="{StaticResource Purista}"/>
+
+
+    </Grid>
+</Window>

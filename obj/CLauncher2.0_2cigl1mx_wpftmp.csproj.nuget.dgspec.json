@@ -1,0 +1,137 @@
+{
+  "format": 1,
+  "restore": {
+    "Z:\\Clauncher2\\CLauncher2.0\\CLauncher2.0\\CLauncher2.0\\CLauncher2.0.csproj": {}
+  },
+  "projects": {
+    "Z:\\Clauncher2\\CLauncher2.0\\CLauncher2.0\\CLauncher2.0\\CLauncher2.0.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Clauncher2\\CLauncher2.0\\CLauncher2.0\\CLauncher2.0\\CLauncher2.0.csproj",
+        "projectName": "APB CLauncher",
+        "projectPath": "Z:\\Clauncher2\\CLauncher2.0\\CLauncher2.0\\CLauncher2.0\\CLauncher2.0.csproj",
+        "packagesPath": "C:\\Users\\Steve\\.nuget\\packages\\",
+        "outputPath": "Z:\\Clauncher2\\CLauncher2.0\\CLauncher2.0\\CLauncher2.0\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "AduSkin": {
+              "target": "Package",
+              "version": "[1.1.1.9, )"
+            },
+            "BouncyCastle": {
+              "target": "Package",
+              "version": "[1.8.9, )"
+            },
+            "Guna.UI2.WinForms": {
+              "target": "Package",
+              "version": "[2.0.2.5, )"
+            },
+            "HandyControl": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "InfluxDB.NET": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "InfluxDB.Net-Main": {
+              "target": "Package",
+              "version": "[1.0.47, )"
+            },
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.4.9, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.4.0-ci16-ci16, )"
+            },
+            "Microsoft.Bcl": {
+              "target": "Package",
+              "version": "[1.1.10, )"
+            },
+            "Microsoft.Bcl.Async": {
+              "target": "Package",
+              "version": "[1.0.168, )"
+            },
+            "Microsoft.Bcl.Build": {
+              "target": "Package",
+              "version": "[1.0.21, )"
+            },
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
+            "Microsoft.PowerShell.5.ReferenceAssemblies": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.VisualBasic": {
+              "target": "Package",
+              "version": "[10.4.0-preview.18571.3, )"
+            },
+            "ModernUI.WPF": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "ReactiveUI.WPF": {
+              "target": "Package",
+              "version": "[17.1.6, )"
+            },
+            "Sentry.Log4Net": {
+              "target": "Package",
+              "version": "[3.12.1, )"
+            },
+            "SharpRaven": {
+              "target": "Package",
+              "version": "[2.4.1-unstable0015, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

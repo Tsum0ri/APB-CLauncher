@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,6 +25,27 @@ namespace CLauncher2._0.Configs
         public site_c_pre()
         {
             InitializeComponent();
+        }
+
+        WebClient client = new WebClient();
+
+
+
+        void client_DownloadDataCompleted(object sender, DownloadDataCompletedEventArgs e)
+        {
+            MessageBox.Show("File downloaded");
+        }
+        private void TsumoriInstall_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+        
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            client.DownloadDataCompleted += new DownloadDataCompletedEventHandler(client_DownloadDataCompleted);
+
+            client.DownloadDataAsync(new Uri("https://clauncher.download/pre-configs/1.zip"), (Environment.CurrentDirectory) + @"\1.zip");
         }
     }
 }

@@ -41,9 +41,15 @@ namespace CLauncher2._0.Settings
             site_settings.Content = new Settings.site_textures();
         }
 
-        private void Other_Btn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        private void Input_Btn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             site_settings.Content = new Settings.site_s_other();
+            //site_settings.Content = new site_wip();
+        }
+
+        private void Lod_Btn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            site_settings.Content = new Settings.site_s_memlod();
         }
     }
 }

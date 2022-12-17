@@ -14,39 +14,41 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Forms;
 using System.Windows.Forms.Integration;
-using static System.Windows.SplashScreen;
 using System.IO;
 using System.Net;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrayNotify;
 
-namespace CLauncher2._0.Sites
+namespace CLauncher2._0.Window
 {
     /// <summary>
     /// Interaktionslogik für test.xaml
     /// </summary>
-    public partial class test : Window
+    public partial class test : System.Windows.Window
     {
 
-        string Version = "0.952";
+        string Version = "vb1.5";
 
-        
 
         public test()
         {
+
+
             InitializeComponent();
             Site_Content.Content = new Site_Home();
             this.checkForUpdate();
-            string[] bgs = new string[] { "/Resources/BG_1_2.png", "/Resources/BG_2.png", "/Resources/BG_3.png", "/Resources/BG_4.png", "/Resources/BG_5.png", "/Resources/BG_6.png", "/Resources/BG_7.png", "/Resources/BG_8.png", "/Resources/BG_9.png", "/Resources/BG_10.png", "/Resources/BG_11.png" };
+            string[] bgs = new string[] { "/Resources/Backgrounds/BG_1_2.png", "/Resources/Backgrounds/BG_2.png", "/Resources/Backgrounds/BG_3.png", "/Resources/Backgrounds/BG_4.png", "/Resources/Backgrounds/BG_5.png", "/Resources/Backgrounds/BG_6.png", "/Resources/Backgrounds/BG_7.png", "/Resources/Backgrounds/BG_8.png", "/Resources/Backgrounds/BG_9.png", "/Resources/Backgrounds/BG_10.png", "/Resources/Backgrounds/BG_11.png" };
             string selectedbg = bgs[0];
             Random rng = new Random();
             int index = rng.Next(bgs.Length);
             this.LauncherBG.Source = new BitmapImage(new Uri(bgs[index], UriKind.Relative));
+
+            ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
         }
 
         public string getVersion() => this.Version;
         public void checkForUpdate()
         {
-            string str = new StreamReader(WebRequest.Create("https://elygate.com/APB-CLauncher/" + "version.txt").GetResponse().GetResponseStream()).ReadLine();
+            string str = new StreamReader(WebRequest.Create("https://beta.clauncher.download/" + "version.txt").GetResponse().GetResponseStream()).ReadLine();
             if (getVersion() != str)
             {
                 this.updateStatus.Content = "Update found!";
@@ -65,13 +67,13 @@ namespace CLauncher2._0.Sites
 
         private void Exit_Btn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            
+
         }
 
         private void Launcher_Settings_Btn_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            LauncherSettings LS = new LauncherSettings();
-            LS.Show();
+            //LauncherSettings LS = new LauncherSettings();
+            //LS.Show();
         }
 
         private void Info_Btn_MouseDown(object sender, MouseButtonEventArgs e)
@@ -101,7 +103,12 @@ namespace CLauncher2._0.Sites
 
         private void discord_btn_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            Site_Content.Content = new Sites.site_discord();
+            Site_Content.Content = new Window.site_discord();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

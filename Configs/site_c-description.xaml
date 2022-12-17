@@ -1,0 +1,372 @@
+﻿<Page x:Class="CLauncher2._0.Configs.site_c_description"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CLauncher2._0.Configs"
+      mc:Ignorable="d" 
+      d:DesignHeight="714" d:DesignWidth="1172"
+      Title="site_c_description">
+
+    <Grid>
+        <ListView  x:Name="LV"
+            Background="Transparent"
+            BorderBrush="Transparent"
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="369,12,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="147" SelectionMode="Extended" Height="57" SelectedIndex="0">
+
+            <!--// Listview items style template //-->
+
+            <ListView.ItemContainerStyle>
+
+                <Style TargetType="{x:Type ListViewItem}">
+
+                    <Setter Property="Template">
+
+                        <Setter.Value>
+
+                            <ControlTemplate TargetType="{x:Type ListViewItem}">
+
+                                <Border x:Name="Bd"
+                                    Height="50"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    Background="{TemplateBinding Background}"
+                                    Padding="{TemplateBinding Padding}"
+                                    SnapsToDevicePixels="True">
+
+                                    <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                        SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                        VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+
+                                </Border>
+
+                                <ControlTemplate.Triggers>
+
+                                    <MultiTrigger>
+
+                                        <MultiTrigger.Conditions>
+
+                                            <Condition Property="IsMouseOver" Value="True"/>
+
+                                        </MultiTrigger.Conditions>
+
+                                        <Setter Property="Background"
+                                            TargetName="Bd"
+                                            Value="#404D5B"/>
+
+                                        <Setter Property="BorderBrush"
+                                            TargetName="Bd"
+                                            Value="#404D5B"/>
+
+                                    </MultiTrigger>
+
+                                </ControlTemplate.Triggers>
+
+                            </ControlTemplate>
+
+                        </Setter.Value>
+
+                    </Setter>
+
+                </Style>
+
+            </ListView.ItemContainerStyle>
+
+            <!--// Home //-->
+
+            <ListViewItem x:Name="Default_Btn"
+                Margin="0,0,0,15" Width="137" Background="#CC353333" HorizontalAlignment="Center" VerticalAlignment="Center" MouseLeftButtonUp="Default_Btn_MouseLeftButtonUp"
+                                      >
+
+                <!--// Tooltip //-->
+
+                <ListViewItem.ToolTip>
+
+                    <ToolTip x:Name="tt_default"
+                        Content="DEFAULT"
+                        FontFamily="{StaticResource Purista}"/>
+
+                </ListViewItem.ToolTip>
+
+                <StackPanel Orientation="Vertical"
+                    Width="120" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                    <TextBlock Text="DEFAULT"
+                        Margin="10,5,0,5"
+                        FontFamily="{StaticResource Purista}" Foreground="White" FontWeight="SemiBold" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                </StackPanel>
+
+            </ListViewItem>
+
+
+        </ListView>
+        <ListView  x:Name="LV_Copy"
+            Background="Transparent"
+            BorderBrush="Transparent"
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="521,12,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="133" SelectionMode="Extended" Height="57">
+
+            <!--// Listview items style template //-->
+
+            <ListView.ItemContainerStyle>
+
+                <Style TargetType="{x:Type ListViewItem}">
+
+                    <Setter Property="Template">
+
+                        <Setter.Value>
+
+                            <ControlTemplate TargetType="{x:Type ListViewItem}">
+
+                                <Border x:Name="Bd"
+                                    Height="50"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    Background="{TemplateBinding Background}"
+                                    Padding="{TemplateBinding Padding}"
+                                    SnapsToDevicePixels="True">
+
+                                    <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                        SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                        VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+
+                                </Border>
+
+                                <ControlTemplate.Triggers>
+
+                                    <MultiTrigger>
+
+                                        <MultiTrigger.Conditions>
+
+                                            <Condition Property="IsMouseOver" Value="True"/>
+
+                                        </MultiTrigger.Conditions>
+
+                                        <Setter Property="Background"
+                                            TargetName="Bd"
+                                            Value="#404D5B"/>
+
+                                        <Setter Property="BorderBrush"
+                                            TargetName="Bd"
+                                            Value="#404D5B"/>
+
+                                    </MultiTrigger>
+
+                                </ControlTemplate.Triggers>
+
+                            </ControlTemplate>
+
+                        </Setter.Value>
+
+                    </Setter>
+
+                </Style>
+
+            </ListView.ItemContainerStyle>
+
+
+            <!--// OPTIONS //-->
+
+            <ListViewItem x:Name="Simple_Btn" HorizontalAlignment="Center"
+                Margin="0,0,0,15" Background="#CC353333" VerticalAlignment="Center" MouseLeftButtonUp="Simple_Btn_MouseLeftButtonUp" IsSelected="False"
+                                      >
+
+                <!--// Tooltip //-->
+
+                <ListViewItem.ToolTip>
+
+                    <ToolTip x:Name="tt_simple1"
+                        Content="SIMPLE"
+                        FontFamily="{StaticResource Purista}"/>
+
+                </ListViewItem.ToolTip>
+
+                <StackPanel Orientation="Vertical"
+                    Width="119">
+
+                    <TextBlock Text="SIMPLE"
+                        Margin="10,5,0,5"
+                        FontFamily="{StaticResource Purista}" Foreground="White" FontWeight="SemiBold" FontSize="18" Width="71"/>
+
+                </StackPanel>
+
+            </ListViewItem>
+
+
+
+        </ListView>
+        <ListView  x:Name="LV_Copy1"
+            Background="Transparent"
+            BorderBrush="Transparent"
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="659,12,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="145" SelectionMode="Extended" Height="57">
+
+            <!--// Listview items style template //-->
+
+            <ListView.ItemContainerStyle>
+
+                <Style TargetType="{x:Type ListViewItem}">
+
+                    <Setter Property="Template">
+
+                        <Setter.Value>
+
+                            <ControlTemplate TargetType="{x:Type ListViewItem}">
+
+                                <Border x:Name="Bd"
+                                    Height="50"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    Background="{TemplateBinding Background}"
+                                    Padding="{TemplateBinding Padding}"
+                                    SnapsToDevicePixels="True">
+
+                                    <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                        SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                        VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+
+                                </Border>
+
+                                <ControlTemplate.Triggers>
+
+                                    <MultiTrigger>
+
+                                        <MultiTrigger.Conditions>
+
+                                            <Condition Property="IsMouseOver" Value="True"/>
+
+                                        </MultiTrigger.Conditions>
+
+                                        <Setter Property="Background"
+                                            TargetName="Bd"
+                                            Value="#404D5B"/>
+
+                                        <Setter Property="BorderBrush"
+                                            TargetName="Bd"
+                                            Value="#404D5B"/>
+
+                                    </MultiTrigger>
+
+                                </ControlTemplate.Triggers>
+
+                            </ControlTemplate>
+
+                        </Setter.Value>
+
+                    </Setter>
+
+                </Style>
+
+            </ListView.ItemContainerStyle>
+
+
+            <!--// TEXTURES //-->
+
+            <ListViewItem x:Name="Advanced_Btn"
+                Margin="0,0,0,15" Width="138" Background="#CC353333" HorizontalAlignment="Center" VerticalAlignment="Center" IsSelected="False" MouseLeftButtonUp="Advanced_Btn_MouseLeftButtonUp"
+                                      >
+
+                <!--// Tooltip //-->
+
+                <ListViewItem.ToolTip>
+                    <ToolTip x:Name="tt_advanced2"
+                        Content="ADVANCED"
+                        FontFamily="{StaticResource Purista}"/>
+
+                </ListViewItem.ToolTip>
+
+                <StackPanel Orientation="Vertical"
+                    Width="127" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                    <TextBlock Text="ADVANCED"
+                        Margin="10,5,0,5"
+                        FontFamily="{StaticResource Purista}" Foreground="White" FontWeight="SemiBold" FontSize="18" Width="98" HorizontalAlignment="Center"/>
+
+                </StackPanel>
+
+            </ListViewItem>
+
+
+        </ListView>
+        <Image x:Name="preview" HorizontalAlignment="Center" Height="272" Margin="0,150,0,0" VerticalAlignment="Top" Width="886" Source="/Settings/Preview_Placeholder.png" Stretch="Fill"/>
+        <Label Content="PREVIEW" HorizontalAlignment="Left" Margin="84,119,0,0" VerticalAlignment="Top" FontFamily="{StaticResource Purista}" Foreground="White" FontSize="20" FontWeight="Bold"/>
+        <ComboBox x:Name="ActiveComboBox" FontFamily="{StaticResource Purista}" FontWeight="Normal" FontSize="18" Margin="220,433,744,0" Foreground="White" BorderBrush="{x:Null}" SelectedIndex="32" SelectionChanged="ActiveComboBox_SelectionChanged" Height="43" VerticalAlignment="Top">
+            <Label Content="Red"/>
+            <Label Content="Faded Red"/>
+            <Label Content="Blue"/>
+            <Label Content="Light Blue"/>
+            <Label Content="Baby Blue"/>
+            <Label Content="Darker Blue"/>
+            <Label Content="Very Pale Blue"/>
+            <Label Content="Mild Blue"/>
+            <Label Content="Green"/>
+            <Label Content="Light Green"/>
+            <Label Content="Minty Green"/>
+            <Label Content="Light Vibrant Green"/>
+            <Label Content="Pale Green"/>
+            <Label Content="Dark Green"/>
+            <Label Content="Yellow"/>
+            <Label Content="Goldenish Yellow"/>
+            <Label Content="Light Yellow"/>
+            <Label Content="Paler Yellow"/>
+            <Label Content="Dark Yellow"/>
+            <Label Content="Purple"/>
+            <Label Content="Purple / Magenta"/>
+            <Label Content="Slightly Lighter Purple"/>
+            <Label Content="Light Pink"/>
+            <Label Content="Orange"/>
+            <Label Content="Dark Orange"/>
+            <Label Content="White"/>
+            <Label Content="Yellowish White"/>
+            <Label Content="Grey"/>
+            <Label Content="Light Grey"/>
+            <Label Content="Grey Darish"/>
+            <Label Content="Very Light Grey"/>
+            <Label Content="Black"/>
+            <Label Content="Default"/>
+            <Label Content="Label"/>
+        </ComboBox>
+        <Label Content="ACTIVE STAGE" HorizontalAlignment="Left" Margin="84,440,0,0" VerticalAlignment="Top" FontFamily="{StaticResource Purista}" Foreground="White" FontSize="18" FontWeight="Normal"/>
+        <ComboBox x:Name="NextComboBox" FontFamily="{StaticResource Purista}" FontWeight="Normal" FontSize="18" Margin="220,492,744,0" Foreground="#FFF1F1F1" BorderBrush="{x:Null}" SelectedIndex="32" SelectionChanged="NextComboBox_SelectionChanged" Height="44" VerticalAlignment="Top">
+            <Label Content="Red"/>
+            <Label Content="Faded Red"/>
+            <Label Content="Blue"/>
+            <Label Content="Light Blue"/>
+            <Label Content="Baby Blue"/>
+            <Label Content="Darker Blue"/>
+            <Label Content="Very Pale Blue"/>
+            <Label Content="Mild Blue"/>
+            <Label Content="Green"/>
+            <Label Content="Light Green"/>
+            <Label Content="Minty Green"/>
+            <Label Content="Light Vibrant Green"/>
+            <Label Content="Pale Green"/>
+            <Label Content="Dark Green"/>
+            <Label Content="Yellow"/>
+            <Label Content="Goldenish Yellow"/>
+            <Label Content="Light Yellow"/>
+            <Label Content="Paler Yellow"/>
+            <Label Content="Dark Yellow"/>
+            <Label Content="Purple"/>
+            <Label Content="Purple / Magenta"/>
+            <Label Content="Slightly Lighter Purple"/>
+            <Label Content="Light Pink"/>
+            <Label Content="Orange"/>
+            <Label Content="Dark Orange"/>
+            <Label Content="White"/>
+            <Label Content="Yellowish White"/>
+            <Label Content="Grey"/>
+            <Label Content="Light Grey"/>
+            <Label Content="Grey Darish"/>
+            <Label Content="Very Light Grey"/>
+            <Label Content="Black"/>
+            <Label Content="Default"/>
+            <Label Content="Label"/>
+        </ComboBox>
+        <Label Content="NEXT STAGE" HorizontalAlignment="Left" Margin="99,499,0,0" VerticalAlignment="Top" FontFamily="{StaticResource Purista}" Foreground="White" FontSize="18" FontWeight="Normal"/>
+        <Image x:Name="DefaultStatus" HorizontalAlignment="Left" Height="4" Margin="312,67,0,0" VerticalAlignment="Top" Width="135" Source="/Configs/Misc Panels 3@4x.png" Stretch="Fill" Opacity="0.45" Visibility="Collapsed"/>
+        <Image x:Name="SimpleStatus" HorizontalAlignment="Left" Height="4" Margin="456,67,0,0" VerticalAlignment="Top" Width="135" Source="/Configs/Misc Panels 3@4x.png" Stretch="Fill" Opacity="0.45" Visibility="Collapsed"/>
+        <Image HorizontalAlignment="Left" Height="4" Margin="600,67,0,0" VerticalAlignment="Top" Width="135" Source="/Configs/Misc Panels 3@4x.png" Stretch="Fill" Opacity="0.45" Visibility="Collapsed"/>
+
+
+    </Grid>
+</Page>

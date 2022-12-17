@@ -1,0 +1,114 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>CLauncher2._0</RootNamespace>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject>CLauncher2._0.App</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BG_1.png" />
+    <None Remove="BG_1_2.png" />
+    <None Remove="CLauncher Panel.png" />
+    <None Remove="clauncher_heart.png" />
+    <None Remove="clauncher_pp_2.png" />
+    <None Remove="Configs\232266045_860106148218463_1113378182465821454_n.jpg" />
+    <None Remove="Configs\a8434154-d6c8-4081-966d-68559eef6041-profile_image-70x70.png" />
+    <None Remove="Configs\fe58d6d2-d9ca-405d-ae39-682182fa409e-profile_image-70x70.png" />
+    <None Remove="Configs\icons8_Software_Installer_96px.png" />
+    <None Remove="icons8_cet_100px.png" />
+    <None Remove="icons8_Discord_100px.png" />
+    <None Remove="icons8_Home_100px.png" />
+    <None Remove="icons8_Info_104px.png" />
+    <None Remove="icons8_News_100px.png" />
+    <None Remove="icons8_Next_page_100px.png" />
+    <None Remove="icons8_Settings_100px.png" />
+    <None Remove="img_home.png" />
+    <None Remove="kisspng-vehicle-clauncher.png" />
+    <None Remove="Panel-left-config.png" />
+    <None Remove="Panel-left-settings.png" />
+    <None Remove="Panel-left.png" />
+    <None Remove="Panel-up.png" />
+    <None Remove="Settings\AmbientOcclusion.png" />
+    <None Remove="Settings\Bloom.png" />
+    <None Remove="Settings\clauncher_panel_description_1.png" />
+    <None Remove="Settings\clauncher_panel_preview_1.png" />
+    <None Remove="Settings\LowQualityHealthHUD.png" />
+    <None Remove="Settings\missing1.png" />
+    <None Remove="Settings\Preview\AmbientOcclusion.png" />
+    <None Remove="Settings\Preview\Bloom.png" />
+    <None Remove="Settings\Preview\LowQualityHealthHUD.png" />
+    <None Remove="Settings\Preview\StaticDecals.png" />
+    <None Remove="Settings\Preview_Placeholder.png" />
+    <None Remove="Settings\StaticDecals.png" />
+    <None Remove="splashscreen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.10.10" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.3.0-ci89" />
+    <PackageReference Include="Microsoft.VisualBasic" Version="10.3.0" />
+    <PackageReference Include="ReactiveUI.WPF" Version="16.3.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BG_1_2.png" />
+    <Resource Include="clauncher_heart.png" />
+    <Resource Include="Configs\232266045_860106148218463_1113378182465821454_n.jpg" />
+    <Resource Include="Configs\a8434154-d6c8-4081-966d-68559eef6041-profile_image-70x70.png" />
+    <Resource Include="Configs\fe58d6d2-d9ca-405d-ae39-682182fa409e-profile_image-70x70.png" />
+    <Resource Include="Configs\icons8_Software_Installer_96px.png" />
+    <Resource Include="Panel-left-config.png" />
+    <Resource Include="Panel-left-settings.png" />
+    <Resource Include="Resources\icons8_Next_page_100px.png" />
+    <Resource Include="Resources\clauncher_pp_2.png" />
+    <Resource Include="Resources\BG_1.png" />
+    <Resource Include="Resources\BG_1_2.png" />
+    <Resource Include="Resources\CLauncher Panel.png" />
+    <Resource Include="Resources\icons8_cet_100px.png" />
+    <Resource Include="Resources\icons8_Discord_100px.png" />
+    <Resource Include="Resources\icons8_Home_100px.png" />
+    <Resource Include="Resources\icons8_Info_104px.png" />
+    <Resource Include="Resources\icons8_News_100px.png" />
+    <Resource Include="Resources\icons8_Settings_100px.png" />
+    <Resource Include="Resources\img_home.png" />
+    <Resource Include="Resources\kisspng-vehicle-clauncher.png" />
+    <Resource Include="Resources\Panel-left.png" />
+    <Resource Include="Resources\Panel-up.png" />
+    <Resource Include="Resources\splashscreen.png" />
+    <Resource Include="Settings\AmbientOcclusion.png" />
+    <Resource Include="Settings\clauncher_panel_description_1.png" />
+    <Resource Include="Settings\clauncher_panel_preview_1.png" />
+    <Resource Include="Resources\missing1.png" />
+    <Resource Include="Settings\Preview\AmbientOcclusion.png" />
+    <Resource Include="Settings\Preview\Bloom.png" />
+    <Resource Include="Settings\Preview\LowQualityHealthHUD.png" />
+    <Resource Include="Settings\Preview\StaticDecals.png" />
+    <Resource Include="Settings\Preview_Placeholder.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="UserSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UserSettings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="UserSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>UserSettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+    <Folder Include="Resources\XML\" />
+  </ItemGroup>
+
+</Project>

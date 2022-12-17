@@ -1,0 +1,385 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>CLauncher2._0</RootNamespace>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject>CLauncher2._0.App</StartupObject>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <AssemblyName>APB CLauncher</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="FakesAssemblies\**" />
+    <EmbeddedResource Remove="FakesAssemblies\**" />
+    <None Remove="FakesAssemblies\**" />
+    <Page Remove="FakesAssemblies\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="BG_1.png" />
+    <None Remove="CLauncher Panel.png" />
+    <None Remove="clauncher_heart.png" />
+    <None Remove="clauncher_pp_2.png" />
+    <None Remove="Configs\232266045_860106148218463_1113378182465821454_n.jpg" />
+    <None Remove="Configs\a8434154-d6c8-4081-966d-68559eef6041-profile_image-70x70.png" />
+    <None Remove="Configs\Advanced.png" />
+    <None Remove="Configs\Bomb.png" />
+    <None Remove="Configs\Capture.png" />
+    <None Remove="Configs\Configs_Panel_BG.png" />
+    <None Remove="Configs\Default.png" />
+    <None Remove="Configs\DROP.png" />
+    <None Remove="Configs\fe58d6d2-d9ca-405d-ae39-682182fa409e-profile_image-70x70.png" />
+    <None Remove="Configs\FightClub.png" />
+    <None Remove="Configs\icons8_Poison_100px.png" />
+    <None Remove="Configs\icons8_Save_96px.png" />
+    <None Remove="Configs\icons8_Software_Installer_96px.png" />
+    <None Remove="Configs\ItemHold.png" />
+    <None Remove="Configs\Killfeed_Preview.png" />
+    <None Remove="Configs\Killfeed_Preview2.png" />
+    <None Remove="Configs\Misc Panels 3%404x.png" />
+    <None Remove="Configs\Number1%404x.png" />
+    <None Remove="Configs\Simple.png" />
+    <None Remove="Configs\SPRAY.png" />
+    <None Remove="Configs\TakeOver.png" />
+    <None Remove="Configs\TDM.png" />
+    <None Remove="Configs\Tutorial.png" />
+    <None Remove="Configs\VIP.png" />
+    <None Remove="icons8_cet_100px.png" />
+    <None Remove="icons8_Discord_100px.png" />
+    <None Remove="icons8_Home_100px.png" />
+    <None Remove="icons8_Info_104px.png" />
+    <None Remove="icons8_News_100px.png" />
+    <None Remove="icons8_Next_page_100px.png" />
+    <None Remove="icons8_Play_100px.png" />
+    <None Remove="icons8_Settings_100px.png" />
+    <None Remove="icons8_Shutdown_104px.png" />
+    <None Remove="img_home.png" />
+    <None Remove="kisspng-vehicle-clauncher.png" />
+    <None Remove="Panel-left-config.png" />
+    <None Remove="Panel-left-settings.png" />
+    <None Remove="Panel-left.png" />
+    <None Remove="Panel-up.png" />
+    <None Remove="Resources\Font\0992319114465dff36289dcff95b398e.ttf" />
+    <None Remove="Resources\Font\19397a04d3d8f8c71334ba8ca2b97318.ttf" />
+    <None Remove="Resources\Font\207d3f57810bef8d49e2f1b5f1722fb2.ttf" />
+    <None Remove="Resources\Font\4b5eecf084582969d8b06b11f58a3880.ttf" />
+    <None Remove="Resources\Font\567e46b3c9e75be1fed1d89302ad7658.ttf" />
+    <None Remove="Resources\Font\Purista Bold Italic.ttf" />
+    <None Remove="Resources\Font\Purista Bold.ttf" />
+    <None Remove="Resources\Font\Purista Italic.ttf" />
+    <None Remove="Resources\Font\Purista Light Italic.ttf" />
+    <None Remove="Resources\Font\Purista Medium.otf" />
+    <None Remove="Resources\Font\Purista SemiBold.ttf" />
+    <None Remove="Resources\Font\Purista SemiBold_0.ttf" />
+    <None Remove="Resources\Font\Purista-Bold.ttf" />
+    <None Remove="Resources\Font\Purista-BoldItalic.ttf" />
+    <None Remove="Resources\Font\Purista-SemiBold.ttf" />
+    <None Remove="Resources\Font\Purista.ttf" />
+    <None Remove="Resources\Font\Purista_0.ttf" />
+    <None Remove="Resources\Font\segoeui.ttf" />
+    <None Remove="Resources\Font\segoeuib.ttf" />
+    <None Remove="Resources\Font\segoeuii.ttf" />
+    <None Remove="Resources\Font\segoeuil.ttf" />
+    <None Remove="Resources\Font\segoeuisl.ttf" />
+    <None Remove="Resources\Font\segoeuiz.ttf" />
+    <None Remove="Resources\Font\seguibl.ttf" />
+    <None Remove="Resources\Font\seguibli.ttf" />
+    <None Remove="Resources\Font\seguili.ttf" />
+    <None Remove="Resources\Font\seguisb.ttf" />
+    <None Remove="Resources\Font\seguisbi.ttf" />
+    <None Remove="Resources\Font\seguisli.ttf" />
+    <None Remove="Resources\icons8_Settings_100px.png" />
+    <None Remove="Settings\AmbientOcclusion.png" />
+    <None Remove="Settings\Bloom.png" />
+    <None Remove="Settings\clauncher_panel_description_1.png" />
+    <None Remove="Settings\clauncher_panel_preview_1.png" />
+    <None Remove="Settings\LowQualityHealthHUD.png" />
+    <None Remove="Settings\missing1.png" />
+    <None Remove="Settings\Preview\AmbientOcclusion.png" />
+    <None Remove="Settings\Preview\Bloom.png" />
+    <None Remove="Settings\Preview\LowQualityHealthHUD.png" />
+    <None Remove="Settings\Preview\StaticDecals.png" />
+    <None Remove="Settings\Preview_Placeholder.png" />
+    <None Remove="Settings\Settings_Panel_BG.png" />
+    <None Remove="Settings\StaticDecals.png" />
+    <None Remove="Sites\BG_10.png" />
+    <None Remove="Sites\BG_11.png" />
+    <None Remove="Sites\BG_2.png" />
+    <None Remove="Sites\BG_3.png" />
+    <None Remove="Sites\BG_4.png" />
+    <None Remove="Sites\BG_5.png" />
+    <None Remove="Sites\BG_6.png" />
+    <None Remove="Sites\BG_7.png" />
+    <None Remove="Sites\BG_8.png" />
+    <None Remove="Sites\BG_9.png" />
+    <None Remove="Sites\Discord-Logo-Color.png" />
+    <None Remove="Sites\on-off-button.png" />
+    <None Remove="splashscreen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Font\0992319114465dff36289dcff95b398e.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\19397a04d3d8f8c71334ba8ca2b97318.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\207d3f57810bef8d49e2f1b5f1722fb2.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\4b5eecf084582969d8b06b11f58a3880.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\567e46b3c9e75be1fed1d89302ad7658.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista Bold Italic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista Bold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista Italic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista Light Italic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista Medium.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista SemiBold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista SemiBold_0.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista-Bold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista-BoldItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista-SemiBold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista_0.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\segoeui.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\segoeuib.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\segoeuii.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\segoeuil.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\segoeuisl.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\segoeuiz.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\seguibl.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\seguibli.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\seguili.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\seguisb.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\seguisbi.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\seguisli.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AduSkin" Version="1.1.1.9" />
+    <PackageReference Include="chilkat-x64" Version="9.5.0.93" />
+    <PackageReference Include="Costura.Fody" Version="5.7.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Fody" Version="6.6.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="HandyControl" Version="3.4.0" />
+    <PackageReference Include="InfluxDB.NET" Version="1.0.0" />
+    <PackageReference Include="InfluxDB.Net-Main" Version="1.0.47" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.0-ci390" />
+    <PackageReference Include="Microsoft.Bcl" Version="1.1.10" />
+    <PackageReference Include="Microsoft.Bcl.Async" Version="1.0.168" />
+    <PackageReference Include="Microsoft.Bcl.Build" Version="1.0.21" />
+    <PackageReference Include="Microsoft.DotNet.Cli.Utils" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Net.Http" Version="2.2.29" />
+    <PackageReference Include="Microsoft.PowerShell.5.ReferenceAssemblies" Version="1.1.0" />
+    <PackageReference Include="Microsoft.QualityTools.Testing.Fakes" Version="16.11.230815" />
+    <PackageReference Include="Microsoft.VisualBasic" Version="10.4.0-preview.18571.3" />
+    <PackageReference Include="ModernUI.WPF" Version="1.0.9" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="ReactiveUI.WPF" Version="18.4.1" />
+    <PackageReference Include="Sentry.Log4Net" Version="3.24.1" />
+    <PackageReference Include="SharpRaven" Version="2.4.1-unstable0015" />
+    <PackageReference Include="WPF-UI" Version="2.0.3" />
+    <PackageReference Include="YamlDotNet" Version="12.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\clauncher_heart.png" />
+    <Resource Include="Configs\232266045_860106148218463_1113378182465821454_n.jpg" />
+    <Resource Include="Configs\a8434154-d6c8-4081-966d-68559eef6041-profile_image-70x70.png" />
+    <Resource Include="Configs\Advanced.png" />
+    <Resource Include="Configs\Bomb.png" />
+    <Resource Include="Configs\Capture.png" />
+    <Resource Include="Configs\Configs_Panel_BG.png" />
+    <Resource Include="Configs\Default.png" />
+    <Resource Include="Configs\DROP.png" />
+    <Resource Include="Configs\fe58d6d2-d9ca-405d-ae39-682182fa409e-profile_image-70x70.png" />
+    <Resource Include="Configs\FightClub.png" />
+    <Resource Include="Configs\icons8_Poison_100px.png" />
+    <Resource Include="Configs\icons8_Save_96px.png" />
+    <Resource Include="Configs\icons8_Software_Installer_96px.png" />
+    <Resource Include="Configs\ItemHold.png" />
+    <Resource Include="Configs\Killfeed_Preview.png" />
+    <Resource Include="Configs\Killfeed_Preview2.png" />
+    <Resource Include="Configs\Misc Panels 3@4x.png" />
+    <Resource Include="Configs\Number1@4x.png" />
+    <Resource Include="Configs\Simple.png" />
+    <Resource Include="Configs\SPRAY.png" />
+    <Resource Include="Configs\TakeOver.png" />
+    <Resource Include="Configs\TDM.png" />
+    <Resource Include="Configs\Tutorial.png" />
+    <Resource Include="Configs\VIP.png" />
+    <Resource Include="Resources\icons8_Play_100px.png" />
+    <Resource Include="Resources\icons8_Shutdown_104px.png" />
+    <Resource Include="Resources\Panel-left-config.png" />
+    <Resource Include="Resources\Panel-left-settings.png" />
+    <Resource Include="Resources\icons8_Next_page_100px.png" />
+    <Resource Include="Resources\clauncher_pp_2.png" />
+    <Resource Include="Resources\Backgrounds\BG_1.png" />
+    <Resource Include="Resources\Backgrounds\BG_1_2.png" />
+    <Resource Include="Resources\CLauncher Panel.png" />
+    <Resource Include="Resources\icons8_cet_100px.png" />
+    <Resource Include="Resources\icons8_Discord_100px.png" />
+    <Resource Include="Resources\icons8_Home_100px.png" />
+    <Resource Include="Resources\icons8_Info_104px.png" />
+    <Resource Include="Resources\icons8_News_100px.png" />
+    <Resource Include="Resources\icons8_Settings_100px.png" />
+    <Resource Include="Resources\img_home.png" />
+    <Resource Include="Resources\kisspng-vehicle-clauncher.png" />
+    <Resource Include="Resources\Panel-left.png" />
+    <Resource Include="Resources\Panel-up.png" />
+    <Resource Include="Resources\splashscreen.png" />
+    <Resource Include="Settings\AmbientOcclusion.png" />
+    <Resource Include="Settings\clauncher_panel_description_1.png" />
+    <Resource Include="Settings\clauncher_panel_preview_1.png" />
+    <Resource Include="Resources\missing1.png" />
+    <Resource Include="Settings\Preview\AmbientOcclusion.png" />
+    <Resource Include="Settings\Preview\Bloom.png" />
+    <Resource Include="Settings\Preview\LowQualityHealthHUD.png" />
+    <Resource Include="Settings\Preview\StaticDecals.png" />
+    <Resource Include="Settings\Preview_Placeholder.png" />
+    <Resource Include="Settings\Settings_Panel_BG.png" />
+    <Resource Include="Resources\Backgrounds\BG_2.png" />
+    <Resource Include="Resources\Backgrounds\BG_10.png" />
+    <Resource Include="Resources\Backgrounds\BG_11.png" />
+    <Resource Include="Resources\Backgrounds\BG_3.png" />
+    <Resource Include="Resources\Backgrounds\BG_4.png" />
+    <Resource Include="Resources\Backgrounds\BG_5.png" />
+    <Resource Include="Resources\Backgrounds\BG_6.png" />
+    <Resource Include="Resources\Backgrounds\BG_7.png" />
+    <Resource Include="Resources\Backgrounds\BG_8.png" />
+    <Resource Include="Resources\Backgrounds\BG_9.png" />
+    <Resource Include="Resources\Discord-Logo-Color.png" />
+    <Resource Include="Resources\on-off-button.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="config.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>config.settings</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="UserSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UserSettings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="config.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>config.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="UserSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>UserSettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CLauncher2\_0\Window\" />
+    <Folder Include="Resources\XML\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DisplayChanger-master\DisplayChanger\DisplayChanger.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="Wpf.Ui">
+      <HintPath>C:\Users\Steve\.nuget\packages\wpf-ui\2.0.3\lib\net6.0-windows7.0\Wpf.Ui.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalDesignTimeBuildInput Remove="FakesAssemblies\**" />
+  </ItemGroup>
+
+</Project>

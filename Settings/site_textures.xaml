@@ -1,0 +1,321 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CLauncher2._0.Settings"
+      xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" x:Class="CLauncher2._0.Settings.site_textures"
+      mc:Ignorable="d" d:DesignWidth="1186"
+      Title="site_textures" Height="714">
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="29" Margin="387,488,0,0" VerticalAlignment="Top" Width="126" Source="/Settings/clauncher_panel_description_1.png" Stretch="Fill"/>
+        <TextBlock x:Name="Preview_Text" HorizontalAlignment="Left" Margin="387,522,0,0" TextWrapping="Wrap" Text="Hover over the settings to see what it does!" VerticalAlignment="Top" Height="73" Width="647" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="14"/>
+        <Image x:Name="Preview" HorizontalAlignment="Left" Height="366" Margin="387,40,0,0" VerticalAlignment="Top" Width="649" OpacityMask="Black" Stretch="Fill" Source="/Settings/Preview_Placeholder.png"/>
+        <Image HorizontalAlignment="Left" Height="29" Margin="387,11,0,0" VerticalAlignment="Top" Width="126" Source="/Settings/clauncher_panel_preview_1.png" Stretch="Fill"/>
+        <ListView  x:Name="LV"
+            Background="Transparent"
+            BorderBrush="Transparent"
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Center" Width="390" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" Height="604" Margin="-8,0,0,0">
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left" VerticalAlignment="Stretch">
+                <StackPanel Orientation="Horizontal"
+                    Width="312" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="UnknownText" Foreground="White" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="UnknownSlider" VerticalAlignment="Center" Width="150" Maximum="1" ValueChanged="UnknownSlider_ValueChanged" IsSnapToTickEnabled="True" HorizontalAlignment="Right"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Unknown" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="312" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="EnvironemtText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="EnvironmentSlider" VerticalAlignment="Center" Width="150" Maximum="8" IsSnapToTickEnabled="True" ValueChanged="EnvironmentSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Enviroment" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="312" VerticalAlignment="Center" Height="29">
+                    <StackPanel Width="49">
+                        <Label x:Name="PropText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="PropSlider" VerticalAlignment="Center" Maximum="8" Width="150" IsSnapToTickEnabled="True" ValueChanged="PropSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Prop" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="312" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="CharacterText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="CharacterSlider" VerticalAlignment="Center" Maximum="8" Width="150" IsSnapToTickEnabled="True" ValueChanged="CharacterSlider_ValueChanged" HorizontalAlignment="Right"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Character" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="312" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="VehicleText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="VehicleSlider" VerticalAlignment="Center" Maximum="8" Width="150" IsSnapToTickEnabled="True" ValueChanged="VehicleSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Vehicle" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="PedestrianText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="PedestrianSlider" VerticalAlignment="Center" Maximum="6" Width="150" IsSnapToTickEnabled="True" ValueChanged="PedestrianSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Pedestrian" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="CityVehicleText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="CityVehicleSlider" VerticalAlignment="Center" Width="150" Maximum="8" IsSnapToTickEnabled="True" ValueChanged="CityVehicleSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="City Vehicle" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="ItemWeaponText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="ItemWeaponSlider" VerticalAlignment="Center" Width="150" Maximum="8" IsSnapToTickEnabled="True" ValueChanged="ItemWeaponSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Item and Weapon" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="PrimitiveText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="PrimitiveSlider" VerticalAlignment="Center" Width="150" Maximum="8" IsSnapToTickEnabled="True" ValueChanged="PrimitiveSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Primitive" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="UIText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="UISlider" VerticalAlignment="Center" Width="150" Maximum="2" IsSnapToTickEnabled="True" ValueChanged="UISlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="UI" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="368" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="ShadowResText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="ShadowSlider" VerticalAlignment="Center" Width="150" Maximum="4" IsSnapToTickEnabled="True" ValueChanged="ShadowSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Shadow Resolution" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="VFXText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="VFXSlider" VerticalAlignment="Center" Width="150" Maximum="8" IsSnapToTickEnabled="True" ValueChanged="VFXSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="VFX" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="378" VerticalAlignment="Center" Height="66">
+                    <StackPanel Width="49" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Label x:Name="LightShadowMapText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="LightShadowSlider" VerticalAlignment="Center" Maximum="8" Width="150" IsSnapToTickEnabled="True" ValueChanged="LightShadowSlider_ValueChanged"/>
+                    <Label Foreground="White" VerticalAlignment="Center" Content="Light and Shadow Map" FontSize="16" FontFamily="{StaticResource Purista}" Width="235"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="48">
+                    <StackPanel Width="49" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Label x:Name="RenderText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="RenderSlider" VerticalAlignment="Center" Width="150" Maximum="8" IsSnapToTickEnabled="True" ValueChanged="RenderSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Render Target" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="46">
+                    <StackPanel Width="49" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Label x:Name="SignageText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="SignageSlider" VerticalAlignment="Center" Width="150" Maximum="8" IsSnapToTickEnabled="True" ValueChanged="SignageSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Signage" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="MissionGraffitiText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="MissionGraffitiSlider" VerticalAlignment="Center" Width="150" Maximum="8" IsSnapToTickEnabled="True" ValueChanged="MissionGraffitiSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Mission Graffiti" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="PlayerStatueText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="PlayerStatueSlider" VerticalAlignment="Center" Width="150" Maximum="8" IsSnapToTickEnabled="True" ValueChanged="PlayerStatueSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Player Statue" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="SharedCharacterText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="SharedCharacterSlider" VerticalAlignment="Center" Width="150" Maximum="8" IsSnapToTickEnabled="True" ValueChanged="SharedCharacterSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Shared Character" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="SharedVehicleText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="SharedVehicleSlider" VerticalAlignment="Center" Width="150" Maximum="8" IsSnapToTickEnabled="True" ValueChanged="SharedVehicleSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Shared Vehicle" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="ContactText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="ContactSlider" VerticalAlignment="Center" Width="151" Maximum="8" IsSnapToTickEnabled="True" ValueChanged="ContactSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Contact" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="CharacterDiffNormText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="CharacterDiffNormSlider" VerticalAlignment="Center" Width="150" Maximum="9" IsSnapToTickEnabled="True" ValueChanged="CharacterDiffNormSlider_ValueChanged"/>
+                    <Label Foreground="White" VerticalAlignment="Center" Content="Character Diff/Norm" FontSize="16" FontFamily="{StaticResource Purista}" Width="174"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+            <!--// 1 //-->
+            <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="376" VerticalAlignment="Center" Height="28">
+                    <StackPanel Width="49">
+                        <Label x:Name="PlayerVehicleText" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="PlayerVehicleSlider" VerticalAlignment="Center" Width="150" Maximum="3" IsSnapToTickEnabled="True" ValueChanged="PlayerVehicleSlider_ValueChanged"/>
+                    <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Player Vehicle" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+
+
+
+        </ListView>
+
+
+
+        <materialDesign:DialogHost Content="DialogHost" HorizontalAlignment="Left" Margin="433,570,0,0" VerticalAlignment="Top"/>
+        <ui:Button Content="SAVE" Margin="1002,626,0,0" VerticalAlignment="Top" Height="34" Width="82" Click="SaveBtn_Click" Grid.Column="3" Icon="SaveEdit24" Appearance="Success" IconForeground="White" FontFamily="{StaticResource Purista}" FontWeight="Normal" IconFilled="True"/>
+
+
+
+    </Grid>
+</Page>

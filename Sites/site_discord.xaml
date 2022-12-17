@@ -1,0 +1,42 @@
+﻿<Page x:Class="CLauncher2._0.Window.site_discord"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CLauncher2._0.Window"
+      mc:Ignorable="d" 
+      d:DesignHeight="714" d:DesignWidth="1186"
+      Title="site_discord">
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="174" Margin="785,0,0,0" VerticalAlignment="Center" Width="166" Source="/Sites/Discord-Logo-Color.png" Stretch="Fill"/>
+        <Button x:Name="Start_Game"  Content="JOIN NOW!" HorizontalAlignment="Left" Margin="779,501,0,0" VerticalAlignment="Top" Height="51" Width="178" FontSize="22" Foreground="White" BorderBrush="#00707070" FontWeight="Normal" FontFamily="{StaticResource PuristaSemiBold}">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="1,0">
+                    <GradientStop Color="#FF939BF3"/>
+                    <GradientStop Color="#FF5865F2" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Effect">
+                                <Setter.Value>
+                                    <DropShadowEffect ShadowDepth="0" Color="#FF3935B7" Opacity="1" BlurRadius="20"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Label Content="DISCORD SERVER" HorizontalAlignment="Left" Margin="666,142,0,0" VerticalAlignment="Top" FontFamily="{StaticResource PuristaSemiBold}" Foreground="White" FontSize="48"/>
+
+    </Grid>
+</Page>

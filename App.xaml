@@ -1,0 +1,20 @@
+﻿<Application x:Class="CLauncher2._0.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CLauncher2._0"
+    StartupUri="SplashScreen.xaml"
+             DispatcherUnhandledException="Application_DispatcherUnhandledException"
+             xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <FontFamily x:Key="Purista">pack://application:,,,/Resources/Font/#Purista</FontFamily>
+            <FontFamily x:Key="PuristaSemiBold">pack://application:,,,/Resources/Font/#Purista SemiBold</FontFamily>
+            <ResourceDictionary.MergedDictionaries>
+                <ui:ThemesDictionary Theme="Dark" />
+                <ui:ControlsDictionary />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+    
+    

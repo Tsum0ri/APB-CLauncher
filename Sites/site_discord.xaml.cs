@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CLauncher2._0.Sites
+namespace CLauncher2._0.Window
 {
     /// <summary>
     /// Interaktionslogik für site_discord.xaml

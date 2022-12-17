@@ -60,12 +60,12 @@ namespace CLauncher2._0.Configs
 
 
         //Colors-Killfeed
-        string Red = "<col:Action_Enemy>";//
-        string Red2 = "<col:Action_Enemy>";
-        string Faded_Red = "<col:Scoreboard_Opponents_Offline>";//
-        string Faded_Red2 = "<col:Scoreboard_Opponents_Offline>";
-        string Blue = "<col:Blue>";//
-        string Blue2 = "<col:Blue>";
+        string Red = "<col:Action_Enemy>";//<Color:R=0.882 G=0 B=0>
+        string Red2 = "<Color:R=0.882 G=0 B=0>";
+        string Faded_Red = "<col:Scoreboard_Opponents_Offline>";//<Color:R=0.776 G=0 B=0>
+        string Faded_Red2 = "<Color:R=0.776 G=0 B=0>";
+        string Blue = "<col:Blue>";//<Color:R=0.035 G=0.471 B=1>
+        string Blue2 = "<Color:R=0.035 G=0.471 B=1>";
         string Light_Blue = "<col:Mailbox>";//<Color:R=0 G=0.420 B=1>
         string Light_Blue2 = "<Color:R=0 G=0.420 B=1>";
         string Baby_Blue = "<col:TaskCheckpoint_TaintedDefend>";//
@@ -78,8 +78,8 @@ namespace CLauncher2._0.Configs
         string Mild_Blue2 = "<Color:R=0.196 G=0.416 B=1>";
         string Green = "<col:Green>";//<Color:R=0 G=1 B=0>
         string Green2 = "<Color:R=0 G=1 B=0>";
-        string Light_Green = "<col:Chat_Group>";//
-        string Light_Green2 = "<col:Chat_Group>";
+        string Light_Green = "<col:Chat_Group>";//<Color:R=0.251 G=0.784 B=0.251>
+        string Light_Green2 = "<Color:R=0.251 G=0.784 B=0.251>";
         string Minty_Green = "<col:ElectiveCorpse_Teammate>"; //<Color:R=0.400 G=0.675 B=0.008>
         string Minty_Green2 = "<Color:R=0.400 G=0.675 B=0.008>";
         string Light_Vibrant_Green = "<col:Group_Player_Arrested>";//
@@ -88,8 +88,8 @@ namespace CLauncher2._0.Configs
         string Pale_Green2 = "<Color:R=0.400 G=1 B=0>";
         string Dark_Green = "<col:Green_VeryDark>"; //<Color:R=0.098 G=0.549 B=0.196>
         string Dark_Green2 = "<Color:R=0.098 G=0.549 B=0.196>";
-        string Yellow = "<col:Chat_Mission>";//
-        string Yellow2 = "<col:Chat_Mission>";
+        string Yellow = "<col:Chat_Mission>";//<Color:R=0.929 G=0.929 B=0>
+        string Yellow2 = "<Color:R=0.929 G=0.929 B=0>";
         string Goldenish_Yellow = "<col:Minigame_FindTarget_DevOps>";//<Color:R=0.984 G=0.722 B=0.016>
         string Goldenish_Yellow2 = "<Color:R=0.984 G=0.722 B=0.016>";
         string Light_Yellow = "<col:Waypoint_Leader>";//
@@ -100,30 +100,30 @@ namespace CLauncher2._0.Configs
         string Dark_Yellow2 = "<Color:R=1 G=0.8 B=0.3>";
         string Purple = "<col:ED_wardrobe>"; //<Color:R=0.596 G=0.082 B=0.769>
         string Purple2 = "<Color:R=0.596 G=0.082 B=0.769>";
-        string Purple_Magenta = "<col:Halloween_Zombicine>";//
-        string Purple_Magenta2 = "<col:Halloween_Zombicine>";
+        string Purple_Magenta = "<col:Halloween_Zombicine>";//<Color:R=0.847 G=0.098 B=1>
+        string Purple_Magenta2 = "<Color:R=0.847 G=0.098 B=1>";
         string Slightly_Lighter_Purple = "<col:Purple_Bright>"; //<Color:R=0.3 G=0 B=0.5>
         string Slightly_Lighter_Purple2 = "<Color:R=0.3 G=0 B=0.5>";
         string Light_Pink = "<col:Valentine_Pink>"; //<Color:R=1 G=0.518 B=0.863>
         string Light_Pink2 = "<Color:R=1 G=0.518 B=0.863>";
         string Orange = "<col:Halloween_Orange>"; //<Color:R=1 G=0.400 B=0>
         string Orange2 = "<Color:R=1 G=0.400 B=0>";
-        string Dark_Orange = "<col:Orange_Dark>";//
-        string Dark_Orange2 = "<col:Orange_Dark>";
-        string White = "<col:ScoreBreakdown_Name>";//
-        string White2 = "<col:ScoreBreakdown_Name>";
-        string Yellowish_White = "<col:Yellow_Pale>";//
-        string Yellowish_White2 = "<col:Yellow_Pale>";
-        string Grey = "<col:openworld_marker>";//
-        string Grey2 = "<col:openworld_marker>";
+        string Dark_Orange = "<col:Orange_Dark>";//<Color:R=0.588 G=0.118 B=0>
+        string Dark_Orange2 = "<Color:R=0.588 G=0.118 B=0>";
+        string White = "<col:ScoreBreakdown_Name>";//<Color:R=1 G=1 B=1>
+        string White2 = "<Color:R=1 G=1 B=1>";
+        string Yellowish_White = "<col:Yellow_Pale>";//<Color:R=1 G=1 B=0.725>
+        string Yellowish_White2 = "<Color:R=1 G=1 B=0.725>";
+        string Grey = "<col:openworld_marker>";//<Color:R=0.196 G=0.196 B=0.196>
+        string Grey2 = "<Color:R=0.196 G=0.196 B=0.196>";
         string Light_Grey = "<col:Faction_Friendly>";//
         string Light_Grey2 = "<col:Faction_Friendly>";
         string Grey_Darkish = "<col:Inactive>";//
         string Grey_Darkish2 = "<col:Inactive>";
-        string Very_Light_Grey = "<col:Chat_Broadcast>";//
-        string Very_Light_Grey2 = "<col:Chat_Broadcast>";
-        string Black = "<col:Black>";//
-        string Black2 = "<col:Black>";
+        string Very_Light_Grey = "<col:Chat_Broadcast>";//<Color:R=0.682 G=0.682 B=0.682>
+        string Very_Light_Grey2 = "<Color:R=0.682 G=0.682 B=0.682>";
+        string Black = "<col:Black>";//<Color:R=0 G=0 B=0>
+        string Black2 = "<Color:R=0 G=0 B=0>";
 
         string Color_Team;
         string Color_Enemy;
@@ -1238,10 +1238,53 @@ namespace CLauncher2._0.Configs
             }
         }
 
+        // Generate lines to prevent bugs
+        private async void GenerateLinesForCombat()
+        {
+            string path = (Environment.CurrentDirectory + "\\APBGame\\Localization\\GER\\HUDCombatMessages.GER");
+            if (File.Exists(path))
+            {
+                using (StreamWriter sw = File.CreateText(path))
+                {
+                    int x = 0;
+
+                    while (true)
+                    {
+                        sw.WriteLine(System.Environment.NewLine);
+                        x++;
+
+                        if (x == 1000)
+                            break;
+                    }
+                }
+            }
+        }
+
+        private async void GenerateLinesForMessages()
+        {
+            string path = (Environment.CurrentDirectory + "\\APBGame\\Localization\\GER\\HUDMessages.GER");
+            if (File.Exists(path))
+            {
+                using (StreamWriter sw = File.CreateText(path))
+                {
+                    int x = 0;
+
+                    while (true)
+                    {
+                        sw.WriteLine(System.Environment.NewLine);
+                        x++;
+
+                        if (x == 1000)
+                            break;
+                    }
+                }
+            }
+        }
 
         // ===================================================== SAVE =====================================================
         private void saveBtn_Click(object sender, RoutedEventArgs e)
         {
+
             // ================================================== Killfeed Below ==================================================
             string[] contentsKillfeedB = File.ReadAllLines(Environment.CurrentDirectory + "\\APBGame\\Localization\\GER\\HUDCombatMessages.GER");
 
@@ -1598,7 +1641,7 @@ namespace CLauncher2._0.Configs
 
             contentsKillfeedB[270] = "HUDCombatMessages_Minigame_Mugging_Easter_ItemsDeliveredScore_Line0=" + Color_EnemyKill + "Eggs Delivered" + ColorEnd;
             contentsKillfeedB[271] = "HUDCombatMessages_Minigame_Mugging_Easter_ItemsDeliveredScore_Line2=" + Color_EnemyKill + "Minigame Objective Complete" + ColorEnd;
-            File.WriteAllLines(Environment.CurrentDirectory + "\\APBGame\\Localization\\GER\\HUDCombatMessages.GER", contentsKillfeedB);
+            File.WriteAllLines(Environment.CurrentDirectory + "\\APBGame\\Localization\\GER\\HUDCombatMessages.GER", contentsKillfeedB, Encoding.Unicode);
 
 
             // ================================================== Killfeed ==================================================
@@ -1625,12 +1668,12 @@ namespace CLauncher2._0.Configs
             contentsKillfeed[140] = "HUDMessages_AM_CombatSuicideTeam_DisplayText=" + "<hudtexture:KillIcon_Generic> " + Color_Team + "<CharacterNameA>" + ColorEnd;
             contentsKillfeed[142] = "HUDMessages_AM_CombatTKOpp_DisplayText=" + Color_Enemy + "<KillerCharacterName>" + ColorEnd + Color_Assist + " <KillerAssistName> " + ColorEnd + "<WeaponIcon> " + Color_Enemy + "<KilledCharacterName>" + ColorEnd;
             contentsKillfeed[144] = "HUDMessages_AM_CombatTKOppOther_DisplayText=" + Color_Enemy + "<KillerCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Generic> " + Color_Enemy + "<KilledCharacterName>" + ColorEnd;
-            contentsKillfeed[146] = "HUDMessages_AM_CombatTKTeam_DisplayText=" + Color_Team + "<KillerCharacterName>" + ColorEnd + " " + Color_Assist + "<KillerAssistName>" + ColorEnd + "<WeaponIcon>" + Color_Team + "<KillerCharacterName>" + ColorEnd;
+            contentsKillfeed[146] = "HUDMessages_AM_CombatTKTeam_DisplayText=" + Color_Team + "<KillerCharacterName>" + ColorEnd + " " + Color_Assist + "<KillerAssistName>" + ColorEnd + "<WeaponIcon>" + Color_Team + "<KilledCharacterName>" + ColorEnd;
             contentsKillfeed[148] = "HUDMessages_AM_CombatTKTeamOther_Display=" + Color_Team + "<KillerCharacterName>" + ColorEnd + " <hudtexture:KillIcon_Generic> " + Color_Team + "<KilledCharacterName>" + ColorEnd;
-            contentsKillfeed[172] = "HUDMessages_AM_Combat_DeathMsg_KillWeapon_DisplayText=" + "<WeaponIcon> " + "↵Killed By↵" + Color_Enemy + "<CharacterNameA>↵" + ColorEnd + Color_Assist + "<KillerAssistName>" + ColorEnd;
-            contentsKillfeed[174] = "HUDMessages_AM_Combat_DeathMsg_Suicide_DisplayText=" + "<hudtexture:KillIcon_Generic>" + Color_Team + "↵Suicide" + ColorEnd;
-            contentsKillfeed[176] = "HUDMessages_AM_Combat_DeathMsg_TK_DisplayText=" + "<WeaponIcon>" + "↵Killed By↵" + Color_Team + "<CharacterNameA>" + ColorEnd + "↵" + Color_Assist + "<KillerAssistName>" + ColorEnd;
-            File.WriteAllLines(Environment.CurrentDirectory + "\\APBGame\\Localization\\GER\\HUDMessages.GER", contentsKillfeed);
+            contentsKillfeed[172] = "HUDMessages_AM_Combat_DeathMsg_KillWeapon_DisplayText=" + "<WeaponIcon> " + Color_Enemy + "\u21B5" + Enemy_Killed + "\u21B5" + "<CharacterNameA>\u21B5" + ColorEnd + Color_Assist + "<KillerAssistName>" + ColorEnd;
+            contentsKillfeed[174] = "HUDMessages_AM_Combat_DeathMsg_Suicide_DisplayText=" + "<hudtexture:KillIcon_Generic>" + Color_Team + "\u21B5Suicide" + ColorEnd;
+            contentsKillfeed[176] = "HUDMessages_AM_Combat_DeathMsg_TK_DisplayText=" + "<WeaponIcon>" + Color_Team + "\u21B5" + Team_Killed + "\u21B5" + "<CharacterNameA>" + ColorEnd + "\u21B5" + Color_Assist + "<KillerAssistName>" + ColorEnd;
+            File.WriteAllLines(Environment.CurrentDirectory + "\\APBGame\\Localization\\GER\\HUDMessages.GER", contentsKillfeed, Encoding.Unicode);
 
 
 

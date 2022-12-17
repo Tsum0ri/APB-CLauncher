@@ -1,0 +1,237 @@
+﻿<Page x:Class="CLauncher2._0.Settings.site_main_settings"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CLauncher2._0.Settings"
+      mc:Ignorable="d" 
+      d:DesignHeight="714" d:DesignWidth="1306"
+      Title="site_main_settings">
+
+    <Grid>
+        <Grid Margin="0,0,1186,0">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Settings/Settings_Panel_BG.png" Opacity="0.5"/>
+            </Grid.Background>
+            <StackPanel/>
+            <ListView  x:Name="LV"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Center" Width="116" Margin="-2,0,0,0">
+
+                <!--// Listview items style template //-->
+
+                <ListView.ItemContainerStyle>
+
+                    <Style TargetType="{x:Type ListViewItem}">
+
+                        <Setter Property="Template">
+
+                            <Setter.Value>
+
+                                <ControlTemplate TargetType="{x:Type ListViewItem}">
+
+                                    <Border x:Name="Bd"
+                                        Height="50"
+                                        BorderBrush="{TemplateBinding BorderBrush}"
+                                        BorderThickness="{TemplateBinding BorderThickness}"
+                                        Background="{TemplateBinding Background}"
+                                        Padding="{TemplateBinding Padding}"
+                                        SnapsToDevicePixels="True">
+
+                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                            SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                            VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+
+                                    </Border>
+
+                                    <ControlTemplate.Triggers>
+
+                                        <MultiTrigger>
+
+                                            <MultiTrigger.Conditions>
+
+                                                <Condition Property="IsMouseOver" Value="True"/>
+
+                                            </MultiTrigger.Conditions>
+
+                                            <Setter Property="Background"
+                                                TargetName="Bd">
+                                                <Setter.Value>
+                                                    <LinearGradientBrush>
+                                                        <GradientStop Color="#000C368A" Offset="0.995"/>
+                                                        <GradientStop Color="#4CFB0E85" Offset="0.221"/>
+                                                    </LinearGradientBrush>
+                                                </Setter.Value>
+                                            </Setter>
+
+                                            <Setter Property="BorderBrush"
+                                                TargetName="Bd">
+                                                <Setter.Value>
+                                                    <LinearGradientBrush>
+                                                        <GradientStop Color="#000C368A" Offset="0.995"/>
+                                                        <GradientStop Color="#19FFFFFF" Offset="0.221"/>
+                                                    </LinearGradientBrush>
+                                                </Setter.Value>
+                                            </Setter>
+
+                                        </MultiTrigger>
+
+                                    </ControlTemplate.Triggers>
+
+                                </ControlTemplate>
+
+                            </Setter.Value>
+
+                        </Setter>
+
+                    </Style>
+
+                </ListView.ItemContainerStyle>
+
+                <!--// Home //-->
+
+                <ListViewItem x:Name="Ingame_Btn" HorizontalAlignment="Left"
+                    Margin="0,0,0,15" MouseLeftButtonUp="Ingame_Btn_MouseLeftButtonUp">
+
+
+
+                    <StackPanel Orientation="Horizontal"
+                        Width="107">
+
+                        <TextBlock Text="IN-GAME"
+                            Margin="10,5,0,5"
+                            FontFamily="{StaticResource Purista}" Foreground="White" FontWeight="SemiBold" FontSize="18"/>
+
+                    </StackPanel>
+
+                </ListViewItem>
+
+                <!--// OPTIONS //-->
+
+                <ListViewItem x:Name="Settings_Btn" HorizontalAlignment="Left"
+                    Margin="0,0,0,15" Background="#00484848" MouseLeftButtonUp="Settings_Btn_MouseLeftButtonUp"
+                                      >
+
+                    <!--// Tooltip //-->
+
+                    <ListViewItem.ToolTip>
+
+                        <ToolTip x:Name="tt_setting"
+                            Content="Settings"
+                            FontFamily="{StaticResource Purista}"/>
+
+                    </ListViewItem.ToolTip>
+
+                    <StackPanel Orientation="Horizontal"
+                        Width="102">
+
+                        <TextBlock Text="OPTIONS"
+                            Margin="10,5,0,5"
+                            FontFamily="{StaticResource Purista}" Foreground="White" FontWeight="SemiBold" FontSize="18" Width="91"/>
+
+                    </StackPanel>
+
+                </ListViewItem>
+
+                <!--// TEXTURES //-->
+
+                <ListViewItem x:Name="Textures_Btn" HorizontalAlignment="Left"
+                    Margin="0,0,0,15" Background="#00484848" MouseLeftButtonUp="Textures_Btn_MouseLeftButtonUp"
+                                      >
+
+                    <!--// Tooltip //-->
+
+                    <ListViewItem.ToolTip>
+                        <ToolTip x:Name="tt_textures"
+                            Content="TEXTURES"
+                            FontFamily="{StaticResource Purista}"/>
+
+                    </ListViewItem.ToolTip>
+
+                    <StackPanel Orientation="Horizontal"
+                        Width="102">
+
+                        <TextBlock Text="TEXTURES"
+                            Margin="10,5,0,5"
+                            FontFamily="{StaticResource Purista}" Foreground="White" FontWeight="SemiBold" FontSize="18"/>
+
+                    </StackPanel>
+
+                </ListViewItem>
+
+
+
+
+                <!--// Input //-->
+
+                <ListViewItem x:Name="LOD_Btn" HorizontalAlignment="Left"
+                    Margin="0,0,0,15" Background="#00484848" MouseLeftButtonUp="Lod_Btn_MouseLeftButtonUp" IsEnabled="True"
+                                      >
+
+                    <!--// Tooltip //-->
+
+                    <ListViewItem.ToolTip>
+
+                        <ToolTip x:Name="tt_LOD"
+                            Content="LOD"
+                            FontFamily="{StaticResource Purista}"/>
+
+                    </ListViewItem.ToolTip>
+
+                    <StackPanel Orientation="Horizontal"
+                        Width="102">
+
+                        <TextBlock Text="LOD"
+                            Margin="10,5,0,5"
+                            FontFamily="{StaticResource Purista}" Foreground="White" FontWeight="SemiBold" FontSize="18"/>
+
+                    </StackPanel>
+
+
+
+                </ListViewItem>
+
+
+                <!--// Input //-->
+
+                <ListViewItem x:Name="Input_Btn" HorizontalAlignment="Left"
+                    Margin="0,0,0,15" Background="#00484848" MouseLeftButtonUp="Input_Btn_MouseLeftButtonUp" IsEnabled="False" Opacity="0.25"
+                                      >
+
+                    <!--// Tooltip //-->
+
+                    <ListViewItem.ToolTip>
+
+                        <ToolTip x:Name="tt_input"
+                            Content="INPUT"
+                            FontFamily="{StaticResource Purista}"/>
+
+                    </ListViewItem.ToolTip>
+
+                    <StackPanel Orientation="Horizontal"
+                        Width="102">
+
+                        <TextBlock Text="INPUT"
+                            Margin="10,5,0,5"
+                            FontFamily="{StaticResource Purista}" Foreground="White" FontWeight="SemiBold" FontSize="18"/>
+
+                    </StackPanel>
+
+
+
+                </ListViewItem>
+
+
+
+
+
+
+
+
+            </ListView>
+        </Grid>
+        <Frame x:Name="site_settings" Content="Frame" Margin="120,0,0,0" NavigationUIVisibility="Hidden" Background="#00000000"/>
+
+    </Grid>
+</Page>

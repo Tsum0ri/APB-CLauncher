@@ -1,0 +1,45 @@
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\bin\Release\net48\APB CLauncher.exe.config
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\bin\Release\net48\APB CLauncher.exe
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\bin\Release\net48\APB CLauncher.pdb
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\CLauncher2.0.csproj.SuggestedBindingRedirects.cache
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Configs\site_c-pre.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\ConfigWindow.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\frmPatcher.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\MainWindow.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\SettingsWindow.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Settings\site_ingame.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Settings\site_s-other.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Settings\site_s-settings.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Settings\site_textures.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Site_Home.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Site_Info.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Site_Settings.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\SplashScreen.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\App.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\APB CLauncher_Content.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\APB CLauncher_MarkupCompile.cache
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\APB CLauncher_MarkupCompile.lref
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Configs\site_c-pre.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\ConfigWindow.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\frmPatcher.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\MainWindow.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\SettingsWindow.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Settings\site_ingame.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Settings\site_s-other.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Settings\site_s-settings.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Settings\site_textures.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Site_Home.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Site_Info.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Site_Settings.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\SplashScreen.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\APB CLauncher.g.resources
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\CLauncher2.0.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\CLauncher2.0.AssemblyInfoInputs.cache
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\CLauncher2.0.AssemblyInfo.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\CLauncher2.0.csproj.CoreCompileInputs.cache
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\CLauncher2.0.csproj.Fody.CopyLocal.cache
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\APB CLauncher.exe
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\APB CLauncher.pdb
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\CLauncher2.0.csproj.AssemblyReference.cache
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Configs\site_c-mission.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Release\net48\Configs\site_c-mission.baml

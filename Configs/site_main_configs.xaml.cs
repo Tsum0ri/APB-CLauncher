@@ -33,7 +33,7 @@ namespace CLauncher2._0.Configs
 
         private void Description_Btn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            site_configs.Content = new site_wip();
+            site_configs.Content = new site_c_description();
         }
 
         private void Killfeed_Btn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -43,7 +43,7 @@ namespace CLauncher2._0.Configs
 
         private void Other_Btn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            site_configs.Content = new Configs.site_c_other();
+            site_configs.Content = new site_wip();
         }
 
         private void Pre_Btn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)

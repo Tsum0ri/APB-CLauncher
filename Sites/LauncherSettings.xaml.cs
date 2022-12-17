@@ -17,7 +17,7 @@ namespace CLauncher2._0
     /// <summary>
     /// Interaktionslogik für LauncherSettings.xaml
     /// </summary>
-    public partial class LauncherSettings : Window
+    public partial class LauncherSettings : System.Windows.Window
     {
         public LauncherSettings()
         {

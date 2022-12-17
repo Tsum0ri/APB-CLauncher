@@ -185,6 +185,7 @@ namespace CLauncher2._0.Configs
             contents_mission[15] = "MissionTemplates_JG_BEL2_AGr2_MissionTitle=<Color:>" + "[" + ColorLeft_TDM + TDM + ColorRight_TDM + "]" + " - DARING DEEDS";
             contents_mission[16] = "MissionTemplates_JG_BEM2_Inv1_MissionTitle=<Color:>" + "[" + ColorLeft_TDM + TDM + ColorRight_TDM + "]" + " - SEEK AND DEFUSE";
             contents_mission[17] = "MissionTemplates_JG_BEM3_Dis1_MissionTitle=<Color:>" + "[" + ColorLeft_TDM + TDM + ColorRight_TDM + "]" + " - PAINTING THE APOCOLYPSE";
+
             //Takeover
             contents_mission[18] = "MissionTemplates_DB_BCM2_Vlo1_MissionTitle=<Color:>" + "[" + ColorLeft_Takeover + Takeover + ColorRight_Takeover + "]" + " - GUN RUN GANG";
             contents_mission[19] = "MissionTemplates_JG_BCL1_Ars1_B_MissionTitle=<Color:>" + "[" + ColorLeft_Takeover + Takeover + ColorRight_Takeover + "]" + " - LOOK AT ME, LOOK AT ME";
@@ -206,6 +207,7 @@ namespace CLauncher2._0.Configs
             contents_mission[35] = "MissionTemplates_JG_BEM2_VPi1_MissionTitle=<Color:>" + "[" + ColorLeft_Takeover + Takeover + ColorRight_Takeover + "]" + " - PICKUP PICK-UP";
             contents_mission[36] = "MissionTemplates_JG_BES2_Dis1_MissionTitle=<Color:>" + "[" + ColorLeft_Takeover + Takeover + ColorRight_Takeover + "]" + " - FEELING INSECURE";
             contents_mission[37] = "MissionTemplates_JG_BES2_Inv1_MissionTitle=<Color:>" + "[" + ColorLeft_Takeover + Takeover + ColorRight_Takeover + "]" + " - URANIUM IS SHOWING";
+
             //VIP
             contents_mission[38] = "MissionTemplates_AE_BCL4_BoB4_MissionTitle=<Color:>" + "[" + ColorLeft_VIP + VIP + ColorRight_VIP + "]" + " - DR. BORIOUS'S SNAKE OIL";
             contents_mission[39] = "MissionTemplates_DB_BCM1_Del1_B_MissionTitle=<Color:>" + "[" + ColorLeft_VIP + VIP + ColorRight_VIP + "]" + " - WAR OF THE WAGGLE";
@@ -222,35 +224,37 @@ namespace CLauncher2._0.Configs
             contents_mission[50] = "MissionTemplates_DB_BEM0_Pic1_T_MissionTitle=<Color:>" + "[" + ColorLeft_VIP + VIP + ColorRight_VIP + "]" + " - NOPE 2 DOPE";
             contents_mission[51] = "MissionTemplates_DB_BEM2_Del1_MissionTitle=<Color:>" + "[" + ColorLeft_VIP + VIP + ColorRight_VIP + "]" + " - INTELLIGENCE GATHERING";
             contents_mission[52] = "MissionTemplates_JG_BCL4_Ars1_MissionTitle=<Color:>" + "[" + ColorLeft_VIP + VIP + ColorRight_VIP + "]" + " - SIDE EFFECTS MAY VARY";
+
             //ItemHold #!!!!!!!!!
-            contents_mission[53] = "MissionTemplates_AE_BEL0_Inv3_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - CHINA BLUES";
-            contents_mission[54] = "MissionTemplates_AE_BEM0_Inv7_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - WORKIN' LIKE A DOGGI";
-            contents_mission[55] = "MissionTemplates_DB_BCL0_VTh1_B_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - SPARE WHEELS";
-            contents_mission[56] = "MissionTemplates_DB_BCL0_VTh1_G_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - SKIDMARKS";
-            contents_mission[57] = "MissionTemplates_DB_BEL0_Del1_P_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - DEALER BUSTS";
-            contents_mission[58] = "MissionTemplates_DB_BEL0_Del1_T_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - JUMP THE FENCE";
-            contents_mission[59] = "MissionTemplates_DB_BEL3_Del1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - SOME CONVENIENT PROOF";
-            contents_mission[60] = "MissionTemplates_DB_BES0_Del2_P_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - ORGAN GRINDER";
-            contents_mission[61] = "MissionTemplates_DB_BES0_Del2_T_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - NO GUTS, NO GORY";
-            contents_mission[62] = "MissionTemplates_DB_BES0_Inv2_P_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - EXPLOSIVE INVESTIGATION";
-            contents_mission[63] = "MissionTemplates_DB_BES0_Inv2_T_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - MORTARGATE";
-            contents_mission[64] = "MissionTemplates_DB_BES3_Pic1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - UNDERCOVER RUNNER";
-            contents_mission[65] = "MissionTemplates_JG_BCL0_VTh1_G_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " -DELIVER THE LIVER";
-            contents_mission[66] = "MissionTemplates_JG_BCL2_VLo1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - STEREO TYPES";
-            contents_mission[67] = "MissionTemplates_JG_BCL3_Exemplar_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - DIRTY WHITE COLLARS";
-            contents_mission[68] = "MissionTemplates_JG_BCM0_Bur1_B_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - THE PRICE OF FAME";
-            contents_mission[69] = "MissionTemplates_JG_BCM0_Bur1_G_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - CLEANING UP CONTROVERSY";
-            contents_mission[70] = "MissionTemplates_JG_BCM2_Bur1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - BUTTON MASHERS";
-            contents_mission[71] = "MissionTemplates_JG_BCM3_Exemplar_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - DON'T DRINK THE WATER";
-            contents_mission[72] = "MissionTemplates_JG_BCS0_VCa1_B_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - DO THE GAS CASH MASH";
-            contents_mission[73] = "MissionTemplates_JG_BCS0_VCa1_G_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - ROUTERS AND SHOOTERS";
-            contents_mission[74] = "MissionTemplates_JG_BCS3_Bur1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - OPAL ROUTES";
-            contents_mission[75] = "MissionTemplates_JG_BCS3_Exemplar_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - OPEN AND SHUT VIP";
-            contents_mission[76] = "MissionTemplates_JG_BEL2_FoE2_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorLeft_ItemHold + "]" + " - BUGGING OUT";
+            contents_mission[53] = "MissionTemplates_AE_BEL0_Inv3_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - CHINA BLUES";
+            contents_mission[54] = "MissionTemplates_AE_BEM0_Inv7_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - WORKIN' LIKE A DOGGI";
+            contents_mission[55] = "MissionTemplates_DB_BCL0_VTh1_B_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - SPARE WHEELS";
+            contents_mission[56] = "MissionTemplates_DB_BCL0_VTh1_G_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - SKIDMARKS";
+            contents_mission[57] = "MissionTemplates_DB_BEL0_Del1_P_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - DEALER BUSTS";
+            contents_mission[58] = "MissionTemplates_DB_BEL0_Del1_T_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - JUMP THE FENCE";
+            contents_mission[59] = "MissionTemplates_DB_BEL3_Del1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - SOME CONVENIENT PROOF";
+            contents_mission[60] = "MissionTemplates_DB_BES0_Del2_P_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - ORGAN GRINDER";
+            contents_mission[61] = "MissionTemplates_DB_BES0_Del2_T_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - NO GUTS, NO GORY";
+            contents_mission[62] = "MissionTemplates_DB_BES0_Inv2_P_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - EXPLOSIVE INVESTIGATION";
+            contents_mission[63] = "MissionTemplates_DB_BES0_Inv2_T_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - MORTARGATE";
+            contents_mission[64] = "MissionTemplates_DB_BES3_Pic1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - UNDERCOVER RUNNER";
+            contents_mission[65] = "MissionTemplates_JG_BCL0_VTh1_G_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " -DELIVER THE LIVER";
+            contents_mission[66] = "MissionTemplates_JG_BCL2_VLo1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - STEREO TYPES";
+            contents_mission[67] = "MissionTemplates_JG_BCL3_Exemplar_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - DIRTY WHITE COLLARS";
+            contents_mission[68] = "MissionTemplates_JG_BCM0_Bur1_B_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - THE PRICE OF FAME";
+            contents_mission[69] = "MissionTemplates_JG_BCM0_Bur1_G_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - CLEANING UP CONTROVERSY";
+            contents_mission[70] = "MissionTemplates_JG_BCM2_Bur1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - BUTTON MASHERS";
+            contents_mission[71] = "MissionTemplates_JG_BCM3_Exemplar_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - DON'T DRINK THE WATER";
+            contents_mission[72] = "MissionTemplates_JG_BCS0_VCa1_B_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - DO THE GAS CASH MASH";
+            contents_mission[73] = "MissionTemplates_JG_BCS0_VCa1_G_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - ROUTERS AND SHOOTERS";
+            contents_mission[74] = "MissionTemplates_JG_BCS3_Bur1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - OPAL ROUTES";
+            contents_mission[75] = "MissionTemplates_JG_BCS3_Exemplar_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - OPEN AND SHUT VIP";
+            contents_mission[76] = "MissionTemplates_JG_BEL2_FoE2_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - BUGGING OUT";
             contents_mission[77] = "MissionTemplates_JG_BEL2_VPi1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - POLITICAL FAVOR";
             contents_mission[78] = "MissionTemplates_JG_BEL4_Inv2_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - MANILA VICE";
             contents_mission[79] = "MissionTemplates_JG_BEM2_FoE1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - RAID AND RECOVERY";
             contents_mission[80] = "MissionTemplates_JG_BES2_FoE1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemHold + ItemHold + ColorRight_ItemHold + "]" + " - SAFEHOUSE CALLS";
+
             //ItemDrop
             contents_mission[81] = "MissionTemplates_AE_BES4_Inv5_MissionTitle=<Color:>" + "[" + ColorLeft_ItemDrop + ItemDrop + ColorRight_ItemDrop + "]" + " - DIRTY BUSINESS";
             contents_mission[82] = "MissionTemplates_DB_BCL3_Pic1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemDrop + ItemDrop + ColorRight_ItemDrop + "]" + " - NOT IN MY BACKYARD";
@@ -290,6 +294,7 @@ namespace CLauncher2._0.Configs
             contents_mission[116] = "MissionTemplates_JG_BEM1_FoE1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemDrop + ItemDrop + ColorRight_ItemDrop + "]" + " - TOP COP CHOP-SHOP SHOCK";
             contents_mission[117] = "MissionTemplates_JG_BEM4_Dis1_MissionTitle=<Color:>" + "[" + ColorLeft_ItemDrop + ItemDrop + ColorRight_ItemDrop + "]" + " - DIVIDE AND CONQUER";
             contents_mission[118] = "MissionTemplates_JG_BES4_FoE2_MissionTitle=<Color:>" + "[" + ColorLeft_ItemDrop + ItemDrop + ColorRight_ItemDrop + "]" + " - FORT KNOX HARD KNOCKS";
+
             //SPRAY
             contents_mission[119] = "MissionTemplates_DB_BCL0_Gra2_MissionTitle=<Color:>" + "[" + ColorLeft_Spray + Spray + ColorRight_Spray + "]" + " - THE ARTISTRY OF THE SPRAYCAN";
             contents_mission[120] = "MissionTemplates_DB_BCL0_Van1_B_MissionTitle=<Color:>" + "[" + ColorLeft_Spray + Spray + ColorRight_Spray + "]" + " - NO SERVICE? NO STORE!";
@@ -302,6 +307,7 @@ namespace CLauncher2._0.Configs
             contents_mission[127] = "MissionTemplates_DB_BES0_For1_T_MissionTitle=<Color:>" + "[" + ColorLeft_Spray + Spray + ColorRight_Spray + "]" + " - GOING ALL THE WAY";
             contents_mission[128] = "MissionTemplates_JG_BCL0_Gra1_B_MissionTitle=<Color:>" + "[" + ColorLeft_Spray + Spray + ColorRight_Spray + "]" + " - BLIND JUSTICE";
             contents_mission[129] = "MissionTemplates_JG_BCL0_Gra1_G_MissionTitle=<Color:>" + "[" + ColorLeft_Spray + Spray + ColorRight_Spray + "]" + " - BLIND JUSTICE";
+
             //CAPTURE
             contents_mission[130] = "MissionTemplates_AE_BCS0_Ter1_B_MissionTitle=<Color:>" + "[" + ColorLeft_Capture + Capture + ColorRight_Capture + "]" + " - GANGLAND ANNEXATION";
             contents_mission[131] = "MissionTemplates_AE_BCS0_Ter1_G_MissionTitle=<Color:>" + "[" + ColorLeft_Capture + Capture + ColorRight_Capture + "]" + " - ORDERS FROM ON HIGH";
@@ -521,37 +527,37 @@ namespace CLauncher2._0.Configs
             //Red
             if (this.tdmComboBox.SelectedIndex == 0)
             {
-                    ColorLeft_TDM = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.6 G=0.0 B=0.0>";
+                    ColorLeft_TDM = "<Color:R=0.882 G=0.0 B=0.0>";
                     ColorRight_TDM = "<Color:/>";
             }
             //Blue
            else if (this.tdmComboBox.SelectedIndex == 1)
             {
-                ColorLeft_TDM = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.3 B=0.7>";
+                ColorLeft_TDM = "<Color:R=0 G=0.3 B=0.7>";
                 ColorRight_TDM = "<Color:/>";
             }
             //Green
             else if (this.tdmComboBox.SelectedIndex == 2)
             {
-                ColorLeft_TDM = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.9 B=0>";
+                ColorLeft_TDM = "<Color:R=0 G=0.9 B=0>";
                 ColorRight_TDM = "<Color:/>";
             }
             //Yellow
             else if (this.tdmComboBox.SelectedIndex == 3)
             {
-                ColorLeft_TDM = "<Color:R=1 G=1 B=1>5<Color:/>:<Color:R=0.6 G=0.2 B=0.0>";
+                ColorLeft_TDM = "<Color:R=0.6 G=0.2 B=0.0>";
                 ColorRight_TDM = "<Color:/>";
             }
             //Turquoise
             else if (this.tdmComboBox.SelectedIndex == 4)
             {
-                ColorLeft_TDM = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.0 G=0.4 B=0.6>";
+                ColorLeft_TDM = "<Color:R=0.0 G=0.4 B=0.6>";
                 ColorRight_TDM = "<Color:/>";
             }
             //Pink
             else if (this.tdmComboBox.SelectedIndex == 5)
             {
-                ColorLeft_TDM = "<Color:R=1 G=1 B=1>7<Color:/>:<Color:R=0.6 G=0.0 B=0.7>";
+                ColorLeft_TDM = "<Color:R=0.6 G=0.0 B=0.7>";
                 ColorRight_TDM = "<Color:/>";
             }
             //None
@@ -567,37 +573,37 @@ namespace CLauncher2._0.Configs
             //Red
             if (this.takeoverComboBox.SelectedIndex == 0)
             {
-                ColorLeft_Takeover = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.6 G=0.0 B=0.0>";
+                ColorLeft_Takeover = "<Color:R=0.882 G=0.0 B=0.0>";
                 ColorRight_Takeover = "<Color:/>";
             }
             //Blue
             else if (this.takeoverComboBox.SelectedIndex == 1)
             {
-                ColorLeft_Takeover = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.3 B=0.7>";
+                ColorLeft_Takeover = "<Color:R=0 G=0.3 B=0.7>";
                 ColorRight_Takeover = "<Color:/>";
             }
             //Green
             else if (this.takeoverComboBox.SelectedIndex == 2)
             {
-                ColorLeft_Takeover = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.9 B=0>";
+                ColorLeft_Takeover = "<Color:R=0 G=0.9 B=0>";
                 ColorRight_Takeover = "<Color:/>";
             }
             //Yellow
             else if (this.takeoverComboBox.SelectedIndex == 3)
             {
-                ColorLeft_Takeover = "<Color:R=1 G=1 B=1>5<Color:/>:<Color:R=0.6 G=0.2 B=0.0>";
+                ColorLeft_Takeover = "<Color:R=0.6 G=0.2 B=0.0>";
                 ColorRight_Takeover = "<Color:/>";
             }
             //Turquoise
             else if (this.takeoverComboBox.SelectedIndex == 4)
             {
-                ColorLeft_Takeover = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.0 G=0.4 B=0.6>";
+                ColorLeft_Takeover = "<Color:R=0.0 G=0.4 B=0.6>";
                 ColorRight_Takeover = "<Color:/>";
             }
             //Pink
             else if (this.takeoverComboBox.SelectedIndex == 5)
             {
-                ColorLeft_Takeover = "<Color:R=1 G=1 B=1>7<Color:/>:<Color:R=0.6 G=0.0 B=0.7>";
+                ColorLeft_Takeover = "<Color:R=0.6 G=0.0 B=0.7>";
                 ColorRight_Takeover = "<Color:/>";
             }
             //None
@@ -613,37 +619,37 @@ namespace CLauncher2._0.Configs
             //Red
             if (this.vipComboBox.SelectedIndex == 0)
             {
-                ColorLeft_VIP = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.6 G=0.0 B=0.0>";
+                ColorLeft_VIP = "<Color:R=0.6 G=0.0 B=0.0>";
                 ColorRight_VIP = "<Color:/>";
             }
             //Blue
             else if (this.vipComboBox.SelectedIndex == 1)
             {
-                ColorLeft_VIP = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.3 B=0.7>";
+                ColorLeft_VIP = "<Color:R=0 G=0.3 B=0.7>";
                 ColorRight_VIP = "<Color:/>";
             }
             //Green
             else if (this.vipComboBox.SelectedIndex == 2)
             {
-                ColorLeft_VIP = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.9 B=0>";
+                ColorLeft_VIP = "<Color:R=0 G=0.9 B=0>";
                 ColorRight_VIP = "<Color:/>";
             }
             //Yellow
             else if (this.vipComboBox.SelectedIndex == 3)
             {
-                ColorLeft_VIP = "<Color:R=1 G=1 B=1>5<Color:/>:<Color:R=0.6 G=0.2 B=0.0>";
+                ColorLeft_VIP = "<Color:R=0.6 G=0.2 B=0.0>";
                 ColorRight_VIP = "<Color:/>";
             }
             //Turquoise
             else if (this.vipComboBox.SelectedIndex == 4)
             {
-                ColorLeft_VIP = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.0 G=0.4 B=0.6>";
+                ColorLeft_VIP = "<Color:R=0.0 G=0.4 B=0.6>";
                 ColorRight_VIP = "<Color:/>";
             }
             //Pink
             else if (this.vipComboBox.SelectedIndex == 5)
             {
-                ColorLeft_VIP = "<Color:R=1 G=1 B=1>7<Color:/>:<Color:R=0.6 G=0.0 B=0.7>";
+                ColorLeft_VIP = "<Color:R=0.6 G=0.0 B=0.7>";
                 ColorRight_VIP = "<Color:/>";
             }
             //None
@@ -659,37 +665,37 @@ namespace CLauncher2._0.Configs
             //Red
             if (this.holdComboBox.SelectedIndex == 0)
             {
-                ColorLeft_ItemHold = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.6 G=0.0 B=0.0>";
+                ColorLeft_ItemHold = "<Color:R=0.6 G=0.0 B=0.0>";
                 ColorRight_ItemHold = "<Color:/>";
             }
             //Blue
             else if (this.holdComboBox.SelectedIndex == 1)
             {
-                ColorLeft_ItemHold = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.3 B=0.7>";
+                ColorLeft_ItemHold = "<Color:R=0 G=0.3 B=0.7>";
                 ColorRight_ItemHold = "<Color:/>";
             }
             //Green
             else if (this.holdComboBox.SelectedIndex == 2)
             {
-                ColorLeft_ItemHold = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.9 B=0>";
+                ColorLeft_ItemHold = "<Color:R=0 G=0.9 B=0>";
                 ColorRight_ItemHold = "<Color:/>";
             }
             //Yellow
             else if (this.holdComboBox.SelectedIndex == 3)
             {
-                ColorLeft_ItemHold = "<Color:R=1 G=1 B=1>5<Color:/>:<Color:R=0.6 G=0.2 B=0.0>";
+                ColorLeft_ItemHold = "<Color:R=0.6 G=0.2 B=0.0>";
                 ColorRight_ItemHold = "<Color:/>";
             }
             //Turquoise
             else if (this.holdComboBox.SelectedIndex == 4)
             {
-                ColorLeft_ItemHold = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.0 G=0.4 B=0.6>";
+                ColorLeft_ItemHold = "<Color:R=0.0 G=0.4 B=0.6>";
                 ColorRight_ItemHold = "<Color:/>";
             }
             //Pink
             else if (this.holdComboBox.SelectedIndex == 5)
             {
-                ColorLeft_ItemHold = "<Color:R=1 G=1 B=1>7<Color:/>:<Color:R=0.6 G=0.0 B=0.7>";
+                ColorLeft_ItemHold = "<Color:R=0.6 G=0.0 B=0.7>";
                 ColorRight_ItemHold = "<Color:/>";
             }
             //None
@@ -705,37 +711,37 @@ namespace CLauncher2._0.Configs
             //Red
             if (this.dropComboBox.SelectedIndex == 0)
             {
-                ColorLeft_ItemDrop = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.6 G=0.0 B=0.0>";
+                ColorLeft_ItemDrop = "<Color:R=0.6 G=0.0 B=0.0>";
                 ColorRight_ItemDrop = "<Color:/>";
             }
             //Blue
             else if (this.dropComboBox.SelectedIndex == 1)
             {
-                ColorLeft_ItemDrop = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.3 B=0.7>";
+                ColorLeft_ItemDrop = "<Color:R=0 G=0.3 B=0.7>";
                 ColorRight_ItemDrop = "<Color:/>";
             }
             //Green
             else if (this.dropComboBox.SelectedIndex == 2)
             {
-                ColorLeft_ItemDrop = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.9 B=0>";
+                ColorLeft_ItemDrop = "<Color:R=0 G=0.9 B=0>";
                 ColorRight_ItemDrop = "<Color:/>";
             }
             //Yellow
             else if (this.dropComboBox.SelectedIndex == 3)
             {
-                ColorLeft_ItemDrop = "<Color:R=1 G=1 B=1>5<Color:/>:<Color:R=0.6 G=0.2 B=0.0>";
+                ColorLeft_ItemDrop = "<Color:R=0.6 G=0.2 B=0.0>";
                 ColorRight_ItemDrop = "<Color:/>";
             }
             //Turquoise
             else if (this.dropComboBox.SelectedIndex == 4)
             {
-                ColorLeft_ItemDrop = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.0 G=0.4 B=0.6>";
+                ColorLeft_ItemDrop = "<Color:R=0.0 G=0.4 B=0.6>";
                 ColorRight_ItemDrop = "<Color:/>";
             }
             //Pink
             else if (this.dropComboBox.SelectedIndex == 5)
             {
-                ColorLeft_ItemDrop = "<Color:R=1 G=1 B=1>7<Color:/>:<Color:R=0.6 G=0.0 B=0.7>";
+                ColorLeft_ItemDrop = "<Color:R=0.6 G=0.0 B=0.7>";
                 ColorRight_ItemDrop = "<Color:/>";
             }
             //None
@@ -751,37 +757,37 @@ namespace CLauncher2._0.Configs
             //Red
             if (this.sprayComboBox.SelectedIndex == 0)
             {
-                ColorLeft_Spray = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.6 G=0.0 B=0.0>";
+                ColorLeft_Spray = "<Color:R=0.6 G=0.0 B=0.0>";
                 ColorRight_Spray = "<Color:/>";
             }
             //Blue
             else if (this.sprayComboBox.SelectedIndex == 1)
             {
-                ColorLeft_Spray = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.3 B=0.7>";
+                ColorLeft_Spray = "<Color:R=0 G=0.3 B=0.7>";
                 ColorRight_Spray = "<Color:/>";
             }
             //Green
             else if (this.sprayComboBox.SelectedIndex == 2)
             {
-                ColorLeft_Spray = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.9 B=0>";
+                ColorLeft_Spray = "<Color:R=0 G=0.9 B=0>";
                 ColorRight_Spray = "<Color:/>";
             }
             //Yellow
             else if (this.sprayComboBox.SelectedIndex == 3)
             {
-                ColorLeft_Spray = "<Color:R=1 G=1 B=1>5<Color:/>:<Color:R=0.6 G=0.2 B=0.0>";
+                ColorLeft_Spray = "<Color:R=0.6 G=0.2 B=0.0>";
                 ColorRight_Spray = "<Color:/>";
             }
             //Turquoise
             else if (this.sprayComboBox.SelectedIndex == 4)
             {
-                ColorLeft_Spray = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.0 G=0.4 B=0.6>";
+                ColorLeft_Spray = "<Color:R=0.0 G=0.4 B=0.6>";
                 ColorRight_Spray = "<Color:/>";
             }
             //Pink
             else if (this.sprayComboBox.SelectedIndex == 5)
             {
-                ColorLeft_Spray = "<Color:R=1 G=1 B=1>7<Color:/>:<Color:R=0.6 G=0.0 B=0.7>";
+                ColorLeft_Spray = "<Color:R=0.6 G=0.0 B=0.7>";
                 ColorRight_Spray = "<Color:/>";
             }
             //None
@@ -797,37 +803,37 @@ namespace CLauncher2._0.Configs
             //Red
             if (this.captureComboBox.SelectedIndex == 0)
             {
-                ColorLeft_Capture = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.6 G=0.0 B=0.0>";
+                ColorLeft_Capture = "<Color:R=0.6 G=0.0 B=0.0>";
                 ColorRight_Capture = "<Color:/>";
             }
             //Blue
             else if (this.captureComboBox.SelectedIndex == 1)
             {
-                ColorLeft_Capture = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.3 B=0.7>";
+                ColorLeft_Capture = "<Color:R=0 G=0.3 B=0.7>";
                 ColorRight_Capture = "<Color:/>";
             }
             //Green
             else if (this.captureComboBox.SelectedIndex == 2)
             {
-                ColorLeft_Capture = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.9 B=0>";
+                ColorLeft_Capture = "<Color:R=0 G=0.9 B=0>";
                 ColorRight_Capture = "<Color:/>";
             }
             //Yellow
             else if (this.captureComboBox.SelectedIndex == 3)
             {
-                ColorLeft_Capture = "<Color:R=1 G=1 B=1>5<Color:/>:<Color:R=0.6 G=0.2 B=0.0>";
+                ColorLeft_Capture = "<Color:R=0.6 G=0.2 B=0.0>";
                 ColorRight_Capture = "<Color:/>";
             }
             //Turquoise
             else if (this.captureComboBox.SelectedIndex == 4)
             {
-                ColorLeft_Capture = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.0 G=0.4 B=0.6>";
+                ColorLeft_Capture = "<Color:R=0.0 G=0.4 B=0.6>";
                 ColorRight_Capture = "<Color:/>";
             }
             //Pink
             else if (this.captureComboBox.SelectedIndex == 5)
             {
-                ColorLeft_Capture = "<Color:R=1 G=1 B=1>7<Color:/>:<Color:R=0.6 G=0.0 B=0.7>";
+                ColorLeft_Capture = "<Color:R=0.6 G=0.0 B=0.7>";
                 ColorRight_Capture = "<Color:/>";
             }
             //None
@@ -843,37 +849,37 @@ namespace CLauncher2._0.Configs
             //Red
             if (this.bombComboBox.SelectedIndex == 0)
             {
-                ColorLeft_Bomb = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.6 G=0.0 B=0.0>";
+                ColorLeft_Bomb = "<Color:R=0.6 G=0.0 B=0.0>";
                 ColorRight_Bomb = "<Color:/>";
             }
             //Blue
             else if (this.bombComboBox.SelectedIndex == 1)
             {
-                ColorLeft_Bomb = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.3 B=0.7>";
+                ColorLeft_Bomb = "<Color:R=0 G=0.3 B=0.7>";
                 ColorRight_Bomb = "<Color:/>";
             }
             //Green
             else if (this.bombComboBox.SelectedIndex == 2)
             {
-                ColorLeft_Bomb = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.9 B=0>";
+                ColorLeft_Bomb = "<Color:R=0 G=0.9 B=0>";
                 ColorRight_Bomb = "<Color:/>";
             }
             //Yellow
             else if (this.bombComboBox.SelectedIndex == 3)
             {
-                ColorLeft_Bomb = "<Color:R=1 G=1 B=1>5<Color:/>:<Color:R=0.6 G=0.2 B=0.0>";
+                ColorLeft_Bomb = "<Color:R=0.6 G=0.2 B=0.0>";
                 ColorRight_Bomb = "<Color:/>";
             }
             //Turquoise
             else if (this.bombComboBox.SelectedIndex == 4)
             {
-                ColorLeft_Bomb = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.0 G=0.4 B=0.6>";
+                ColorLeft_Bomb = "<Color:R=0.0 G=0.4 B=0.6>";
                 ColorRight_Bomb = "<Color:/>";
             }
             //Pink
             else if (this.bombComboBox.SelectedIndex == 5)
             {
-                ColorLeft_Bomb = "<Color:R=1 G=1 B=1>7<Color:/>:<Color:R=0.6 G=0.0 B=0.7>";
+                ColorLeft_Bomb = "<Color:R=0.6 G=0.0 B=0.7>";
                 ColorRight_Bomb = "<Color:/>";
             }
             //None
@@ -889,37 +895,37 @@ namespace CLauncher2._0.Configs
             //Red
             if (this.fcComboBox.SelectedIndex == 0)
             {
-                ColorLeft_FightClub = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.6 G=0.0 B=0.0>";
+                ColorLeft_FightClub = "<Color:R=0.6 G=0.0 B=0.0>";
                 ColorRight_FightClub = "<Color:/>";
             }
             //Blue
             else if (this.fcComboBox.SelectedIndex == 1)
             {
-                ColorLeft_FightClub = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.3 B=0.7>";
+                ColorLeft_FightClub = "<Color:R=0 G=0.3 B=0.7>";
                 ColorRight_FightClub = "<Color:/>";
             }
             //Green
             else if (this.fcComboBox.SelectedIndex == 2)
             {
-                ColorLeft_FightClub = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.9 B=0>";
+                ColorLeft_FightClub = "<Color:R=0 G=0.9 B=0>";
                 ColorRight_FightClub = "<Color:/>";
             }
             //Yellow
             else if (this.fcComboBox.SelectedIndex == 3)
             {
-                ColorLeft_FightClub = "<Color:R=1 G=1 B=1>5<Color:/>:<Color:R=0.6 G=0.2 B=0.0>";
+                ColorLeft_FightClub = "<Color:R=0.6 G=0.2 B=0.0>";
                 ColorRight_FightClub = "<Color:/>";
             }
             //Turquoise
             else if (this.fcComboBox.SelectedIndex == 4)
             {
-                ColorLeft_FightClub = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.0 G=0.4 B=0.6>";
+                ColorLeft_FightClub = "<Color:R=0.0 G=0.4 B=0.6>";
                 ColorRight_FightClub = "<Color:/>";
             }
             //Pink
             else if (this.fcComboBox.SelectedIndex == 5)
             {
-                ColorLeft_FightClub = "<Color:R=1 G=1 B=1>7<Color:/>:<Color:R=0.6 G=0.0 B=0.7>";
+                ColorLeft_FightClub = "<Color:R=0.6 G=0.0 B=0.7>";
                 ColorRight_FightClub = "<Color:/>";
             }
             //None
@@ -935,37 +941,37 @@ namespace CLauncher2._0.Configs
             //Red
             if (this.truckComboBox.SelectedIndex == 0)
             {
-                ColorLeft_Truck = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.6 G=0.0 B=0.0>";
+                ColorLeft_Truck = "<Color:R=0.6 G=0.0 B=0.0>";
                 ColorRight_Truck = "<Color:/>";
             }
             //Blue
             else if (this.truckComboBox.SelectedIndex == 1)
             {
-                ColorLeft_Truck = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.3 B=0.7>";
+                ColorLeft_Truck = "<Color:R=0 G=0.3 B=0.7>";
                 ColorRight_Truck = "<Color:/>";
             }
             //Green
             else if (this.truckComboBox.SelectedIndex == 2)
             {
-                ColorLeft_Truck = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0 G=0.9 B=0>";
+                ColorLeft_Truck = "<Color:R=0 G=0.9 B=0>";
                 ColorRight_Truck = "<Color:/>";
             }
             //Yellow
             else if (this.truckComboBox.SelectedIndex == 3)
             {
-                ColorLeft_Truck = "<Color:R=1 G=1 B=1>5<Color:/>:<Color:R=0.6 G=0.2 B=0.0>";
+                ColorLeft_Truck = "<Color:R=0.6 G=0.2 B=0.0>";
                 ColorRight_Truck = "<Color:/>";
             }
             //Turquoise
             else if (this.truckComboBox.SelectedIndex == 4)
             {
-                ColorLeft_Truck = "<Color:R=1 G=1 B=1>6<Color:/>:<Color:R=0.0 G=0.4 B=0.6>";
+                ColorLeft_Truck = "<Color:R=0.0 G=0.4 B=0.6>";
                 ColorRight_Truck = "<Color:/>";
             }
             //Pink
             else if (this.truckComboBox.SelectedIndex == 5)
             {
-                ColorLeft_Truck = "<Color:R=1 G=1 B=1>7<Color:/>:<Color:R=0.6 G=0.0 B=0.7>";
+                ColorLeft_Truck = "<Color:R=0.6 G=0.0 B=0.7>";
                 ColorRight_Truck = "<Color:/>";
             }
             //None

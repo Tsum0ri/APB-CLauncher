@@ -2,7 +2,7 @@
 ![Logo](https://i.imgur.com/zRXTwnm.png)
 
 
-# APB CLauncher 0.985 (C# Code only)
+# APB CLauncher vb1.15 (C#)
 
 The APB-CLauncher is an extension of the current "Advanced APB Launcher". Which was developed since 2016 but was cancelled several times due to game related problems or due to lack of time.
 
@@ -26,15 +26,15 @@ If you have any feedback, please reach out to us at https://discord.com/invite/K
 
 - Fixing Export/Import feature
 
-- Finishing Mission-Description (Currently Work in Progress)
-
 - Uploading Pre-Configs
 
 - Adding CET Pre-Config/Settings
 
 - Font Changer
 
-- Fixing Default Settings
+- Fixing various crashes
+
+
 ## Screenshots
 
 ![App Screenshot](https://qu.ax/TQ4E.gif)
