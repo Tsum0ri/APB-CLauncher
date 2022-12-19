@@ -125,93 +125,93 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Resources\Font\0992319114465dff36289dcff95b398e.ttf">
+    <EmbeddedResource Include="Resources\Font\0992319114465dff36289dcff95b398e.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\19397a04d3d8f8c71334ba8ca2b97318.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\19397a04d3d8f8c71334ba8ca2b97318.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\207d3f57810bef8d49e2f1b5f1722fb2.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\207d3f57810bef8d49e2f1b5f1722fb2.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\4b5eecf084582969d8b06b11f58a3880.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\4b5eecf084582969d8b06b11f58a3880.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\567e46b3c9e75be1fed1d89302ad7658.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\567e46b3c9e75be1fed1d89302ad7658.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\Purista Bold Italic.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista Bold Italic.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\Purista Bold.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista Bold.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\Purista Italic.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista Italic.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\Purista Light Italic.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista Light Italic.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\Purista Medium.otf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista Medium.otf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\Purista SemiBold.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista SemiBold.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\Purista SemiBold_0.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista SemiBold_0.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\Purista-Bold.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista-Bold.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\Purista-BoldItalic.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista-BoldItalic.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\Purista-SemiBold.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista-SemiBold.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\Purista.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\Purista_0.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\Purista_0.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\segoeui.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\segoeui.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\segoeuib.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\segoeuib.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\segoeuii.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\segoeuii.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\segoeuil.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\segoeuil.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\segoeuisl.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\segoeuisl.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\segoeuiz.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\segoeuiz.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\seguibl.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\seguibl.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\seguibli.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\seguibli.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\seguili.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\seguili.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\seguisb.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\seguisb.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\seguisbi.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\seguisbi.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Font\seguisli.ttf">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Font\seguisli.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
@@ -221,7 +221,6 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="DiscordRichPresence" Version="1.1.3.18" />
     <PackageReference Include="Fody" Version="6.6.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -245,7 +244,7 @@
     <PackageReference Include="Sentry.Log4Net" Version="3.24.1" />
     <PackageReference Include="SharpRaven" Version="2.4.1-unstable0015" />
     <PackageReference Include="WPF-UI" Version="2.0.3" />
-    <PackageReference Include="YamlDotNet" Version="12.3.1" />
+    <PackageReference Include="YamlDotNet" Version="12.2.1" />
   </ItemGroup>
 
   <ItemGroup>

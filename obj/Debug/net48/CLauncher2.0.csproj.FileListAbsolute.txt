@@ -66,11 +66,6 @@ Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Debug\net48\Sites\site_
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Debug\net48\Sites\site_discord.baml
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Debug\net48\Testing\code test.g.cs
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0\CLauncher2.0\obj\Debug\net48\Testing\code test.baml
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Wpf.Ui.Enhanced.10.0.1.0.Fakes.dll
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\APB CLauncher.exe.config
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\APB CLauncher.exe
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\APB CLauncher.pdb
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Wpf.Ui.Enhanced.10.0.1.0.Fakes.fakesconfig
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\CLauncher2.0.csproj.AssemblyReference.cache
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\CLauncher2.0.csproj.SuggestedBindingRedirects.cache
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\APB CLauncher.exe.config
@@ -85,24 +80,21 @@ Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Se
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Settings\site_main_settings.g.cs
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Settings\site_s-other.g.cs
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Settings\site_s-settings.g.cs
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Settings\site_s_memlod.g.cs
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Settings\site_textures.g.cs
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\LauncherSettings.g.cs
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\site_discord.g.cs
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\Site_Info.g.cs
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\site_wip.g.cs
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\test.g.cs
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Site_Home.g.cs
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\SplashScreen.g.cs
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Testing\code test.g.cs
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\ConfigWindow.g.cs
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\MainWindow.g.cs
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\SettingsWindow.g.cs
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\Site_Settings.g.cs
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\App.g.cs
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\APB CLauncher_Content.g.cs
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\APB CLauncher_MarkupCompile.cache
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\APB CLauncher_MarkupCompile.lref
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Wpf.Ui.Enhanced.10.0.1.0.Fakes.dll
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\APB CLauncher.exe.config
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\APB CLauncher.exe
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\APB CLauncher.pdb
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Wpf.Ui.Enhanced.10.0.1.0.Fakes.fakesconfig
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\App.baml
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Configs\site_c-description.baml
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Configs\site_c-killfeed.baml
@@ -115,20 +107,12 @@ Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Se
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Settings\site_main_settings.baml
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Settings\site_s-other.baml
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Settings\site_s-settings.baml
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Settings\site_s_memlod.baml
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Settings\site_textures.baml
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\LauncherSettings.baml
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\site_discord.baml
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\Site_Info.baml
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\site_wip.baml
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\test.baml
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Site_Home.baml
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\SplashScreen.baml
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Testing\code test.baml
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\ConfigWindow.baml
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\MainWindow.baml
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\SettingsWindow.baml
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\Site_Settings.baml
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\APB CLauncher.g.resources
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\CLauncher2._0.Properties.Resources.resources
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\CLauncher2.0.csproj.GenerateResource.cache
@@ -137,8 +121,53 @@ Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\CL
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\CLauncher2.0.AssemblyInfoInputs.cache
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\CLauncher2.0.AssemblyInfo.cs
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\CLauncher2.0.csproj.CoreCompileInputs.cache
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\CLauncher2.0.csproj.Fody.CopyLocal.cache
-Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\CLauncher2.0.csproj.Fody.RuntimeCopyLocal.cache
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\CLauncher2.0.csproj.CopyComplete
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\APB CLauncher.exe
 Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\APB CLauncher.pdb
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Settings\site_s_memlod.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Settings\site_s_memlod.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\0992319114465dff36289dcff95b398e.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\19397a04d3d8f8c71334ba8ca2b97318.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\207d3f57810bef8d49e2f1b5f1722fb2.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\4b5eecf084582969d8b06b11f58a3880.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\567e46b3c9e75be1fed1d89302ad7658.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\Purista Bold Italic.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\Purista Bold.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\Purista Italic.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\Purista Light Italic.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\Purista SemiBold.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\Purista SemiBold_0.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\Purista-Bold.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\Purista-BoldItalic.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\Purista-SemiBold.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\Purista.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\Purista_0.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\segoeui.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\segoeuib.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\segoeuii.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\segoeuil.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\segoeuisl.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\segoeuiz.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\seguibl.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\seguibli.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\seguili.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\seguisb.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\seguisbi.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\seguisli.ttf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\bin\Debug\net48\Resources\Font\Purista Medium.otf
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\CLauncher2.0.csproj.Fody.CopyLocal.cache
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\CLauncher2.0.csproj.Fody.RuntimeCopyLocal.cache
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\LauncherSettings.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\Site_Info.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\site_wip.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\ConfigWindow.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\MainWindow.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\SettingsWindow.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\Site_Settings.g.cs
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\LauncherSettings.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\Site_Info.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\Sites\site_wip.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\ConfigWindow.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\MainWindow.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\SettingsWindow.baml
+Z:\Clauncher2\CLauncher2.0\CLauncher2.0 - Rework\CLauncher2.0\obj\Debug\net48\V1\Site_Settings.baml

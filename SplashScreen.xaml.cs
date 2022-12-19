@@ -13,7 +13,7 @@ namespace CLauncher2._0
     public partial class SplashScreen : System.Windows.Window
     {
 
-        string Version = "vb1.52";
+        string Version = "vb1.5";
 
 
 

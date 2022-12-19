@@ -179,10 +179,10 @@
                 </StackPanel>
             </ListViewItem>
         </ListView>
+        <Image HorizontalAlignment="Left" Height="29" Margin="300,488,0,0" VerticalAlignment="Top" Width="126" Source="/Settings/clauncher_panel_description_1.png" Stretch="Fill" Grid.Column="3"/>
         <TextBlock x:Name="Preview_Text" HorizontalAlignment="Left" Margin="308,522,0,0" TextWrapping="Wrap" Text="Hover over the settings to see what it does!" VerticalAlignment="Top" Height="73" Width="690" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="14" Grid.Column="3"/>
         <Image x:Name="Preview" HorizontalAlignment="Left" Height="400" Margin="300,40,0,0" VerticalAlignment="Top" Width="701" OpacityMask="Black" Stretch="Fill" Source="/Settings/Preview_Placeholder.png" Grid.Column="3"/>
+        <Image HorizontalAlignment="Left" Height="29" Margin="300,11,0,0" VerticalAlignment="Top" Width="126" Source="/Settings/clauncher_panel_preview_1.png" Stretch="Fill" Grid.Column="3"/>
         <ui:Button Content="SAVE" Margin="1002,626,0,0" VerticalAlignment="Top" Height="34" Width="82" Click="Button_Click" Grid.Column="3" Icon="SaveEdit24" Appearance="Success" IconForeground="White" FontFamily="{StaticResource Purista}" FontWeight="Normal" IconFilled="True"/>
-        <Label Content="DESCRIPTION" HorizontalAlignment="Left" Margin="308,489,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Grid.Column="3"/>
-        <Label Content="PREVIEW" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Grid.Column="3"/>
     </Grid>
 </Page>

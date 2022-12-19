@@ -9,12 +9,14 @@
       Title="site_textures" Height="714">
 
     <Grid>
+        <Image HorizontalAlignment="Left" Height="29" Margin="387,488,0,0" VerticalAlignment="Top" Width="126" Source="/Settings/clauncher_panel_description_1.png" Stretch="Fill"/>
         <TextBlock x:Name="Preview_Text" HorizontalAlignment="Left" Margin="387,522,0,0" TextWrapping="Wrap" Text="Hover over the settings to see what it does!" VerticalAlignment="Top" Height="73" Width="647" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="14"/>
         <Image x:Name="Preview" HorizontalAlignment="Left" Height="366" Margin="387,40,0,0" VerticalAlignment="Top" Width="649" OpacityMask="Black" Stretch="Fill" Source="/Settings/Preview_Placeholder.png"/>
+        <Image HorizontalAlignment="Left" Height="29" Margin="387,11,0,0" VerticalAlignment="Top" Width="126" Source="/Settings/clauncher_panel_preview_1.png" Stretch="Fill"/>
         <ListView  x:Name="LV"
             Background="Transparent"
             BorderBrush="Transparent"
-            ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Top" Width="390" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" Height="604" Margin="-8,41,0,0">
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Center" Width="390" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" Height="604" Margin="-8,0,0,0">
 
             <!--// 1 //-->
             <ListViewItem Margin="0,0,0,0" Height="57" HorizontalAlignment="Left" VerticalAlignment="Stretch">
@@ -312,8 +314,6 @@
 
         <materialDesign:DialogHost Content="DialogHost" HorizontalAlignment="Left" Margin="433,570,0,0" VerticalAlignment="Top"/>
         <ui:Button Content="SAVE" Margin="1002,626,0,0" VerticalAlignment="Top" Height="34" Width="82" Click="SaveBtn_Click" Grid.Column="3" Icon="SaveEdit24" Appearance="Success" IconForeground="White" FontFamily="{StaticResource Purista}" FontWeight="Normal" IconFilled="True"/>
-        <Label Content="DESCRIPTION" HorizontalAlignment="Left" Margin="387,489,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" RenderTransformOrigin="0.534,0.534"/>
-        <Label Content="PREVIEW" HorizontalAlignment="Left" Margin="390,10,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" RenderTransformOrigin="0.534,0.534"/>
 
 
 
