@@ -50,7 +50,7 @@
                         Stretch="Fill"
                         Margin="25,0,0,0" Width="25" Height="25"/>
 
-                        <Label Content="Home" Margin="10,5,0,5" FontFamily="Purista SemiBold" Foreground="White" FontWeight="Normal" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="69"/>
+                        <Label Content="Home" Margin="10,5,0,5" FontFamily="{StaticResource PuristaSemiBold}" Foreground="White" FontWeight="Normal" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="69"/>
 
                     </StackPanel>
                     <Frame x:Name="Site_Content" x:FieldModifier="public" Content="Frame" NavigationUIVisibility="Hidden" Margin="186,74,-1306,0" Height="714"/>
@@ -79,7 +79,7 @@
                             Stretch="Fill"
                             Margin="25,0,0,0" Width="25" Height="25"/>
 
-                        <Label Content="Settings" Margin="10,5,0,5" FontFamily="Purista SemiBold" Foreground="White" FontWeight="Normal" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="79"/>
+                        <Label Content="Settings" Margin="10,5,0,5" FontFamily="{StaticResource PuristaSemiBold}" Foreground="White" FontWeight="Normal" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="79"/>
 
                     </StackPanel>
                     <Separator HorizontalAlignment="Center" Margin="0,314,0,0" VerticalAlignment="Top" Height="13" Width="186" Opacity="0.15"/>
@@ -106,7 +106,7 @@
                             Stretch="Fill"
                             Margin="25,0,0,0" Width="25" Height="25"/>
 
-                        <Label Content="Configs" Margin="10,5,0,5" FontFamily="Purista SemiBold" Foreground="White" FontWeight="Normal" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="73"/>
+                        <Label Content="Configs" Margin="10,5,0,5" FontFamily="{StaticResource PuristaSemiBold}" Foreground="White" FontWeight="Normal" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="73"/>
 
                     </StackPanel>
                     <Separator HorizontalAlignment="Center" Margin="0,369,0,0" VerticalAlignment="Top" Height="13" Width="186" Opacity="0.15"/>
@@ -133,7 +133,7 @@
                             Stretch="Fill"
                             Margin="25,0,0,0" Width="25" Height="25"/>
 
-                        <Label Content="News" Margin="10,5,0,5" FontFamily="Purista SemiBold" Foreground="White" FontWeight="Normal" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="72"/>
+                        <Label Content="News" Margin="10,5,0,5" FontFamily="{StaticResource PuristaSemiBold}" Foreground="White" FontWeight="Normal" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="72"/>
 
                     </StackPanel>
                     <Separator HorizontalAlignment="Center" Margin="0,424,0,0" VerticalAlignment="Top" Height="13" Width="186" Opacity="0.15"/>
@@ -160,7 +160,7 @@
                             Stretch="Fill"
                             Margin="25,0,0,0" Width="30" Height="30"/>
 
-                        <Label Content="CET" Margin="10,5,0,5" FontFamily="Purista SemiBold" Foreground="White" FontWeight="Normal" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="60"/>
+                        <Label Content="CET" Margin="10,5,0,5" FontFamily="{StaticResource PuristaSemiBold}" Foreground="White" FontWeight="Normal" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="60"/>
 
                     </StackPanel>
                     <Separator HorizontalAlignment="Center" Margin="0,479,0,0" VerticalAlignment="Top" Height="14" Width="186" Opacity="0.15"/>
@@ -187,7 +187,7 @@
                             Stretch="Fill"
                             Margin="25,0,0,0" Width="25" Height="25"/>
 
-                        <Label Content="Discord" Margin="10,5,0,5" FontFamily="Purista SemiBold" Foreground="White" FontWeight="Normal" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="78"/>
+                        <Label Content="Discord" Margin="10,5,0,5" FontFamily="{StaticResource PuristaSemiBold}" Foreground="White" FontWeight="Normal" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="78"/>
 
                     </StackPanel>
                     <StackPanel x:Name="Info_Btn" Orientation="Horizontal" Margin="0,733,0,0" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" Width="66" MouseDown="Info_Btn_MouseDown">
@@ -196,7 +196,7 @@
                             Stretch="Fill"
                             Margin="0                                ,0,0,0" Width="25" Height="25"/>
 
-                        <Label Content="INFO" Margin="0,5,0,5" FontFamily="Purista SemiBold" Foreground="White" FontWeight="Normal" FontSize="14" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="40">
+                        <Label Content="INFO" Margin="0,5,0,5" FontFamily="{StaticResource PuristaSemiBold}" Foreground="White" FontWeight="Normal" FontSize="14" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="40">
 
                             <Label.Style>
                                 <Style TargetType="{x:Type Label}">
@@ -215,6 +215,14 @@
 
                     </StackPanel>
                 </Grid>
+                <ui:Card Content="" HorizontalAlignment="Left" Margin="1346,29,0,0" VerticalAlignment="Top" Width="2" Height="24" Background="#25FFFFFF">
+                    <ui:Card.BorderBrush>
+                        <LinearGradientBrush EndPoint="0,3" MappingMode="Absolute">
+                            <GradientStop Color="#18FFFFFF" Offset="0.33"/>
+                            <GradientStop Color="#26FFFFFF" Offset="1"/>
+                        </LinearGradientBrush>
+                    </ui:Card.BorderBrush>
+                </ui:Card>
 
 
 
@@ -226,7 +234,7 @@
         <Grid Margin="1118,0,0,712">
 
 
-            <Label x:Name="updateStatus" Content="Launcher is on latest version" HorizontalAlignment="Left" Margin="30,28,0,0" VerticalAlignment="Top" Foreground="White" Opacity="0.65" RenderTransformOrigin="0.5,0.5" Width="172" HorizontalContentAlignment="Right">
+            <Label x:Name="updateStatus" Content="Launcher is on latest version" HorizontalAlignment="Left" Margin="34,32,0,0" VerticalAlignment="Top" Foreground="White" Opacity="0.65" RenderTransformOrigin="0.5,0.5" Width="172" HorizontalContentAlignment="Right" FontFamily="{StaticResource Purista}">
                 <Label.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="1"/>
@@ -236,17 +244,6 @@
                     </TransformGroup>
                 </Label.RenderTransform>
             </Label>
-
-            <Separator HorizontalAlignment="Left" Margin="209,15,0,0" VerticalAlignment="Top" Height="51" Width="25" RenderTransformOrigin="0.5,0.5">
-                <Separator.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform ScaleY="-1"/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="-90.198"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Separator.RenderTransform>
-            </Separator>
 
             <Image x:Name="Exit_Btn" HorizontalAlignment="Left" Height="25" Margin="319,28,0,0" VerticalAlignment="Top" Width="25" Source="/Resources/on-off-button.png" Opacity="0.65" MouseLeftButtonUp="Exit_Btn_MouseLeftButtonUp" RenderTransformOrigin="0.667,0.613" MouseDown="Exit_Btn_MouseDown">
                 <Image.Style>

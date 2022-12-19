@@ -4,6 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:CLauncher2._0"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
       xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="CLauncher2._0.Site_Info"
       mc:Ignorable="d"
       d:DesignHeight="714" d:DesignWidth="1306"
@@ -23,12 +24,12 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Image HorizontalAlignment="Center" Height="170" Margin="0,118,0,0" VerticalAlignment="Top" Width="304" Source="/Resources/kisspng-vehicle-clauncher.png" Stretch="Fill"/>
-        <Label x:Name="versionText" Content="unable to load the version file from server&#xA;" HorizontalAlignment="Center" Margin="0,284,0,0" VerticalAlignment="Top" Foreground="White" FontSize="15"/>
-        <TextBlock TextWrapping="NoWrap" Foreground="White" FontFamily="Segoe UI" FontSize="19" RenderTransformOrigin="0.498,0.481" TextAlignment="Center" FontWeight="Normal" Margin="223,387,223,51"><Run Text="APB &quot;CLauncher&quot; is currently in Closed-Beta. This Launcher is not "/><LineBreak/><Run Text="complete and may or may not change further. If you are not excited "/><LineBreak/><Run Text="to use it in its current state, then you should wait to see if "/><LineBreak/><Run Text="the Launcher progresses further in development. "/></TextBlock>
-        <Image HorizontalAlignment="Center" Height="56" Margin="0,525,0,0" VerticalAlignment="Top" Width="222" Source="/Resources/clauncher_pp_2.png" Stretch="Fill" MouseDown="Image_MouseDown" Cursor="Hand"/>
-        <Image HorizontalAlignment="Left" Height="29" Margin="639,629,0,0" VerticalAlignment="Top" Width="30" Source="/Resources/icons8-heart-suit-96.png" Stretch="Fill" RenderTransformOrigin="0.483,0.534"/>
-        <Label Content="Made with" HorizontalAlignment="Left" Margin="537,629,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" FontFamily="Purista" FontWeight="Normal"/>
-        <Label Content="By Tsumori" HorizontalAlignment="Left" Margin="677,629,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" FontFamily="Purista" FontWeight="Normal"/>
+        <Label x:Name="versionText" Content="unable to load the version file from server&#xA;" HorizontalAlignment="Center" Margin="0,284,0,0" VerticalAlignment="Top" Foreground="White" FontSize="15" FontFamily="{StaticResource PuristaSemiBold}"/>
+        <TextBlock TextWrapping="NoWrap" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="19" RenderTransformOrigin="0.498,0.481" TextAlignment="Center" FontWeight="Normal" Margin="223,379,223,59"><Run Text="APB &quot;CLauncher&quot; is currently in Closed-Beta. This Launcher is not "/><LineBreak/><Run Text="complete and may or may not change further. If you are not excited "/><LineBreak/><Run Text="to use it in its current state, then you should wait to see if "/><LineBreak/><Run Text="the Launcher progresses further in development. "/></TextBlock>
+        <Image HorizontalAlignment="Center" Height="56" Margin="0,511,0,0" VerticalAlignment="Top" Width="222" Source="/Resources/clauncher_pp_2.png" Stretch="Fill" MouseDown="Image_MouseDown" Cursor="Hand"/>
+        <Label Content="Made with" HorizontalAlignment="Left" Margin="537,620,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" FontFamily="Purista" FontWeight="Normal"/>
+        <Label Content="By Tsumori" HorizontalAlignment="Left" Margin="677,620,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" FontFamily="Purista" FontWeight="Normal"/>
+        <Image HorizontalAlignment="Left" Height="23" Margin="636,623,0,0" VerticalAlignment="Top" Width="24" Source="/Resources/clauncher_heart.png" Stretch="Fill"/>
 
     </Grid>
 </Page>

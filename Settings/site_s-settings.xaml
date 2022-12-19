@@ -11,7 +11,7 @@
         <ListView  x:Name="LV"
             Background="Transparent"
             BorderBrush="Transparent"
-            ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Center" Width="326" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" Height="586" Margin="-8,0,0,0">
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Top" Width="326" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" Height="586" Margin="0,40,0,0">
 
             <!--// 1 //-->
             <ListViewItem x:Name="VSync" Margin="0,0,0,0" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left">
@@ -273,11 +273,11 @@
             </ListViewItem>
 
         </ListView>
-        <Image HorizontalAlignment="Left" Height="29" Margin="335,488,0,0" VerticalAlignment="Top" Width="126" Source="/Settings/clauncher_panel_description_1.png" Stretch="Fill"/>
         <TextBlock x:Name="Preview_Text" HorizontalAlignment="Left" Margin="344,522,0,0" TextWrapping="Wrap" Text="Hover over the settings to see what it does!" VerticalAlignment="Top" Height="73" Width="690" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="14"/>
         <Image x:Name="Preview" HorizontalAlignment="Left" Height="400" Margin="335,40,0,0" VerticalAlignment="Top" Width="701" OpacityMask="Black" Stretch="Fill" Source="/Settings/Preview_Placeholder.png"/>
-        <Image HorizontalAlignment="Left" Height="29" Margin="335,11,0,0" VerticalAlignment="Top" Width="126" Source="/Settings/clauncher_panel_preview_1.png" Stretch="Fill"/>
         <Button x:Name="SaveBtn" Content="SAVE" HorizontalAlignment="Left" Margin="1037,626,0,0" VerticalAlignment="Top" Height="34" Width="72" Click="SaveBtn_Click"/>
+        <Label Content="DESCRIPTION" HorizontalAlignment="Left" Margin="344,489,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" RenderTransformOrigin="0.534,0.534"/>
+        <Label Content="PREVIEW" HorizontalAlignment="Left" Margin="335,10,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" RenderTransformOrigin="0.534,0.534"/>
 
 
     </Grid>

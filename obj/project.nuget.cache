@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l4Vr4lrm2gIcaXHOTQMXI4B6zgJFubMOyEwd7WSin2qKprTqRXy4XByRLH5JlfmQHWQPjarL+7KGW7e924WAag==",
+  "dgSpecHash": "T1i7Qk+E8Hlgc0A8o4gOZXovj5mNwPJj8HPH8mA3HCNkfswu1W5LrQ9AGJZBupXawY2oAG9M1idxy/yFsR4vdg==",
   "success": true,
   "projectFilePath": "Z:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\CLauncher2.0.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Steve\\.nuget\\packages\\chilkat-x64\\9.5.0.93\\chilkat-x64.9.5.0.93.nupkg.sha512",
     "C:\\Users\\Steve\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
     "C:\\Users\\Steve\\.nuget\\packages\\costura.fody\\5.7.0\\costura.fody.5.7.0.nupkg.sha512",
+    "C:\\Users\\Steve\\.nuget\\packages\\discordrichpresence\\1.1.3.18\\discordrichpresence.1.1.3.18.nupkg.sha512",
     "C:\\Users\\Steve\\.nuget\\packages\\dynamicdata\\7.12.8\\dynamicdata.7.12.8.nupkg.sha512",
     "C:\\Users\\Steve\\.nuget\\packages\\fody\\6.6.4\\fody.6.6.4.nupkg.sha512",
     "C:\\Users\\Steve\\.nuget\\packages\\handycontrol\\3.4.0\\handycontrol.3.4.0.nupkg.sha512",
@@ -111,7 +112,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Steve\\.nuget\\packages\\wpf-ui\\2.0.3\\wpf-ui.2.0.3.nupkg.sha512",
-    "C:\\Users\\Steve\\.nuget\\packages\\yamldotnet\\12.2.1\\yamldotnet.12.2.1.nupkg.sha512"
+    "C:\\Users\\Steve\\.nuget\\packages\\yamldotnet\\12.3.1\\yamldotnet.12.3.1.nupkg.sha512"
   ],
   "logs": []
 }
