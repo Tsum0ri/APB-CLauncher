@@ -10,6 +10,7 @@ The launcher allows you to adjust texture sizes, render distances, and other gra
 This is only available on PC and most of the features phased out once the options are integrated into the game itself.
 However, most advanced settings will still only be adjustable via this launcher. If it is allowed, further adjustments will also come after the engine upgrade. 
 This also allows players to send each other their configs/settings.
+> For APB Reloaded **PC Only**
 
 
 ## Authors
@@ -33,6 +34,24 @@ If you have any feedback, please reach out to us at https://discord.com/invite/K
 - Font Changer
 
 - Fixing various crashes
+
+- Quality of Life changes
+
+- Code Optimization
+
+- Adding RSS-Feed (Forum)
+
+- Disable or Changeable Launcher Backgrounds
+
+- Connect the Web-Version with the Launcher
+
+- Design and Layout Optimization
+
+- Multi-Language Launcher
+
+- Multi-Language Config editor (so that you can also edit the russian,german,brazil etc. localization files)
+
+- Adding warnings (Example: "Launcher is missing files (example.ini)" "Launcher is not inside the main APB-Directory" "Your current config might cause crashes, please use the vanilla config")
 
 
 ## Screenshots
