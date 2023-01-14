@@ -1126,5 +1126,425 @@ namespace CLauncher2._0 {
                 this["DynamicBG"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string ParticleLODBias_Text {
+            get {
+                return ((string)(this["ParticleLODBias_Text"]));
+            }
+            set {
+                this["ParticleLODBias_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("High")]
+        public string ShadowQualityBias_Text {
+            get {
+                return ((string)(this["ShadowQualityBias_Text"]));
+            }
+            set {
+                this["ShadowQualityBias_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("High")]
+        public string SunRenderQuality_Text {
+            get {
+                return ((string)(this["SunRenderQuality_Text"]));
+            }
+            set {
+                this["SunRenderQuality_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("25000")]
+        public string ParticleSpaceArea_Text {
+            get {
+                return ((string)(this["ParticleSpaceArea_Text"]));
+            }
+            set {
+                this["ParticleSpaceArea_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("High")]
+        public string FoliageDrawRadius_Text {
+            get {
+                return ((string)(this["FoliageDrawRadius_Text"]));
+            }
+            set {
+                this["FoliageDrawRadius_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("High")]
+        public string ShadowFilterRadius_Text {
+            get {
+                return ((string)(this["ShadowFilterRadius_Text"]));
+            }
+            set {
+                this["ShadowFilterRadius_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("High")]
+        public string ShadowDepthBias_Text {
+            get {
+                return ((string)(this["ShadowDepthBias_Text"]));
+            }
+            set {
+                this["ShadowDepthBias_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("High")]
+        public string MaxMemoryCacheEntry_Text {
+            get {
+                return ((string)(this["MaxMemoryCacheEntry_Text"]));
+            }
+            set {
+                this["MaxMemoryCacheEntry_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Medium")]
+        public string TextureStreamingMemory_Text {
+            get {
+                return ((string)(this["TextureStreamingMemory_Text"]));
+            }
+            set {
+                this["TextureStreamingMemory_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("High")]
+        public string TexturePoolMemory_Text {
+            get {
+                return ((string)(this["TexturePoolMemory_Text"]));
+            }
+            set {
+                this["TexturePoolMemory_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("High")]
+        public string MeshStreamingMemory_Text {
+            get {
+                return ((string)(this["MeshStreamingMemory_Text"]));
+            }
+            set {
+                this["MeshStreamingMemory_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int ParticleLODBias_Value {
+            get {
+                return ((int)(this["ParticleLODBias_Value"]));
+            }
+            set {
+                this["ParticleLODBias_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int ShadowQualityBias_Value {
+            get {
+                return ((int)(this["ShadowQualityBias_Value"]));
+            }
+            set {
+                this["ShadowQualityBias_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("2")]
+        public int SunRenderQuality_Value {
+            get {
+                return ((int)(this["SunRenderQuality_Value"]));
+            }
+            set {
+                this["SunRenderQuality_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("9")]
+        public int ParticleSpaceArea_Value {
+            get {
+                return ((int)(this["ParticleSpaceArea_Value"]));
+            }
+            set {
+                this["ParticleSpaceArea_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int FoliageDrawRadius_Value {
+            get {
+                return ((int)(this["FoliageDrawRadius_Value"]));
+            }
+            set {
+                this["FoliageDrawRadius_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int ShadowDepthBias_Value {
+            get {
+                return ((int)(this["ShadowDepthBias_Value"]));
+            }
+            set {
+                this["ShadowDepthBias_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int ShadowFilterRadius_Value {
+            get {
+                return ((int)(this["ShadowFilterRadius_Value"]));
+            }
+            set {
+                this["ShadowFilterRadius_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int MaxMemoryCacheEntry_Value {
+            get {
+                return ((int)(this["MaxMemoryCacheEntry_Value"]));
+            }
+            set {
+                this["MaxMemoryCacheEntry_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("3")]
+        public int TextureStreamingMemory_Value {
+            get {
+                return ((int)(this["TextureStreamingMemory_Value"]));
+            }
+            set {
+                this["TextureStreamingMemory_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int TexturePoolMemory_Value {
+            get {
+                return ((int)(this["TexturePoolMemory_Value"]));
+            }
+            set {
+                this["TexturePoolMemory_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("3")]
+        public int MeshStreamingMemory_Value {
+            get {
+                return ((int)(this["MeshStreamingMemory_Value"]));
+            }
+            set {
+                this["MeshStreamingMemory_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10")]
+        public string TextureCreationPerFrame_Value {
+            get {
+                return ((string)(this["TextureCreationPerFrame_Value"]));
+            }
+            set {
+                this["TextureCreationPerFrame_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10")]
+        public string MaxDynamicShadows_Value {
+            get {
+                return ((string)(this["MaxDynamicShadows_Value"]));
+            }
+            set {
+                this["MaxDynamicShadows_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("65")]
+        public string ShadowFade_Value {
+            get {
+                return ((string)(this["ShadowFade_Value"]));
+            }
+            set {
+                this["ShadowFade_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("5")]
+        public string PlayerLOD1_Value {
+            get {
+                return ((string)(this["PlayerLOD1_Value"]));
+            }
+            set {
+                this["PlayerLOD1_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("15")]
+        public string PlayerLOD2_Value {
+            get {
+                return ((string)(this["PlayerLOD2_Value"]));
+            }
+            set {
+                this["PlayerLOD2_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("25")]
+        public string VehicleLOD_Value {
+            get {
+                return ((string)(this["VehicleLOD_Value"]));
+            }
+            set {
+                this["VehicleLOD_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public string VehicleCull_Value {
+            get {
+                return ((string)(this["VehicleCull_Value"]));
+            }
+            set {
+                this["VehicleCull_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("3")]
+        public string LCPedestrianLOD_Value {
+            get {
+                return ((string)(this["LCPedestrianLOD_Value"]));
+            }
+            set {
+                this["LCPedestrianLOD_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("50")]
+        public string LCPedestrianCull_Value {
+            get {
+                return ((string)(this["LCPedestrianCull_Value"]));
+            }
+            set {
+                this["LCPedestrianCull_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("3")]
+        public string LCDriverLOD_Value {
+            get {
+                return ((string)(this["LCDriverLOD_Value"]));
+            }
+            set {
+                this["LCDriverLOD_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("70")]
+        public string LCDriverCull_Value {
+            get {
+                return ((string)(this["LCDriverCull_Value"]));
+            }
+            set {
+                this["LCDriverCull_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10")]
+        public string LCVehicleLOD_Value {
+            get {
+                return ((string)(this["LCVehicleLOD_Value"]));
+            }
+            set {
+                this["LCVehicleLOD_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("70")]
+        public string LCVehicleCull_Value {
+            get {
+                return ((string)(this["LCVehicleCull_Value"]));
+            }
+            set {
+                this["LCVehicleCull_Value"] = value;
+            }
+        }
     }
 }

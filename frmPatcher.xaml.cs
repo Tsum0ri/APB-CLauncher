@@ -19,7 +19,7 @@ namespace CLauncher2._0
     public partial class frmPatcher : System.Windows.Window
     {
 
-        private readonly string Version = "vb1.5";
+        private readonly string Version = "vb1.59";
         private WebClient client = new WebClient();
         private Stopwatch dlrate = new Stopwatch();
         private string URL = "https://beta.clauncher.download/";

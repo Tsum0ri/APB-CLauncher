@@ -278,5 +278,110 @@
     <Setting Name="DynamicBG" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
+    <Setting Name="ParticleLODBias_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ShadowQualityBias_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">High</Value>
+    </Setting>
+    <Setting Name="SunRenderQuality_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">High</Value>
+    </Setting>
+    <Setting Name="ParticleSpaceArea_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">25000</Value>
+    </Setting>
+    <Setting Name="FoliageDrawRadius_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">High</Value>
+    </Setting>
+    <Setting Name="ShadowFilterRadius_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">High</Value>
+    </Setting>
+    <Setting Name="ShadowDepthBias_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">High</Value>
+    </Setting>
+    <Setting Name="MaxMemoryCacheEntry_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">High</Value>
+    </Setting>
+    <Setting Name="TextureStreamingMemory_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Medium</Value>
+    </Setting>
+    <Setting Name="TexturePoolMemory_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">High</Value>
+    </Setting>
+    <Setting Name="MeshStreamingMemory_Text" Type="System.String" Scope="User">
+      <Value Profile="(Default)">High</Value>
+    </Setting>
+    <Setting Name="ParticleLODBias_Value" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="ShadowQualityBias_Value" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="SunRenderQuality_Value" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="ParticleSpaceArea_Value" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="FoliageDrawRadius_Value" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="ShadowDepthBias_Value" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="ShadowFilterRadius_Value" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="MaxMemoryCacheEntry_Value" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="TextureStreamingMemory_Value" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="TexturePoolMemory_Value" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="MeshStreamingMemory_Value" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="TextureCreationPerFrame_Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="MaxDynamicShadows_Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="ShadowFade_Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">65</Value>
+    </Setting>
+    <Setting Name="PlayerLOD1_Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="PlayerLOD2_Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="VehicleLOD_Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="VehicleCull_Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="LCPedestrianLOD_Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="LCPedestrianCull_Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="LCDriverLOD_Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="LCDriverCull_Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">70</Value>
+    </Setting>
+    <Setting Name="LCVehicleLOD_Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="LCVehicleCull_Value" Type="System.String" Scope="User">
+      <Value Profile="(Default)">70</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

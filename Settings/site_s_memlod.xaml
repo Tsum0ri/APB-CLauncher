@@ -6,17 +6,15 @@
       xmlns:local="clr-namespace:CLauncher2._0.Settings"
       xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" x:Class="CLauncher2._0.Settings.site_s_memlod"
       mc:Ignorable="d" d:DesignWidth="1186"
-      Title="site_s_memlod" Height="2714">
+      Title="site_s_memlod" Height="1186">
 
-    <Grid>
-        <Image HorizontalAlignment="Left" Height="29" Margin="506,487,0,0" VerticalAlignment="Top" Width="126" Source="/Settings/clauncher_panel_description_1.png" Stretch="Fill"/>
+    <Grid Margin="0,0,0,482">
         <TextBlock x:Name="Preview_Text" HorizontalAlignment="Left" Margin="506,521,0,0" TextWrapping="Wrap" Text="Hover over the settings to see what it does!" VerticalAlignment="Top" Height="73" Width="647" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="14"/>
         <Image x:Name="Preview" HorizontalAlignment="Left" Height="366" Margin="506,39,0,0" VerticalAlignment="Top" Width="649" OpacityMask="Black" Stretch="Fill" Source="/Settings/Preview_Placeholder.png"/>
-        <Image HorizontalAlignment="Left" Height="29" Margin="506,10,0,0" VerticalAlignment="Top" Width="126" Source="/Settings/clauncher_panel_preview_1.png" Stretch="Fill"/>
         <ListView  x:Name="LV"
             Background="Transparent"
             BorderBrush="Transparent"
-            ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Top" Width="491" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" Height="1433" Margin="10,24,0,0">
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Top" Width="491" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" Height="713" Margin="10,24,0,0">
 
             <!--// 1 //-->
             <ListViewItem Margin="0,0,0,0" Height="57" Width="484">
@@ -145,7 +143,7 @@
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
                     <Label Foreground="White" VerticalAlignment="Center" Content="Texture Creation Per Frame&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="222" Height="23"/>
                     <Label Foreground="White" Content="Min:2&#xD;&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="45" VerticalAlignment="Center" Height="23"/>
-                    <ui:TextBox TextWrapping="Wrap" Text="10" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                    <ui:TextBox x:Name="TextureCreationPerFrameBox" TextWrapping="Wrap" Text="10" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
                     <Label Foreground="White" Content="Max:10&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="51" Height="22" Margin="5,0,0,0"/>
                 </StackPanel>
 
@@ -155,7 +153,7 @@
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
                     <Label Foreground="White" VerticalAlignment="Center" Content="Max Dynamic Shadows&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="222" Height="25"/>
                     <Label Foreground="White" Content="Min:0&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="45" VerticalAlignment="Center" Height="23"/>
-                    <ui:TextBox TextWrapping="Wrap" Text="10" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                    <ui:TextBox x:Name="DynamicShadowsBox" TextWrapping="Wrap" Text="10" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
                     <Label Foreground="White" Content="Max:35&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="51" Height="22" Margin="5,0,0,0"/>
                 </StackPanel>
 
@@ -165,7 +163,7 @@
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
                     <Label Foreground="White" VerticalAlignment="Center" Content="Shadow Fade (Meters)&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="211" Height="22"/>
                     <Label Foreground="White" Content="Min:25&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="48" VerticalAlignment="Center" Height="22" Margin="0,0,5,0"/>
-                    <ui:TextBox TextWrapping="Wrap" Text="65" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                    <ui:TextBox x:Name="ShadowFadeDistanceBox" TextWrapping="Wrap" Text="65" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
                     <Label Foreground="White" Content="Max:100&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="59" Height="22" Margin="5,0,0,0"/>
                 </StackPanel>
 
@@ -175,7 +173,7 @@
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
                     <Label Foreground="White" VerticalAlignment="Center" Content="Player LOD 1 (Meters)&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="222" Height="23"/>
                     <Label Foreground="White" Content="Min:1&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="45" VerticalAlignment="Center" Height="23"/>
-                    <ui:TextBox TextWrapping="Wrap" Text="5" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                    <ui:TextBox x:Name="CharacterLODDistance1Box" TextWrapping="Wrap" Text="5" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
                     <Label Foreground="White" Content="Max:99&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="51" Height="22" Margin="5,0,0,0"/>
                 </StackPanel>
 
@@ -185,7 +183,7 @@
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
                     <Label Foreground="White" VerticalAlignment="Center" Content="Player LOD 2 (Meters)&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="222" Height="23"/>
                     <Label Foreground="White" Content="Min:2&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="45" VerticalAlignment="Center" Height="23"/>
-                    <ui:TextBox TextWrapping="Wrap" Text="15" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                    <ui:TextBox x:Name="CharacterLODDistance2Box" TextWrapping="Wrap" Text="15" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
                     <Label Foreground="White" Content="Max:100&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="59" Height="22" Margin="5,0,0,0"/>
                 </StackPanel>
 
@@ -195,7 +193,7 @@
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
                     <Label Foreground="White" VerticalAlignment="Center" Content="Vehicle LOD (Meters)&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="222" Height="23"/>
                     <Label Foreground="White" Content="Min:1&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="45" VerticalAlignment="Center" Height="23"/>
-                    <ui:TextBox TextWrapping="Wrap" Text="25" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                    <ui:TextBox x:Name="VehicleLODDistanceBox" TextWrapping="Wrap" Text="25" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
                     <Label Foreground="White" Content="Max:99&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="51" Height="22" Margin="5,0,0,0"/>
                 </StackPanel>
 
@@ -205,7 +203,7 @@
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
                     <Label Foreground="White" VerticalAlignment="Center" Content="Vehicle Cull (Meters)&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="222" Height="23"/>
                     <Label Foreground="White" Content="Min:2&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="45" VerticalAlignment="Center" Height="23"/>
-                    <ui:TextBox TextWrapping="Wrap" Text="100" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                    <ui:TextBox x:Name="VehicleCullDistanceBox" TextWrapping="Wrap" Text="100" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
                     <Label Foreground="White" Content="Max:100&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="59" Height="22" Margin="5,0,0,0"/>
                 </StackPanel>
 
@@ -215,7 +213,7 @@
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
                     <Label Foreground="White" VerticalAlignment="Center" Content="LC Pedestrian LOD (Meters)&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="222" Height="23"/>
                     <Label Foreground="White" Content="Min:1&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="45" VerticalAlignment="Center" Height="23"/>
-                    <ui:TextBox TextWrapping="Wrap" Text="3" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                    <ui:TextBox x:Name="PedestrianLODDistanceBox" TextWrapping="Wrap" Text="3" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
                     <Label Foreground="White" Content="Max:99&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="51" Height="22" Margin="5,0,0,0"/>
                 </StackPanel>
 
@@ -225,7 +223,7 @@
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
                     <Label Foreground="White" VerticalAlignment="Center" Content="LC Pedestrian Cull (Meters)" FontSize="16" FontFamily="{StaticResource Purista}" Width="222" Height="23"/>
                     <Label Foreground="White" Content="Min:2&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="45" VerticalAlignment="Center" Height="23"/>
-                    <ui:TextBox TextWrapping="Wrap" Text="50" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                    <ui:TextBox x:Name="PedestrianCullDistanceBox" TextWrapping="Wrap" Text="50" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
                     <Label Foreground="White" Content="Max:100&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="59" Height="22" Margin="5,0,0,0"/>
                 </StackPanel>
 
@@ -235,7 +233,7 @@
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
                     <Label Foreground="White" VerticalAlignment="Center" Content="LC Driver LOD (Meters)&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="222" Height="23"/>
                     <Label Foreground="White" Content="Min:1&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="45" VerticalAlignment="Center" Height="23"/>
-                    <ui:TextBox TextWrapping="Wrap" Text="3" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                    <ui:TextBox x:Name="DriverLODDistanceBox" TextWrapping="Wrap" Text="3" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
                     <Label Foreground="White" Content="Max:99&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="51" Height="22" Margin="5,0,0,0"/>
                 </StackPanel>
 
@@ -245,7 +243,7 @@
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
                     <Label Foreground="White" VerticalAlignment="Center" Content="LC Driver Cull (Meters)&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="222" Height="23"/>
                     <Label Foreground="White" Content="Min:2&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="45" VerticalAlignment="Center" Height="23"/>
-                    <ui:TextBox TextWrapping="Wrap" Text="70" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                    <ui:TextBox x:Name="DriverCullDistanceBox" TextWrapping="Wrap" Text="70" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
                     <Label Foreground="White" Content="Max:100&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="58" Height="22" Margin="5,0,0,0"/>
                 </StackPanel>
 
@@ -255,7 +253,7 @@
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
                     <Label Foreground="White" VerticalAlignment="Center" Content="LC Vehicle LOD (Meters)&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="222" Height="23"/>
                     <Label Foreground="White" Content="Min:2&#xA;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="45" VerticalAlignment="Center" Height="23"/>
-                    <ui:TextBox TextWrapping="Wrap" Text="3" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                    <ui:TextBox x:Name="LCVehicleLODDistanceBox" TextWrapping="Wrap" Text="3" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
                     <Label Foreground="White" Content="Max:99&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="51" Height="22" Margin="5,0,0,0"/>
                 </StackPanel>
 
@@ -265,7 +263,7 @@
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
                     <Label Foreground="White" VerticalAlignment="Center" Content="LC Vehicle Cull (Meters)&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="222" Height="23"/>
                     <Label Foreground="White" Content="Min:1&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="45" VerticalAlignment="Center" Height="23"/>
-                    <ui:TextBox TextWrapping="Wrap" Text="70" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                    <ui:TextBox x:Name="LCVehicleCullDistanceBox" TextWrapping="Wrap" Text="70" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
                     <Label Foreground="White" Content="Max:99&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="51" Height="22" Margin="5,0,0,0"/>
                 </StackPanel>
 
@@ -319,8 +317,8 @@
 
         </ListView>
         <ui:Button x:Name="SaveBtn" Content="SAVE" Margin="1002,626,0,0" VerticalAlignment="Top" Height="34" Width="82" Click="SaveBtn_Click" Icon="SaveEdit24" Appearance="Success" IconForeground="White" FontFamily="{StaticResource Purista}" FontWeight="Normal" IconFilled="True"/>
-        <ui:Badge Content="" HorizontalAlignment="Left" Margin="-26,-18,0,0" VerticalAlignment="Top" Height="783" Width="1212" Opacity="0.6" Background="#FFF74444" Foreground="White" FontSize="72" FontFamily="{StaticResource PuristaSemiBold}"/>
-        <Label Content="Currently unavailable" HorizontalAlignment="Left" Margin="233,294,0,0" VerticalAlignment="Top" FontFamily="Purista SemiBold" FontSize="72" BorderBrush="#FF080808"/>
+        <Label Content="DESCRIPTION" HorizontalAlignment="Left" Margin="506,492,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top"/>
+        <Label Content="PREVIEW" HorizontalAlignment="Left" Margin="506,11,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top"/>
 
     </Grid>
 </Page>
