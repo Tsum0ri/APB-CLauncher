@@ -1546,5 +1546,29 @@ namespace CLauncher2._0 {
                 this["LCVehicleCull_Value"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Maximum")]
+        public string SkeletalMeshLOD_Text {
+            get {
+                return ((string)(this["SkeletalMeshLOD_Text"]));
+            }
+            set {
+                this["SkeletalMeshLOD_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("4")]
+        public int SkeletalMeshLOD_Value {
+            get {
+                return ((int)(this["SkeletalMeshLOD_Value"]));
+            }
+            set {
+                this["SkeletalMeshLOD_Value"] = value;
+            }
+        }
     }
 }

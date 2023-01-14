@@ -52,6 +52,9 @@ namespace CLauncher2._0.Settings
             this.MeshStreamingMemorySelector.Value = UserSettings.Default.MeshStreamingMemory_Value;
             this.MeshStreamingMemoryLabel.Content = UserSettings.Default.MeshStreamingMemory_Text;
 
+            this.SkeletalMeshLODSelector.Value = UserSettings.Default.SkeletalMeshLOD_Value;
+            this.SkeletalMeshLODLabel.Content = UserSettings.Default.SkeletalMeshLOD_Text;
+
             //---------------------------------------------------------------------------------------------------
 
             this.TextureCreationPerFrameBox.Text = UserSettings.Default.TextureCreationPerFrame_Value;
@@ -213,6 +216,20 @@ namespace CLauncher2._0.Settings
                 this.MeshStreamingMemoryLabel.Content = "Ultra";
         }
 
+        private void SkeletalMeshLODSelector_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (this.SkeletalMeshLODSelector.Value == 0)
+                this.SkeletalMeshLODLabel.Content = "Minimal";
+            else if (this.SkeletalMeshLODSelector.Value == 1)
+                this.SkeletalMeshLODLabel.Content = "Low";
+            else if (this.SkeletalMeshLODSelector.Value == 2)
+                this.SkeletalMeshLODLabel.Content = "Medium";
+            else if (this.SkeletalMeshLODSelector.Value == 3)
+                this.SkeletalMeshLODLabel.Content = "High";
+            else 
+                this.SkeletalMeshLODLabel.Content = "Maximum";
+        }
+
         private void SaveBtn_Click(object sender, RoutedEventArgs e)
         {
             GameLauncher.GetINI(Environment.CurrentDirectory + "\\APBGame\\Config\\APBMachineOptions.ini");
@@ -292,6 +309,17 @@ namespace CLauncher2._0.Settings
                 GameLauncher.SaveToINI("AppCompatBucket1", "ShadowDepthBias", ".012");
             else
                 GameLauncher.SaveToINI("AppCompatBucket1", "ShadowDepthBias", ".015");
+
+            //SkeletalMeshLOD
+            if (this.SkeletalMeshLODSelector.Value == 0)
+                GameLauncher.SaveToINI("AppCompatBucket1", "SkeletalMeshLODBias", "4");
+            else if (this.SkeletalMeshLODSelector.Value == 1)
+                GameLauncher.SaveToINI("AppCompatBucket1", "SkeletalMeshLODBias", "3");
+            else if (this.SkeletalMeshLODSelector.Value == 2)
+                GameLauncher.SaveToINI("AppCompatBucket1", "SkeletalMeshLODBias", "2");
+            else if (this.SkeletalMeshLODSelector.Value == 3)
+                GameLauncher.SaveToINI("AppCompatBucket1", "SkeletalMeshLODBias", "1");
+            else GameLauncher.SaveToINI("AppCompatBucket1", "SkeletalMeshLODBias", "0");
 
             //MaxMemoryCacheEntry
             if (this.MaxMemoryCacheEntrySelector.Value == 0)
@@ -411,6 +439,7 @@ namespace CLauncher2._0.Settings
                 GameLauncher.SaveToINI("AppHWConstraintsBucket2", "MaxMemoryUsedByMeshStreaming", "157286400");
                 GameLauncher.SaveToINI("AppHWConstraintsBucket3", "MaxMemoryUsedByMeshStreaming", "157286400");
             }
+
 
 
             
@@ -681,6 +710,8 @@ namespace CLauncher2._0.Settings
             UserSettings.Default.MeshStreamingMemory_Value = (int)this.MeshStreamingMemorySelector.Value;
             UserSettings.Default.MeshStreamingMemory_Text = (string)this.MeshStreamingMemoryLabel.Content;
 
+            UserSettings.Default.SkeletalMeshLOD_Text = (string)this.SkeletalMeshLODLabel.Content;
+            UserSettings.Default.SkeletalMeshLOD_Value = (int)this.SkeletalMeshLODSelector.Value;
 
             //-----------------------------------------------------------------------------------------------------------
 
@@ -702,6 +733,36 @@ namespace CLauncher2._0.Settings
 
             UserSettings.Default.Save();
 
+        }
+
+        private void Foliage_Draw_Radius_Field_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            Preview_Text.Text = "0.0 turns off foliage. 1.0 is default on high setting. Can see changes in Financial park.";
+        }
+
+        private void Foliage_Draw_Radius_Field_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            Preview_Text.Text = "Hover over the settings to see what it does!";
+        }
+
+        private void Particle_Space_Area_Field_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            Preview_Text.Text = "particle space area is the flares and smokes behind objectives";
+        }
+
+        private void Particle_Space_Area_Field_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            Preview_Text.Text = "Hover over the settings to see what it does!";
+        }
+
+        private void Sun_Render_Quality_Field_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            Preview_Text.Text = "Doesn't seem like it does anything.";
+        }
+
+        private void Sun_Render_Quality_Field_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            Preview_Text.Text = "Hover over the settings to see what it does!";
         }
     }
 

@@ -8,13 +8,13 @@
       mc:Ignorable="d" d:DesignWidth="1186"
       Title="site_s_memlod" Height="1186">
 
-    <Grid Margin="0,0,0,482">
+    <Grid Margin="0,0,0,479">
         <TextBlock x:Name="Preview_Text" HorizontalAlignment="Left" Margin="506,521,0,0" TextWrapping="Wrap" Text="Hover over the settings to see what it does!" VerticalAlignment="Top" Height="73" Width="647" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="14"/>
         <Image x:Name="Preview" HorizontalAlignment="Left" Height="366" Margin="506,39,0,0" VerticalAlignment="Top" Width="649" OpacityMask="Black" Stretch="Fill" Source="/Settings/Preview_Placeholder.png"/>
         <ListView  x:Name="LV"
             Background="Transparent"
             BorderBrush="Transparent"
-            ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Top" Width="491" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" Height="713" Margin="10,24,0,0">
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Top" Width="491" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" Height="683" Margin="10,24,0,0">
 
             <!--// 1 //-->
             <ListViewItem Margin="0,0,0,0" Height="57" Width="484">
@@ -39,7 +39,7 @@
                 </StackPanel>
 
             </ListViewItem>
-            <ListViewItem Height="57" Width="484">
+            <ListViewItem x:Name="Sun_Render_Quality_Field" Height="57" Width="484" MouseEnter="Sun_Render_Quality_Field_MouseEnter" MouseLeave="Sun_Render_Quality_Field_MouseLeave">
                 <StackPanel Orientation="Horizontal"
                     Width="474" VerticalAlignment="Center" Height="28" HorizontalAlignment="Stretch">
                     <StackPanel Width="49">
@@ -50,7 +50,7 @@
                 </StackPanel>
 
             </ListViewItem>
-            <ListViewItem Height="57" Width="484">
+            <ListViewItem x:Name="Particle_Space_Area_Field" Height="57" Width="484" MouseEnter="Particle_Space_Area_Field_MouseEnter" MouseLeave="Particle_Space_Area_Field_MouseLeave">
                 <StackPanel Orientation="Horizontal"
                     Width="474" VerticalAlignment="Center" Height="28" HorizontalAlignment="Stretch">
                     <StackPanel Width="49">
@@ -61,7 +61,7 @@
                 </StackPanel>
 
             </ListViewItem>
-            <ListViewItem Height="57" Width="484">
+            <ListViewItem x:Name="Foliage_Draw_Radius_Field" Height="57" Width="484" MouseEnter="Foliage_Draw_Radius_Field_MouseEnter" MouseLeave="Foliage_Draw_Radius_Field_MouseLeave">
                 <StackPanel Orientation="Horizontal"
                     Width="474" VerticalAlignment="Center" Height="28" HorizontalAlignment="Stretch">
                     <StackPanel Width="49">
@@ -138,6 +138,22 @@
                 </StackPanel>
 
             </ListViewItem>
+
+            <ListViewItem Height="57" Width="484">
+                <StackPanel Orientation="Horizontal"
+                    Width="474" VerticalAlignment="Center" Height="28" HorizontalAlignment="Stretch">
+                    <StackPanel Width="49">
+                        <Label x:Name="SkeletalMeshLODLabel" Foreground="White" Content="9999" FontSize="16" FontFamily="{StaticResource Purista}"/>
+                    </StackPanel>
+                    <Slider x:Name="SkeletalMeshLODSelector" VerticalAlignment="Center" Width="150" Maximum="4" IsSnapToTickEnabled="True" HorizontalAlignment="Right" ValueChanged="SkeletalMeshLODSelector_ValueChanged"/>
+                    <Label Foreground="White" VerticalAlignment="Center" Content="SkeletalMeshLOD&#xD;&#xA;" FontSize="16" FontFamily="{StaticResource Purista}" Width="275"/>
+                </StackPanel>
+
+            </ListViewItem>
+
+
+
+
             <ListViewItem Height="57" Width="484" HorizontalAlignment="Stretch">
                 <StackPanel Orientation="Horizontal"
                     Width="474" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
