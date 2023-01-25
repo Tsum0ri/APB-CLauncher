@@ -1,5 +1,5 @@
 
-![Logo](https://i.imgur.com/zRXTwnm.png)
+![Logo](https://i.imgur.com/bftGOuQ.png)
 
 
 # APB CLauncher vb1.591 (C#)
