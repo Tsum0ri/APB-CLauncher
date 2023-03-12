@@ -1,8 +1,8 @@
 
-![Logo](https://i.imgur.com/zRXTwnm.png)
+![Logo](https://i.imgur.com/bftGOuQ.png)
 
 
-# APB CLauncher vb1.52 (C#)
+# APB CLauncher vb1.591 (C#)
 
 The APB-CLauncher is an extension of the current "Advanced APB Launcher". Which was developed since 2016 but was cancelled several times due to game related problems or due to lack of time.
 
