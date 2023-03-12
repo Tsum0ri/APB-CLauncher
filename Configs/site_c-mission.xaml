@@ -4,7 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:CLauncher2._0.Configs"
-      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:hc="https://handyorg.github.io/handycontrol" xmlns:syncfusion="http://schemas.syncfusion.com/wpf" x:Class="CLauncher2._0.Configs.site_c_mission"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:hc="https://handyorg.github.io/handycontrol" xmlns:syncfusion="http://schemas.syncfusion.com/wpf" xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" x:Class="CLauncher2._0.Configs.site_c_mission"
       mc:Ignorable="d" 
       d:DesignHeight="714" d:DesignWidth="1172"
       Title="site_c_mission">
@@ -218,7 +218,7 @@
         <CheckBox Content="Warn VIP/BOMB" HorizontalAlignment="Left" Margin="898,28,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="16" IsEnabled="False" Opacity="0.7"/>
         <CheckBox Content="Custom Color" HorizontalAlignment="Left" Margin="898,53,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="16" IsEnabled="False" Opacity="0.7"/>
         <CheckBox Content="Removing &quot;[ ]&quot;" HorizontalAlignment="Left" Margin="898,78,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="16" IsEnabled="False" Opacity="0.7"/>
-        <Button x:Name="saveBtn" Content="SAVE" HorizontalAlignment="Left" Margin="958,552,0,0" VerticalAlignment="Top" Height="34" Width="72" Click="saveBtn_Click"/>
+        <Button x:Name="saveBtn" Content="SAVE" Margin="1038,599,0,0" VerticalAlignment="Top" Height="34" Width="72" Click="saveBtn_Click"/>
 
 
 

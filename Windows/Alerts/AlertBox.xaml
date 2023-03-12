@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CLauncher2._0.Windows.Alerts"
+        xmlns:hc="https://handyorg.github.io/handycontrol" x:Name="AlertBox_Window" x:Class="CLauncher2._0.Windows.Alerts.AlertBox"
+        mc:Ignorable="d"
+        Title="AlertBox" Height="49" Width="483" WindowStyle="None">
+    <Grid x:Name="AlertBox_Grid" Background="#7F348A06">
+        <Image HorizontalAlignment="Left" Height="31" VerticalAlignment="Center" Width="24" Margin="10,0,0,0" Source="/Resources/icons8_Save_104px.png"/>
+        <Label Content="Sucessfully" HorizontalAlignment="Left" Margin="46,5,0,0" VerticalAlignment="Top" FontFamily="{StaticResource PuristaSemiBold}"/>
+        <Label Content="Configuration has been saved successfully" HorizontalAlignment="Left" Margin="46,24,0,0" VerticalAlignment="Top" FontFamily="{StaticResource Purista}"/>
+        <ProgressBar HorizontalAlignment="Center" Height="7" Margin="0,42,0,0" VerticalAlignment="Top" Width="484" Background="#FF7DFF79" Value="1" Foreground="#FF46EF40"/>
+
+    </Grid>
+</Window>

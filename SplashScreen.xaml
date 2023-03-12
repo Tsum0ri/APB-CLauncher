@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CLauncher2._0"
-        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="CLauncher2._0.SplashScreen"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" x:Class="CLauncher2._0.SplashScreen"
         mc:Ignorable="d"
         Title="APB CLauncher - SplashScreen" Height="280" Width="585" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="0.9" Background="{x:Null}" Loaded="Window_Loaded">
     <Grid>
@@ -15,9 +15,16 @@
             <ColumnDefinition Width="401*"/>
             <ColumnDefinition Width="399*"/>
         </Grid.ColumnDefinitions>
-        <Image Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="92" Margin="209,72,0,0" VerticalAlignment="Top" Width="168" Source="/Resources/kisspng-vehicle-clauncher.png" Stretch="Fill"/>
+        <Image Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="165" Margin="67,43,0,0" VerticalAlignment="Top" Width="451" Source="Resources/clauncher_fontlogo_launcher.png" Stretch="Fill"/>
         <Label x:Name="splashscreen_status" Content="Checking for updates" HorizontalAlignment="Left" Margin="10,169,0,0" VerticalAlignment="Top" FontFamily="{StaticResource Purista}" Foreground="White" Grid.ColumnSpan="2" Width="565" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Normal" AutomationProperties.AccessKey="false" FontSize="14"/>
-        <mah:ProgressRing HorizontalAlignment="Left" Margin="263,200,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Foreground="#CCFBFBFB"/>
+        <mah:ProgressRing HorizontalAlignment="Left" Margin="263,200,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2">
+            <mah:ProgressRing.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF54AEF4"/>
+                    <GradientStop Color="#FF8EA9F7" Offset="1"/>
+                </LinearGradientBrush>
+            </mah:ProgressRing.Foreground>
+        </mah:ProgressRing>
 
     </Grid>
 </Window>

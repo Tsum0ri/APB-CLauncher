@@ -25,6 +25,12 @@
     <Compile Update="Configs\site_main_configs.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Sites\News.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sites\Site_LauncherSettings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="V1\ConfigWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -79,6 +85,12 @@
     <Compile Update="Testing\code test.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Windows\Alerts\AlertBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Errors\Fatal Error.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Configs\site_c-description.xaml">
@@ -97,6 +109,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Configs\site_main_configs.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Sites\News.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Sites\Site_LauncherSettings.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="V1\ConfigWindow.xaml">
@@ -154,6 +172,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Testing\code test.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Alerts\AlertBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Errors\Fatal Error.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

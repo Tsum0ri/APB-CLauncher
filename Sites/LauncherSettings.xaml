@@ -16,7 +16,7 @@
             </Button>
             <Label Content="Launcher Settings" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Purista" Foreground="White" FontSize="18"/>
         </Grid>
-        <CheckBox x:Name="AutoUpdateBox" Content="Auto Update" HorizontalAlignment="Left" Margin="13,126,0,0" VerticalAlignment="Top" FontFamily="Purista" Foreground="White" FontSize="12" IsEnabled="False">
+        <CheckBox x:Name="AutoUpdateBox" Content="Auto Update" HorizontalAlignment="Left" Margin="13,126,0,0" VerticalAlignment="Top" FontFamily="Purista" Foreground="White" FontSize="12" IsChecked="True">
             <CheckBox.LayoutTransform>
                 <ScaleTransform ScaleX="1.3" ScaleY="1.3" />
             </CheckBox.LayoutTransform>
@@ -40,13 +40,13 @@
             <Label Content="Español" IsEnabled="False" Opacity="0.25"/>
             <Label Content="русский" IsEnabled="False" Opacity="0.25"/>
         </hc:ComboBox>
-        <CheckBox x:Name="DynamicBGBox" Content="Dynamic Background" HorizontalAlignment="Left" Margin="13,161,0,0" VerticalAlignment="Top" FontFamily="Purista" Foreground="White" FontSize="12" IsEnabled="False">
+        <CheckBox x:Name="DynamicBGBox" Content="Dynamic Background" HorizontalAlignment="Left" Margin="13,161,0,0" VerticalAlignment="Top" FontFamily="Purista" Foreground="White" FontSize="12" IsChecked="True" IsEnabled="False">
             <CheckBox.LayoutTransform>
                 <ScaleTransform ScaleX="1.3" ScaleY="1.3" />
             </CheckBox.LayoutTransform>
 
         </CheckBox>
-        <CheckBox Content="Application test mode" HorizontalAlignment="Left" Margin="13,199,0,0" VerticalAlignment="Top" FontFamily="Purista" Foreground="White" FontSize="12" IsEnabled="False">
+        <CheckBox Content="Application test mode" HorizontalAlignment="Left" Margin="13,199,0,0" VerticalAlignment="Top" FontFamily="Purista" Foreground="White" FontSize="12" IsEnabled="False" Cursor="Hand">
             <CheckBox.LayoutTransform>
                 <ScaleTransform ScaleX="1.3" ScaleY="1.3" />
             </CheckBox.LayoutTransform>

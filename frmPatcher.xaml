@@ -15,7 +15,7 @@
             <ColumnDefinition Width="401*"/>
             <ColumnDefinition Width="399*"/>
         </Grid.ColumnDefinitions>
-        <Image Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="92" Margin="209,70,0,0" VerticalAlignment="Top" Width="168" Source="/Resources/kisspng-vehicle-clauncher.png" Stretch="Fill"/>
+        <Image Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="143" Margin="88,60,0,0" VerticalAlignment="Top" Width="409" Source="Resources/clauncher_fontlogo_launcher.png" Stretch="Fill"/>
         <ProgressBar x:Name="CtrlProgressBar" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="16" Margin="10,203,0,0" VerticalAlignment="Top" Width="565" BorderBrush="#00BCBCBC" Background="#FF909090" Opacity="0.85" SmallChange="0.01">
             <ProgressBar.Foreground>
                 <LinearGradientBrush EndPoint="0,0" StartPoint="1,1" SpreadMethod="Pad" MappingMode="RelativeToBoundingBox">

@@ -23,7 +23,7 @@
                 <GradientStop Color="#A5000000" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Image HorizontalAlignment="Center" Height="170" Margin="0,118,0,0" VerticalAlignment="Top" Width="304" Source="/Resources/kisspng-vehicle-clauncher.png" Stretch="Fill"/>
+        <Image HorizontalAlignment="Center" Height="317" Margin="0,62,0,0" VerticalAlignment="Top" Width="858" Source="/Resources/clauncher_fontlogo_launcher.png" Stretch="Fill"/>
         <Label x:Name="versionText" Content="unable to load the version file from server&#xA;" HorizontalAlignment="Center" Margin="0,284,0,0" VerticalAlignment="Top" Foreground="White" FontSize="15" FontFamily="{StaticResource PuristaSemiBold}"/>
         <TextBlock TextWrapping="NoWrap" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="19" RenderTransformOrigin="0.498,0.481" TextAlignment="Center" FontWeight="Normal" Margin="223,379,223,59"><Run Text="APB &quot;CLauncher&quot; is currently in Closed-Beta. This Launcher is not "/><LineBreak/><Run Text="complete and may or may not change further. If you are not excited "/><LineBreak/><Run Text="to use it in its current state, then you should wait to see if "/><LineBreak/><Run Text="the Launcher progresses further in development. "/></TextBlock>
         <Image HorizontalAlignment="Center" Height="56" Margin="0,511,0,0" VerticalAlignment="Top" Width="222" Source="/Resources/clauncher_pp_2.png" Stretch="Fill" MouseDown="Image_MouseDown" Cursor="Hand"/>

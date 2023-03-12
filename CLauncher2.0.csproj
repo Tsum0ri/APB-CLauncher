@@ -21,6 +21,7 @@
   <ItemGroup>
     <None Remove="BG_1.png" />
     <None Remove="CLauncher Panel.png" />
+    <None Remove="clauncher_fontlogo_launcher.png" />
     <None Remove="clauncher_heart.png" />
     <None Remove="clauncher_pp_2.png" />
     <None Remove="Configs\232266045_860106148218463_1113378182465821454_n.jpg" />
@@ -115,8 +116,10 @@
     <None Remove="Sites\BG_7.png" />
     <None Remove="Sites\BG_8.png" />
     <None Remove="Sites\BG_9.png" />
+    <None Remove="Sites\clauncher_logoicon_launcher.png" />
     <None Remove="Sites\Discord-Logo-Color.png" />
     <None Remove="Sites\on-off-button.png" />
+    <None Remove="Sites\Unknown_person.jpg" />
     <None Remove="splashscreen.png" />
   </ItemGroup>
 
@@ -125,6 +128,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\clauncher_fontlogo_launcher.png" />
     <Resource Include="Resources\Font\0992319114465dff36289dcff95b398e.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -232,6 +236,7 @@
     <PackageReference Include="LanguageExt.Core" Version="4.4.0" />
     <PackageReference Include="MahApps.Metro" Version="2.4.9" />
     <PackageReference Include="MaterialDesignThemes" Version="4.7.0-ci390" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.31.2" />
     <PackageReference Include="Microsoft.Bcl" Version="1.1.10" />
     <PackageReference Include="Microsoft.Bcl.Async" Version="1.0.168" />
     <PackageReference Include="Microsoft.Bcl.Build" Version="1.0.21" />
@@ -317,6 +322,8 @@
     <Resource Include="Resources\Backgrounds\BG_9.png" />
     <Resource Include="Resources\Discord-Logo-Color.png" />
     <Resource Include="Resources\on-off-button.png" />
+    <Resource Include="Resources\clauncher_logoicon_launcher.png" />
+    <Resource Include="Sites\Unknown_person.jpg" />
   </ItemGroup>
 
   <ItemGroup>

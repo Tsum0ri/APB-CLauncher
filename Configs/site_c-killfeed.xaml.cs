@@ -28,6 +28,7 @@ namespace CLauncher2._0.Configs
         public site_c_killfeed()
         {
             InitializeComponent();
+            checkIfUsingNormalFiles();
 
             // ========================================== Loading User-Configs ==========================================
             Team_Kill = config.Default.Team_KillS;
@@ -56,6 +57,25 @@ namespace CLauncher2._0.Configs
             Assist_Box.Text = Assist;
             TeamKilled_Box.Text = Team_Killed;
             EnemyKilled_Box.Text = Enemy_Killed;
+        }
+
+
+        public void checkIfUsingNormalFiles()
+        {
+            string ConfigFile = Environment.CurrentDirectory + "\\APBGame\\Localization\\GER\\HUDCombatMessages.GER";
+            List<String> lines = File.ReadAllLines(ConfigFile).ToList();
+
+            if (lines.Contains("; DO NOT modify this file, modify the SDD table: HUDCombatMessage"))
+            {
+
+            }
+            else
+            {
+                Windows.Fatal_Error FatalError = new Windows.Fatal_Error();
+                FatalError.Show();
+                FatalError.ErrorCode.Content = "<Error:FatalError Informations=" + '\u0022' + "You are already using modified GameFiles, please use the vanilla one to avoid crashing." + '\u0022' + ">";
+            }
+
         }
 
 

@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("thirdpartynotice.txt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icon.ico")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("fakesassemblies/wpf.ui.enhanced.10.0.1.0.fakes.dll")]
 

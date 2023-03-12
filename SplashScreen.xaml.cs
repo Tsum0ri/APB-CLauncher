@@ -3,6 +3,7 @@ using System.IO;
 using System.Net;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Forms;
 using CLauncher2._0.Window;
 
 namespace CLauncher2._0
@@ -13,7 +14,7 @@ namespace CLauncher2._0
     public partial class SplashScreen : System.Windows.Window
     {
 
-        string Version = "vb1.591";
+        string Version = "vb1.65";
 
 
 
@@ -21,6 +22,7 @@ namespace CLauncher2._0
         public SplashScreen()
         {
             InitializeComponent();
+            checkIfLauncherIsInDirectory();
             this.splashscreen_status.Content = "checking for updates...";
             string oldPath = (Environment.CurrentDirectory) + @"\APB CLauncher_old.exe"; //!!!!!!!
             File.Delete(oldPath);
@@ -45,6 +47,26 @@ namespace CLauncher2._0
             }
 
         }
+
+        public void checkIfLauncherIsInDirectory()
+        {
+                String path = Environment.CurrentDirectory;
+                String target = "\\Binaries\\APB.exe";
+
+                if (File.Exists(path + target))
+                {
+
+                }
+                else
+                {
+                this.Hide();
+                Windows.Fatal_Error FatalError = new Windows.Fatal_Error();
+                FatalError.Show();
+                FatalError.ErrorCode.Content = "<Error:FatalError Informations=" + '\u0022' + "Launcher is not located in the APB directory" + '\u0022' + ">";
+            }
+
+        }
+
 
         private async void StartMainForm()
         {

@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyMetadata("Sentry.ProjectDirectory", "Z:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\")]
+[assembly: System.Reflection.AssemblyMetadata("Sentry.ProjectDirectory", "G:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\")]
 
 // Von der MSBuild WriteCodeFragment-Klasse generiert.
 

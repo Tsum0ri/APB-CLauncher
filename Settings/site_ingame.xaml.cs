@@ -43,6 +43,7 @@ namespace CLauncher2._0.Settings
             this.TrilinearBox.IsChecked = UserSettings.Default.TrilinearS;
             this.hudBox.IsChecked = UserSettings.Default.hudS;
             this.RenderBox.IsChecked = UserSettings.Default.RenderS;
+            this.MaxClientFrameRateBox.Text = UserSettings.Default.MaxClientFrameRate_Text;
 
         }
 
@@ -225,6 +226,7 @@ namespace CLauncher2._0.Settings
             UserSettings.Default.TrilinearS = (bool)this.TrilinearBox.IsChecked;
             UserSettings.Default.hudS = (bool)this.hudBox.IsChecked;
             UserSettings.Default.RenderS = (bool)this.RenderBox.IsChecked;
+            UserSettings.Default.MaxClientFrameRate_Text = (string)this.MaxClientFrameRateBox.Text;
 
 
             UserSettings.Default.Save();
@@ -401,6 +403,12 @@ namespace CLauncher2._0.Settings
 
             GameLauncher.GetINI(Environment.CurrentDirectory + "\\APBGame\\Config\\APBMachineOptions.ini");
             GameLauncher.SaveToINI("SystemSettings", "m_bGameRenderEyelashes", Conversions.ToString(this.RenderBox.IsChecked));
+
+            GameLauncher.GetINI(Environment.CurrentDirectory + "\\Engine\\Config\\BaseEngine.ini");
+            GameLauncher.SaveToINI("Engine.GameEngine", "MaxClientFrameRate", Conversions.ToString(this.MaxClientFrameRateBox.Text));
+
+            GameLauncher.GetINI(Environment.CurrentDirectory + "\\APBGame\\Config\\APBEngine.ini");
+            GameLauncher.SaveToINI("Engine.GameEngine", "MaxClientFrameRate", Conversions.ToString(this.MaxClientFrameRateBox.Text));
 
 
         }

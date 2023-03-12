@@ -20,18 +20,14 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrayNotify;
 
 namespace CLauncher2._0.Window
 {
-    /// <summary>
-    /// Interaktionslogik für test.xaml
-    /// </summary>
     public partial class test : System.Windows.Window
     {
 
-        string Version = "vb1.591";
+        string Version = "vb1.65";
 
 
         public test()
         {
-
 
             InitializeComponent();
             Site_Content.Content = new Site_Home();
@@ -41,6 +37,7 @@ namespace CLauncher2._0.Window
             Random rng = new Random();
             int index = rng.Next(bgs.Length);
             this.LauncherBG.Source = new BitmapImage(new Uri(bgs[index], UriKind.Relative));
+            LoadBackgroundImage(); // Should Ignore the DynamicBG feature
 
             ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
         }
@@ -72,8 +69,7 @@ namespace CLauncher2._0.Window
 
         private void Launcher_Settings_Btn_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            //LauncherSettings LS = new LauncherSettings();
-            //LS.Show();
+            Site_Content.Content = new Sites.Site_LauncherSettings();
         }
 
         private void Info_Btn_MouseDown(object sender, MouseButtonEventArgs e)
@@ -109,6 +105,22 @@ namespace CLauncher2._0.Window
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             
+        }
+
+        private void StackPanel_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Site_Content.Content = new Sites.News();
+        }
+
+        // Load background image on program startup
+        private void LoadBackgroundImage()
+        {
+            // Check if a last selected file was saved
+            if (!string.IsNullOrEmpty(UserSettings.Default.LastSelectedImagePath))
+            {
+                var bitmap = new BitmapImage(new Uri(UserSettings.Default.LastSelectedImagePath));
+                LauncherBG.Source = bitmap;
+            }
         }
     }
 }

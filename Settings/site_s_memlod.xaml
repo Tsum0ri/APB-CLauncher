@@ -8,13 +8,13 @@
       mc:Ignorable="d" d:DesignWidth="1186"
       Title="site_s_memlod" Height="1186">
 
-    <Grid Margin="0,0,0,479">
+    <Grid Margin="0,0,0,196">
         <TextBlock x:Name="Preview_Text" HorizontalAlignment="Left" Margin="506,521,0,0" TextWrapping="Wrap" Text="Hover over the settings to see what it does!" VerticalAlignment="Top" Height="73" Width="647" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="14"/>
         <Image x:Name="Preview" HorizontalAlignment="Left" Height="366" Margin="506,39,0,0" VerticalAlignment="Top" Width="649" OpacityMask="Black" Stretch="Fill" Source="/Settings/Preview_Placeholder.png"/>
-        <ListView  x:Name="LV"
+        <ListView  x:Name="MaxClientFrameRateBox"
             Background="Transparent"
             BorderBrush="Transparent"
-            ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Top" Width="491" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" Height="683" Margin="10,24,0,0">
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Top" Width="491" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" Height="846" Margin="10,24,0,0">
 
             <!--// 1 //-->
             <ListViewItem Margin="0,0,0,0" Height="57" Width="484">

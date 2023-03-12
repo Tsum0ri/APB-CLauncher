@@ -2,20 +2,12 @@
 using Launcher;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Drawing;
 using System.IO;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using Microsoft.VisualBasic.CompilerServices;
+using Wpf.Ui.Common;
+using Wpf.Ui.Controls.Interfaces;
+using Wpf.Ui.Mvvm.Contracts;
 
 namespace CLauncher2._0.Configs
 {
@@ -24,6 +16,7 @@ namespace CLauncher2._0.Configs
     /// </summary>
     public partial class site_c_mission : Page
     {
+
         public site_c_mission()
         {
             InitializeComponent();
@@ -69,6 +62,7 @@ namespace CLauncher2._0.Configs
             truckBox.Text = Truck;
 
         }
+
 
 
         // ========================================== DefaultPrefix-Missions ==========================================
@@ -157,6 +151,25 @@ namespace CLauncher2._0.Configs
         string Color_Assist;
         string ColorEnd = "</col>";
 
+
+
+        public void checkIfUsingNormalFiles()
+        {
+            string ConfigFile = Environment.CurrentDirectory + "\\APBGame\\Localization\\GER\\MissionTemplates.GER";
+            List<String> lines = File.ReadAllLines(ConfigFile).ToList();
+
+            if (lines.Contains(";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"))
+            {
+
+            }
+            else
+            {
+                Windows.Fatal_Error FatalError = new Windows.Fatal_Error();
+                FatalError.Show();
+                FatalError.ErrorCode.Content = "<Error:FatalError Informations=" + '\u0022' + "You are already using modified GameFiles, please use the vanilla one to avoid crashing." + '\u0022' + ">";
+            }
+
+        }
 
         private void saveBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -453,7 +466,6 @@ namespace CLauncher2._0.Configs
 
 
             config.Default.Save();
-
         }
 
 

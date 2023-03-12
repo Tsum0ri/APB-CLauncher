@@ -1,0 +1,86 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CLauncher2._0.Sites"
+      xmlns:hc="https://handyorg.github.io/handycontrol" xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" x:Class="CLauncher2._0.Sites.Site_LauncherSettings"
+      mc:Ignorable="d" 
+      d:DesignHeight="714" d:DesignWidth="1306"
+      Title="Site_LauncherSettings">
+
+    <Grid>
+        <VirtualizingStackPanel
+
+    VirtualizingPanel.VirtualizationMode="Recycling" x:Name="RootPanel" Margin="10,10,10,10" VirtualizingPanel.IsVirtualizing="True" HorizontalAlignment="Left">
+
+            <ui:InfoBar
+
+    Visibility="Collapsed" Title="Update verfügbar." Message="Starte die App neu um das Update zu installieren." IsOpen="True"/>
+            <Label
+
+        VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" FontFamily="{StaticResource Purista}" Foreground="White" Content="Language"/>
+            <ComboBox x:Name="LanguageSelector" Width="164" SelectedIndex="0" Height="43" FontFamily="{StaticResource Purista}" FontWeight="Normal" FontSize="16" Margin="0,3,0,0" VerticalAlignment="Top" IsEnabled="False">
+                <Label Content="English"/>
+                <Label Content="German"/>
+                <Label Content="Russian"/>
+                <Label Content="Spanish"/>
+            </ComboBox>
+            <CheckBox
+
+    VerticalAlignment="Top" x:Name="AutoUpdateBox" IsChecked="True" FontSize="12" FontFamily="{StaticResource Purista}" Foreground="White" Content="Auto Update" RenderTransformOrigin="0.483,0.483" HorizontalAlignment="Left" Margin="0,10,0,0">
+
+                <CheckBox.LayoutTransform
+
+    >
+
+                    <ScaleTransform
+
+    ScaleX="1.3" ScaleY="1.3"/>
+
+                </CheckBox.LayoutTransform>
+
+            </CheckBox>
+
+            <CheckBox
+
+    VerticalAlignment="Top" IsEnabled="False" FontSize="12" FontFamily="{StaticResource Purista}" Foreground="White" Content="Application test mode" Cursor="Hand" Margin="0,10,0,0">
+
+                <CheckBox.LayoutTransform
+
+    >
+
+                    <ScaleTransform
+
+    ScaleX="1.3" ScaleY="1.3"/>
+
+                </CheckBox.LayoutTransform>
+
+            </CheckBox>
+            <Label x:Name="label" Content="Export / Import" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" FontFamily="{StaticResource Purista}" Foreground="White" Margin="0,10,0,0"/>
+            <ui:Button x:Name="btn_export" Content="Export" HorizontalAlignment="Center" Height="38" Width="126" Icon="arrowupload24" IconFilled="True" Click="btn_export_Click"/>
+            <ui:Button x:Name="btn_import" Content="Import" HorizontalAlignment="Center" Height="38" Width="126" Icon="arrowdownload24" IconFilled="True" Margin="0,10,0,0" Click="btn_import_Click"/>
+            <Label x:Name="label_Copy" Content="Background" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="16" FontFamily="{StaticResource Purista}" Foreground="White" Margin="0,10,0,0"/>
+            <CheckBox x:Name="DynamicBGBox" IsChecked="True" FontSize="12" FontFamily="{StaticResource Purista}" Foreground="White" Content="Dynamic Background">
+
+                <CheckBox.LayoutTransform
+
+    >
+
+                    <ScaleTransform
+
+    ScaleX="1.3" ScaleY="1.3"/>
+
+                </CheckBox.LayoutTransform>
+
+            </CheckBox>
+            <ui:Button x:Name="btn_background" Content="Custom Background" HorizontalAlignment="Center" Height="38" Width="182" Icon="image48" Margin="0,10,0,0" VerticalAlignment="Top" Click="btn_background_Click"/>
+            <ui:Button x:Name="btn_backgroundreset" Content="Reset Background" HorizontalAlignment="Center" Height="38" Width="182" Icon="Xray20" Margin="0,10,0,0" VerticalAlignment="Top" Click="btn_backgroundreset_Click"/>
+
+
+
+
+        </VirtualizingStackPanel>
+
+    </Grid>
+</Page>

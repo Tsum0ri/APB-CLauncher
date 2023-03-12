@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\CLauncher2.0.csproj": {}
+    "G:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\CLauncher2.0.csproj": {}
   },
   "projects": {
-    "Z:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\CLauncher2.0.csproj": {
+    "G:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\CLauncher2.0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\CLauncher2.0.csproj",
+        "projectUniqueName": "G:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\CLauncher2.0.csproj",
         "projectName": "APB CLauncher",
-        "projectPath": "Z:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\CLauncher2.0.csproj",
+        "projectPath": "G:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\CLauncher2.0.csproj",
         "packagesPath": "C:\\Users\\Steve\\.nuget\\packages\\",
-        "outputPath": "Z:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\obj\\",
+        "outputPath": "G:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -31,8 +28,8 @@
           "net48": {
             "targetAlias": "net48",
             "projectReferences": {
-              "Z:\\Clauncher2\\CLauncher2.0\\DisplayChanger-master\\DisplayChanger\\DisplayChanger.csproj": {
-                "projectPath": "Z:\\Clauncher2\\CLauncher2.0\\DisplayChanger-master\\DisplayChanger\\DisplayChanger.csproj"
+              "G:\\Clauncher2\\CLauncher2.0\\DisplayChanger-master\\DisplayChanger\\DisplayChanger.csproj": {
+                "projectPath": "G:\\Clauncher2\\CLauncher2.0\\DisplayChanger-master\\DisplayChanger\\DisplayChanger.csproj"
               }
             }
           }
@@ -90,6 +87,10 @@
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[4.7.0-ci390, )"
+            },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.31.2, )"
             },
             "Microsoft.Bcl": {
               "target": "Package",
@@ -156,7 +157,7 @@
               "version": "[9.5.0.93, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -165,19 +166,19 @@
         }
       }
     },
-    "Z:\\Clauncher2\\CLauncher2.0\\DisplayChanger-master\\DisplayChanger\\DisplayChanger.csproj": {
+    "G:\\Clauncher2\\CLauncher2.0\\DisplayChanger-master\\DisplayChanger\\DisplayChanger.csproj": {
       "restore": {
-        "projectUniqueName": "Z:\\Clauncher2\\CLauncher2.0\\DisplayChanger-master\\DisplayChanger\\DisplayChanger.csproj",
+        "projectUniqueName": "G:\\Clauncher2\\CLauncher2.0\\DisplayChanger-master\\DisplayChanger\\DisplayChanger.csproj",
         "projectName": "DisplayChanger",
-        "projectPath": "Z:\\Clauncher2\\CLauncher2.0\\DisplayChanger-master\\DisplayChanger\\DisplayChanger.csproj",
+        "projectPath": "G:\\Clauncher2\\CLauncher2.0\\DisplayChanger-master\\DisplayChanger\\DisplayChanger.csproj",
         "frameworks": {
-          "net40": {
+          "net48": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "net40": {}
+        "net48": {}
       }
     }
   }

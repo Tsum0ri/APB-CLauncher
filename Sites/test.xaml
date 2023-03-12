@@ -26,7 +26,7 @@
                 <Image x:Name="LauncherBG" Source="/Resources/Backgrounds/BG_11.png" Height="788" Width="1492" Stretch="Fill" />
                 <Grid Height="788" Margin="0,2,1306,1" Background="#4C000000">
 
-                    <Image HorizontalAlignment="Center" Height="76" Margin="0,19,0,0" VerticalAlignment="Top" Width="130" Source="/Resources/kisspng-vehicle-clauncher.png" Stretch="Fill"/>
+                    <Image HorizontalAlignment="Center" Height="81" Margin="0,19,0,0" VerticalAlignment="Top" Width="146" Source="/Resources/kisspng-vehicle-clauncher.png" Stretch="Fill"/>
 
                     <StackPanel x:Name="Home_Btn" Orientation="Horizontal" Margin="0,214,0,524" MouseDown="Home_Btn_MouseDown">
                         <StackPanel.Style>
@@ -110,7 +110,7 @@
 
                     </StackPanel>
                     <Separator HorizontalAlignment="Center" Margin="0,369,0,0" VerticalAlignment="Top" Height="13" Width="186" Opacity="0.15"/>
-                    <StackPanel Orientation="Horizontal" Margin="0,376,0,358" Height="54" IsEnabled="False" Opacity="0.25">
+                    <StackPanel Orientation="Horizontal" Margin="0,376,0,358" Height="54" MouseDown="StackPanel_MouseDown">
 
                         <StackPanel.Style>
                             <Style TargetType="{x:Type StackPanel}">
@@ -190,7 +190,7 @@
                         <Label Content="Discord" Margin="10,5,0,5" FontFamily="{StaticResource PuristaSemiBold}" Foreground="White" FontWeight="Normal" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="78"/>
 
                     </StackPanel>
-                    <StackPanel x:Name="Info_Btn" Orientation="Horizontal" Margin="0,733,0,0" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" Width="66" MouseDown="Info_Btn_MouseDown">
+                    <StackPanel x:Name="Info_Btn" Orientation="Horizontal" Margin="0,712,0,0" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" Width="66" MouseDown="Info_Btn_MouseDown">
 
                         <Image Source="/Resources/icons8_Info_104px.png"
                             Stretch="Fill"
@@ -214,6 +214,7 @@
                         </Label>
 
                     </StackPanel>
+                    <Image HorizontalAlignment="Center" Height="40" Margin="0,748,0,0" VerticalAlignment="Top" Width="108" Source="/Resources/clauncher_fontlogo_launcher.png" Stretch="Fill"/>
                 </Grid>
                 <ui:Card Content="" HorizontalAlignment="Left" Margin="1346,29,0,0" VerticalAlignment="Top" Width="2" Height="24" Background="#25FFFFFF">
                     <ui:Card.BorderBrush>
@@ -260,7 +261,7 @@
                     </Style>
                 </Image.Style>
             </Image>
-            <Image x:Name="Launcher_Settings_Btn" HorizontalAlignment="Left" Margin="257,27,0,21" Width="28" Source="/Resources/icons8_Settings_100px.png" Opacity="0.35" MouseDown="Launcher_Settings_Btn_MouseDown" IsEnabled="False">
+            <Image x:Name="Launcher_Settings_Btn" HorizontalAlignment="Left" Margin="257,27,0,21" Width="28" Source="/Resources/icons8_Settings_100px.png" MouseDown="Launcher_Settings_Btn_MouseDown">
                 <Image.Style>
                     <Style TargetType="{x:Type Image}">
                         <Style.Triggers>

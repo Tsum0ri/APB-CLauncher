@@ -158,11 +158,7 @@
 
         </ListView>
         <Image HorizontalAlignment="Left" Height="61" Margin="788,165,0,0" VerticalAlignment="Top" Width="54" Source="/Configs/icons8_Poison_100px.png"/>
-        <Button x:Name="saveBtn2" HorizontalAlignment="Left" Margin="973,526,0,0" VerticalAlignment="Top" Height="60" Width="57" Click="saveBtn_Click" BorderThickness="0,0,0,0">
-            <Button.Background>
-                <ImageBrush ImageSource="/Configs/icons8_Save_96px.png"/>
-            </Button.Background>
-        </Button>
+        <Button x:Name="saveBtn2" Content="SAVE" Margin="1038,599,0,0" VerticalAlignment="Top" Height="34" Width="72" Click="saveBtn_Click" BorderThickness="0,0,0,0" Background="#0FFFFFFF"/>
         <Label Content="The preview colors do not match the colors ingame" HorizontalAlignment="Center" Margin="0,675,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="14"/>
         <ComboBox x:Name="enemyKilledComboBox" FontFamily="{StaticResource Purista}" FontWeight="Normal" FontSize="18" Margin="209,474,789,0" Foreground="White" BorderBrush="{x:Null}" SelectionChanged="enemyKilledComboBox_SelectionChanged" SelectedIndex="32" Height="43" VerticalAlignment="Top">
             <Label Content="Red"/>

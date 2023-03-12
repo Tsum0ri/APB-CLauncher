@@ -178,6 +178,14 @@
 
                 </StackPanel>
             </ListViewItem>
+            <ListViewItem Height="57" Width="310">
+                <StackPanel Orientation="Horizontal"
+                    Width="277" VerticalAlignment="Center" Height="38" HorizontalAlignment="Center">
+                    <Label Foreground="White" VerticalAlignment="Center" Content="MaxClientFrameRate" FontSize="16" FontFamily="{StaticResource Purista}" Width="153" Height="22"/>
+                    <ui:TextBox x:Name="MaxClientFrameRateBox" TextWrapping="Wrap" Text="145" Width="120" UndoLimit="10" SelectionOpacity="0.7"/>
+                </StackPanel>
+
+            </ListViewItem>
         </ListView>
         <TextBlock x:Name="Preview_Text" HorizontalAlignment="Left" Margin="308,522,0,0" TextWrapping="Wrap" Text="Hover over the settings to see what it does!" VerticalAlignment="Top" Height="73" Width="690" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="14" Grid.Column="3"/>
         <Image x:Name="Preview" HorizontalAlignment="Left" Height="400" Margin="300,40,0,0" VerticalAlignment="Top" Width="701" OpacityMask="Black" Stretch="Fill" Source="/Settings/Preview_Placeholder.png" Grid.Column="3"/>

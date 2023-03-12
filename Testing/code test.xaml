@@ -7,65 +7,24 @@
         xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
         xmlns:hc="https://handyorg.github.io/handycontrol" x:Class="CLauncher2._0.Testing.code_test"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1280">
+        Title="MainWindow" Height="1082" Width="1885">
 
-    <Window.Resources>
-
-        <Style TargetType="{x:Type CheckBox}">
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type CheckBox}">
-                        <ControlTemplate.Resources>
-                            <Storyboard x:Key="right">
-                                <ThicknessAnimation Storyboard.TargetProperty="Margin" Storyboard.TargetName="button" Duration="0:0:0.4" From="0,0,0,0" To="28,0,0,0" >
-                                    <ThicknessAnimation.EasingFunction>
-                                        <CircleEase EasingMode="EaseOut"/>
-                                    </ThicknessAnimation.EasingFunction>
-                                </ThicknessAnimation>
-                            </Storyboard>
-                            <Storyboard x:Key="left">
-                                <ThicknessAnimation Storyboard.TargetProperty="Margin" Storyboard.TargetName="button" Duration="0:0:0.4" From="28,0,0,0" To="0,0,0,0" >
-                                    <ThicknessAnimation.EasingFunction>
-                                        <CircleEase EasingMode="EaseOut"/>
-                                    </ThicknessAnimation.EasingFunction>
-                                </ThicknessAnimation>
-                            </Storyboard>
-                        </ControlTemplate.Resources>
-                        <StackPanel Orientation="Horizontal">
-                            <Grid >
-                                <Border Width="45" Height="20" Background="LightGray" CornerRadius="10" Margin="5,0"/>
-                                <Border x:Name="button" Height="25" Width="25" CornerRadius="12.5" HorizontalAlignment="Left"  />
-                            </Grid>
-                            <ContentPresenter x:Name="content" Margin="10,0,0,0" Content="{TemplateBinding Content}" VerticalAlignment="Center"/>
-                        </StackPanel>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsChecked" Value="false">
-                                <Trigger.ExitActions>
-                                    <RemoveStoryboard BeginStoryboardName="leftt"/>
-                                    <BeginStoryboard Storyboard="{StaticResource right}" x:Name="rightt" />
-                                </Trigger.ExitActions>
-                                <Setter TargetName="button" Property="Background" Value="#757575"/>
-                            </Trigger>
-                            <Trigger Property="IsChecked" Value="true">
-                                <Trigger.ExitActions>
-                                    <RemoveStoryboard BeginStoryboardName="rightt"/>
-                                    <BeginStoryboard Storyboard="{StaticResource left}" x:Name="leftt" />
-                                </Trigger.ExitActions>
-                                <Setter TargetName="button" Property="Background" Value="#20BF55"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-    </Window.Resources>
-    <StackPanel VerticalAlignment="Center">
-        <CheckBox  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="26" Foreground="#0B4F6C" Content="Option 1" />
-        <CheckBox  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="26" Foreground="#0B4F6C" Content="Option 2" />
-        <CheckBox  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="26" Foreground="#0B4F6C" Content="Option 3" />
-        <CheckBox  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="26" Foreground="#0B4F6C" Content="Option 4" />
-        <CheckBox  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="26" Foreground="#0B4F6C" Content="Option 5" />
-        <ui:Rating Content="Rating"/>
-        <hc:CirclePanel Height="100"/>
-    </StackPanel>
+   
+    <ListView x:Name="trackerListView" Margin="10">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <StackPanel>
+                    <TextBlock Text="{Binding ID}" FontWeight="Bold" FontSize="16" Foreground="#FF0E0D0D" />
+                    <TextBlock Text="{Binding AuthorID}" FontWeight="Bold" FontSize="16" Foreground="#FF0E0D0D" />
+                    <TextBlock Text="{Binding ForumName}" FontWeight="Bold" FontSize="16" Foreground="#FF0E0D0D" />
+                    <TextBlock Text="{Binding ThreadName}" FontWeight="Bold" FontSize="16" Foreground="#FF0E0D0D" />
+                    <TextBlock Text="{Binding ThreadLink}" FontWeight="Bold" FontSize="16" Foreground="#FF0E0D0D" />
+                    <TextBlock Text="{Binding PubDate}" FontWeight="Bold" FontSize="16" Foreground="#FF0E0D0D" />
+                    <TextBlock Text="{Binding PostLink}" FontWeight="Bold" FontSize="16" Foreground="#FF0E0D0D" />
+                    <TextBlock Text="{Binding Author.ImageLink}" FontWeight="Bold" FontSize="16" Foreground="#FF0E0D0D" />
+                    <TextBlock Text="{Binding GroupName}" FontWeight="Bold" FontSize="16" Foreground="#FF0E0D0D" />
+                </StackPanel>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </Window>

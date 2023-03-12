@@ -12,7 +12,7 @@ namespace CLauncher2._0 {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.0.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.5.0.0")]
     internal sealed partial class UserSettings : global::System.Configuration.ApplicationSettingsBase {
         
         private static UserSettings defaultInstance = ((UserSettings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new UserSettings())));
@@ -1568,6 +1568,42 @@ namespace CLauncher2._0 {
             }
             set {
                 this["SkeletalMeshLOD_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("145")]
+        public string MaxClientFrameRate_Text {
+            get {
+                return ((string)(this["MaxClientFrameRate_Text"]));
+            }
+            set {
+                this["MaxClientFrameRate_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("145")]
+        public int MaxClientFrameRate_Value {
+            get {
+                return ((int)(this["MaxClientFrameRate_Value"]));
+            }
+            set {
+                this["MaxClientFrameRate_Value"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LastSelectedImagePath {
+            get {
+                return ((string)(this["LastSelectedImagePath"]));
+            }
+            set {
+                this["LastSelectedImagePath"] = value;
             }
         }
     }

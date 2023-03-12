@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CLauncher2._0.Windows"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" x:Class="CLauncher2._0.Windows.Fatal_Error"
+        mc:Ignorable="d"
+        Title="Fatal_Error" Height="280" Width="750
+    " ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="0.9" Background="#BF272727">
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="92" Margin="0,23,0,0" VerticalAlignment="Top" Width="168" Source="/Resources/kisspng-vehicle-clauncher.png" Stretch="Fill"/>
+        <Label x:Name="splashscreen_status" Content="Error" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="{StaticResource PuristaSemiBold}" Foreground="White" Width="566" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" AutomationProperties.AccessKey="false" FontSize="16"/>
+        <ui:Button x:Name="ok_btn" Content="OK" Margin="0,242,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Height="28" Width="62" FontSize="12" FontFamily="{StaticResource PuristaSemiBold}" Click="ok_btn_Click"/>
+        <ui:CodeBlock x:Name="ErrorCode" Margin="10,153,10,94" Content="&lt;Error:FatalError Informations=&quot;Launcher is not located in the APB directory&quot;&gt;" FontSize="10"/>
+        <Label x:Name="splashscreen_status_Copy" Content="For more Informations, contact us on our Discord-Server" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="{StaticResource Purista}" Foreground="White" Width="566" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Normal" AutomationProperties.AccessKey="false" FontSize="13" Margin="0,220,0,0"/>
+    </Grid>
+</Window>
