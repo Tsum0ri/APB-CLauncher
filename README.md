@@ -2,7 +2,7 @@
 ![Logo](https://i.imgur.com/bftGOuQ.png)
 
 
-# APB CLauncher vb1.591 (C#)
+# APB CLauncher vb1.65 (C#)
 
 The APB-CLauncher is an extension of the current "Advanced APB Launcher". Which was developed since 2016 but was cancelled several times due to game related problems or due to lack of time.
 
@@ -25,33 +25,33 @@ If you have any feedback, please reach out to us at https://discord.com/invite/K
 
 ## Roadmap
 
-- Fixing Export/Import feature
+- [x] Fixing Export/Import feature
 
-- Uploading Pre-Configs
+- [ ] Uploading Pre-Configs
 
-- Adding CET Pre-Config/Settings
+- [ ] Adding CET Pre-Config/Settings
 
-- Font Changer
+- [ ] Font Changer
 
-- Fixing various crashes
+- [ ] Fixing various crashes
 
-- Quality of Life changes
+- [ ] Quality of Life changes
 
-- Code Optimization
+- [ ] Code Optimization
 
-- Adding RSS-Feed (Forum)
+- [x] Adding RSS-Feed (Forum)
 
-- Disable or Changeable Launcher Backgrounds
+- [x] Disable or Changeable Launcher Backgrounds
 
-- Connect the Web-Version with the Launcher
+- [ ] Connect the Web-Version with the Launcher
 
-- Design and Layout Optimization
+- [ ] Design and Layout Optimization
 
-- Multi-Language Launcher
+- [ ] Multi-Language Launcher
 
-- Multi-Language Config editor (so that you can also edit the russian,german,brazil etc. localization files)
+- [ ] Multi-Language Config editor (so that you can also edit the russian,german,brazil etc. localization files)
 
-- Adding warnings (Example: "Launcher is missing files (example.ini)" "Launcher is not inside the main APB-Directory" "Your current config might cause crashes, please use the vanilla config")
+- [x] Adding warnings (Example: "Launcher is missing files (example.ini)" "Launcher is not inside the main APB-Directory" "Your current config might cause crashes, please use the vanilla config")
 
 
 ## Screenshots
