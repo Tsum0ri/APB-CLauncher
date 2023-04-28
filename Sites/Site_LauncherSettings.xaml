@@ -28,7 +28,7 @@
             </ComboBox>
             <CheckBox
 
-    VerticalAlignment="Top" x:Name="AutoUpdateBox" IsChecked="True" FontSize="12" FontFamily="{StaticResource Purista}" Foreground="White" Content="Auto Update" RenderTransformOrigin="0.483,0.483" HorizontalAlignment="Center" Margin="0,10,0,0">
+    VerticalAlignment="Top" x:Name="AutoUpdateBox" IsChecked="True" FontSize="12" FontFamily="{StaticResource Purista}" Foreground="White" Content="Auto Update" RenderTransformOrigin="0.483,0.483" HorizontalAlignment="Center" Margin="0,10,0,0" Click="AutoUpdateBox_Click">
 
                 <CheckBox.LayoutTransform
 

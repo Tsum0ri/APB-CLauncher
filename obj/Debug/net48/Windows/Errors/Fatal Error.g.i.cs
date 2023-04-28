@@ -93,7 +93,7 @@ namespace CLauncher2._0.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/APB CLauncher;component/windows/errors/fatal%20error.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/APB CLauncher;V1.0.0.0;component/windows/errors/fatal%20error.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Windows\Errors\Fatal Error.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

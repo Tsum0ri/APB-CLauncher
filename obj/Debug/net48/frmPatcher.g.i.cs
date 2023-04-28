@@ -90,7 +90,7 @@ namespace CLauncher2._0 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/APB CLauncher;component/frmpatcher.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/APB CLauncher;V1.0.0.0;component/frmpatcher.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\frmPatcher.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

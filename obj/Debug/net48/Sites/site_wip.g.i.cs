@@ -54,7 +54,7 @@ namespace CLauncher2._0 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/APB CLauncher;component/sites/site_wip.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/APB CLauncher;V1.0.0.0;component/sites/site_wip.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Sites\site_wip.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

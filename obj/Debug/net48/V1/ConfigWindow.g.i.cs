@@ -150,7 +150,7 @@ namespace CLauncher2._0 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/APB CLauncher;component/v1/configwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/APB CLauncher;V1.0.0.0;component/v1/configwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\V1\ConfigWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

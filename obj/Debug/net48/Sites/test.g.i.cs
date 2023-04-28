@@ -186,7 +186,7 @@ namespace CLauncher2._0.Window {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/APB CLauncher;component/sites/test.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/APB CLauncher;V1.0.0.0;component/sites/test.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Sites\test.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

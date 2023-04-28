@@ -18,7 +18,7 @@
                 <StackPanel Orientation="Horizontal"
                     Width="175" VerticalAlignment="Top" Height="25">
 
-                    <CheckBox x:Name="FogBox" Content="NoFog" HorizontalAlignment="Stretch" Margin="26,0,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="16" Height="20"/>
+                    <CheckBox x:Name="FogBox" Content="AllowFog" HorizontalAlignment="Stretch" Margin="26,0,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="16" Height="20"/>
 
                 </StackPanel>
             </ListViewItem>

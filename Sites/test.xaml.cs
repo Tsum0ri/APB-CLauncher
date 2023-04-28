@@ -23,7 +23,7 @@ namespace CLauncher2._0.Window
     public partial class test : System.Windows.Window
     {
 
-        string Version = "vb1.69";
+        string Version = "vb1.70";
 
 
         public test()

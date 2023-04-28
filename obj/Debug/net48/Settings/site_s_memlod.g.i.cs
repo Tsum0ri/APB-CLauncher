@@ -427,7 +427,7 @@ namespace CLauncher2._0.Settings {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/APB CLauncher;component/settings/site_s_memlod.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/APB CLauncher;V1.0.0.0;component/settings/site_s_memlod.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Settings\site_s_memlod.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

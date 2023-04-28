@@ -14,7 +14,7 @@ namespace CLauncher2._0
     public partial class SplashScreen : System.Windows.Window
     {
 
-        string Version = "vb1.69";
+        string Version = "vb1.70";
 
 
 
@@ -37,8 +37,9 @@ namespace CLauncher2._0
             string str = new StreamReader(WebRequest.Create("https://beta.clauncher.download/" + "version.txt").GetResponse().GetResponseStream()).ReadLine();
             if (this.getVersion() != str)
             {
-                this.splashscreen_status.Content = "Update found!";
-                this.StartPatchForm();
+                this.splashscreen_status.Content = "Update found! Would you like to update?";
+                this.Yes.Visibility = Visibility.Visible;
+                this.No.Visibility = Visibility.Visible;
             }
             else
             {
@@ -104,5 +105,14 @@ namespace CLauncher2._0
 
         }
 
+        private void Yes_Click(object sender, RoutedEventArgs e)
+        {
+            this.StartPatchForm();
+        }
+
+        private void No_Click(object sender, RoutedEventArgs e)
+        {
+            this.StartMainForm();
+        }
     }
 }

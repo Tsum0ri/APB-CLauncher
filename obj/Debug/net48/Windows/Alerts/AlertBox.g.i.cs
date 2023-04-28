@@ -82,7 +82,7 @@ namespace CLauncher2._0.Windows.Alerts {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/APB CLauncher;component/windows/alerts/alertbox.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/APB CLauncher;V1.0.0.0;component/windows/alerts/alertbox.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Windows\Alerts\AlertBox.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

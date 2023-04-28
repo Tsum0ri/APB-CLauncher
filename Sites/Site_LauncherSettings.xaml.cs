@@ -102,5 +102,10 @@ namespace CLauncher2._0.Sites
             UserSettings.Default.LastSelectedImagePath = "";
             UserSettings.Default.Save();
         }
+
+        private void AutoUpdateBox_Click(object sender, RoutedEventArgs e)
+        {
+            SavingSettings();
+        }
     }
 }

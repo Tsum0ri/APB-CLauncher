@@ -1778,10 +1778,6 @@ namespace CLauncher2._0.Configs
             Enemy_Killed = EnemyKilled_Box.Text;
         }
 
-        internal void saveBtn_Click()
-        {
-            throw new NotImplementedException();
-        }
 
         //TeamKill_Preview.Content = Team_Kill;
 

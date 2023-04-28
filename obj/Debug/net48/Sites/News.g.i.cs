@@ -77,7 +77,7 @@ namespace CLauncher2._0.Sites {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/APB CLauncher;component/sites/news.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/APB CLauncher;V1.0.0.0;component/sites/news.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Sites\News.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

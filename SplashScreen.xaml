@@ -25,6 +25,8 @@
                 </LinearGradientBrush>
             </mah:ProgressRing.Foreground>
         </mah:ProgressRing>
+        <ui:Button x:Name="Yes" Content="Yes" Margin="188,208,0,0" VerticalAlignment="Top" Width="95" Appearance="Primary" Visibility="Collapsed" Click="Yes_Click"/>
+        <ui:Button x:Name="No" Content="No" Margin="10,208,0,0" VerticalAlignment="Top" Width="95" Appearance="Danger" Grid.Column="1" Visibility="Collapsed" Click="No_Click"/>
 
     </Grid>
 </Window>

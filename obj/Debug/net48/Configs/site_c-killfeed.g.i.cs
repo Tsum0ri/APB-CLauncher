@@ -244,7 +244,7 @@ namespace CLauncher2._0.Configs {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/APB CLauncher;component/configs/site_c-killfeed.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/APB CLauncher;V1.0.0.0;component/configs/site_c-killfeed.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Configs\site_c-killfeed.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
