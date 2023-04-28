@@ -20,7 +20,13 @@ namespace CLauncher2._0.Windows.Alerts
         public AlertBox()
         {
             InitializeComponent();
+            ClosingMySelf();
+        }
 
+        private async void ClosingMySelf()
+        {
+            await Task.Delay(2000);
+            this.Hide();
         }
 
     }

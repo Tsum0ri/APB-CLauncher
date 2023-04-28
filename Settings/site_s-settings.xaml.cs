@@ -29,6 +29,9 @@ namespace CLauncher2._0.Settings
             InitializeComponent();
 
 
+            this.FogBox.IsChecked = UserSettings.Default.NoFog;
+            this.MuzzleFlashBox.IsChecked = UserSettings.Default.MuzzleFlash;
+            this.MagazineCasingsBox.IsChecked = UserSettings.Default.MagazineCasings;
             this.DynamicDecalsBox.IsChecked = UserSettings.Default.DynamicDecals;
             this.LevelPariclesBox.IsChecked = UserSettings.Default.LevelPariclesS;
             this.DynamicLightsBox.IsChecked = UserSettings.Default.DynamicLightsS;
@@ -60,6 +63,10 @@ namespace CLauncher2._0.Settings
             this.CompressNormalBox.IsChecked = UserSettings.Default.CompressNormalS;
         }
 
+        internal void SaveBtn_Click()
+        {
+            throw new NotImplementedException();
+        }
 
         private void SaveBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -93,8 +100,21 @@ namespace CLauncher2._0.Settings
             UserSettings.Default.CompressOtherCharacterS = (bool)this.CompressOtherCharacterBox.IsChecked;
             UserSettings.Default.CompressOtherVehicleS = (bool)this.CompressOtherVehicleBox.IsChecked;
             UserSettings.Default.CompressNormalS = (bool)this.CompressNormalBox.IsChecked;
+            UserSettings.Default.NoFog = (bool)this.FogBox.IsChecked;
+            UserSettings.Default.MuzzleFlash = (bool)this.MuzzleFlashBox.IsChecked;
+            UserSettings.Default.MagazineCasings = (bool)this.MagazineCasingsBox.IsChecked;
 
 
+            // ============================================= DefaultGame Options =============================================
+            GameLauncher.GetINI(Environment.CurrentDirectory + "\\APBGame\\Config\\DefaultGame.ini");
+            GameLauncher.SaveToINI("APBGame.cVisualFX_Weapon", "m_bEnableMuzzleFlash", Conversions.ToString(this.MuzzleFlashBox.IsChecked));
+
+            GameLauncher.GetINI(Environment.CurrentDirectory + "\\APBGame\\Config\\DefaultGame.ini");
+            GameLauncher.SaveToINI("APBGame.cVisualFX_Weapon", "m_bEnableMagazineCasings", Conversions.ToString(this.MagazineCasingsBox.IsChecked));
+
+            // ============================================= APBMachine Options =============================================
+            GameLauncher.GetINI(Environment.CurrentDirectory + "\\APBGame\\Config\\APBMachineOptions.ini");
+            GameLauncher.SaveToINI("SystemSettings", "AllowFog", Conversions.ToString(this.FogBox.IsChecked));
 
             // ============================================= APBCompat Options =============================================
             GameLauncher.GetINI(Environment.CurrentDirectory + "\\APBGame\\Config\\APBCompat.ini");
@@ -183,6 +203,7 @@ namespace CLauncher2._0.Settings
 
             GameLauncher.GetINI(Environment.CurrentDirectory + "\\APBGame\\Config\\APBCompat.ini");
             GameLauncher.SaveToINI("AppHWConstraintsBucket1", "bCompressNormalTextures", Conversions.ToString(this.CompressNormalBox.IsChecked));
+
 
             UserSettings.Default.Save();
 

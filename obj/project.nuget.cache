@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9K6Xe4ucMliFDgBC7oRCVF+PB8hwI/Ax0REs7djpHS8eFbKqndq1jAEprnxWxVsFSiZJ3XMxiEVLNKw1Rgr0WQ==",
+  "dgSpecHash": "eFeDpJjKEgtwuHOeouMMyRKw2c7SOzmbmLdnIPIxv1Sg2ZCmH7IPOEjZPO0A1LQJ8XjWHgX7Wr9tQG836rdWnA==",
   "success": true,
   "projectFilePath": "G:\\Clauncher2\\CLauncher2.0\\CLauncher2.0 - Rework\\CLauncher2.0\\CLauncher2.0.csproj",
   "expectedPackageFiles": [
@@ -11,8 +11,9 @@
     "C:\\Users\\Steve\\.nuget\\packages\\costura.fody\\5.7.0\\costura.fody.5.7.0.nupkg.sha512",
     "C:\\Users\\Steve\\.nuget\\packages\\discordrichpresence\\1.1.3.18\\discordrichpresence.1.1.3.18.nupkg.sha512",
     "C:\\Users\\Steve\\.nuget\\packages\\dynamicdata\\7.12.8\\dynamicdata.7.12.8.nupkg.sha512",
-    "C:\\Users\\Steve\\.nuget\\packages\\fody\\6.6.4\\fody.6.6.4.nupkg.sha512",
+    "C:\\Users\\Steve\\.nuget\\packages\\fody\\6.7.0\\fody.6.7.0.nupkg.sha512",
     "C:\\Users\\Steve\\.nuget\\packages\\handycontrol\\3.4.0\\handycontrol.3.4.0.nupkg.sha512",
+    "C:\\Users\\Steve\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
     "C:\\Users\\Steve\\.nuget\\packages\\influxdb.net\\1.0.0\\influxdb.net.1.0.0.nupkg.sha512",
     "C:\\Users\\Steve\\.nuget\\packages\\influxdb.net-main\\1.0.47\\influxdb.net-main.1.0.47.nupkg.sha512",
     "C:\\Users\\Steve\\.nuget\\packages\\languageext.core\\4.4.0\\languageext.core.4.4.0.nupkg.sha512",

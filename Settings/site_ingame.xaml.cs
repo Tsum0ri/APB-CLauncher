@@ -424,5 +424,10 @@ namespace CLauncher2._0.Settings
         {
           
         }
+
+        internal void Button_Click()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

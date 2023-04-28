@@ -74,7 +74,7 @@ namespace CLauncher2._0.Settings
         }
 
 
-        private void SaveBtn_Click(object sender, RoutedEventArgs e)
+        public void SaveBtn_Click(object sender, RoutedEventArgs e)
         {
             // ============================================= APBCompat Textures =============================================
             string[] contents = File.ReadAllLines(Environment.CurrentDirectory + "\\APBGame\\Config\\APBCompat.ini");
@@ -1629,5 +1629,7 @@ namespace CLauncher2._0.Settings
             else
                 this.PlayerVehicleText.Content = "Ultra Quality";
         }
+
+
     }
 }

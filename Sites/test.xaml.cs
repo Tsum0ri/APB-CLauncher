@@ -23,7 +23,7 @@ namespace CLauncher2._0.Window
     public partial class test : System.Windows.Window
     {
 
-        string Version = "vb1.65";
+        string Version = "vb1.69";
 
 
         public test()
@@ -37,7 +37,17 @@ namespace CLauncher2._0.Window
             Random rng = new Random();
             int index = rng.Next(bgs.Length);
             this.LauncherBG.Source = new BitmapImage(new Uri(bgs[index], UriKind.Relative));
+
+            try 
+            {
             LoadBackgroundImage(); // Should Ignore the DynamicBG feature
+            }
+            catch (Exception ex) 
+            {
+                Windows.Fatal_Error FatalError = new Windows.Fatal_Error();
+                FatalError.Show();
+                FatalError.ErrorCode.Content = "<Error:Error Informations=" + '\u0022' + "Unable to load background" + '\u0022' + ">";
+            }
 
             ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
         }

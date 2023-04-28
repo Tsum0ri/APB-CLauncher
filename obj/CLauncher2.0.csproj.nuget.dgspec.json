@@ -62,11 +62,15 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.6.4, )"
+              "version": "[6.7.0, )"
             },
             "HandyControl": {
               "target": "Package",
               "version": "[3.4.0, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.46, )"
             },
             "InfluxDB.NET": {
               "target": "Package",

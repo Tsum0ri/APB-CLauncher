@@ -24,5 +24,10 @@ namespace CLauncher2._0.Configs
         {
             InitializeComponent();
         }
+
+        internal void SaveBtn_Click()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

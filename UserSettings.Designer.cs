@@ -1105,7 +1105,7 @@ namespace CLauncher2._0 {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool AutoUpdate {
             get {
                 return ((bool)(this["AutoUpdate"]));
@@ -1604,6 +1604,42 @@ namespace CLauncher2._0 {
             }
             set {
                 this["LastSelectedImagePath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool NoFog {
+            get {
+                return ((bool)(this["NoFog"]));
+            }
+            set {
+                this["NoFog"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool MuzzleFlash {
+            get {
+                return ((bool)(this["MuzzleFlash"]));
+            }
+            set {
+                this["MuzzleFlash"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool MagazineCasings {
+            get {
+                return ((bool)(this["MagazineCasings"]));
+            }
+            set {
+                this["MagazineCasings"] = value;
             }
         }
     }

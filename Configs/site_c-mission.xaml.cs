@@ -994,5 +994,9 @@ namespace CLauncher2._0.Configs
             }
         }
 
+        internal void SaveBtn_Click()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

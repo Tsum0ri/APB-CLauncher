@@ -11,7 +11,37 @@
         <ListView  x:Name="LV"
             Background="Transparent"
             BorderBrush="Transparent"
-            ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Top" Width="326" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" Height="586" Margin="0,40,0,0">
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" VerticalAlignment="Top" Width="326" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" Height="596" Margin="0,40,0,0">
+
+            <!--// NoFog //-->
+            <ListViewItem x:Name="NoFog" Margin="0,0,0,0" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="175" VerticalAlignment="Top" Height="25">
+
+                    <CheckBox x:Name="FogBox" Content="NoFog" HorizontalAlignment="Stretch" Margin="26,0,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="16" Height="20"/>
+
+                </StackPanel>
+            </ListViewItem>
+
+            <!--// MuzzleFlash //-->
+            <ListViewItem x:Name="MuzzleFlash" Margin="0,0,0,0" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="175" VerticalAlignment="Top" Height="25">
+
+                    <CheckBox x:Name="MuzzleFlashBox" Content="MuzzleFlash" HorizontalAlignment="Stretch" Margin="26,0,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="16" Height="20"/>
+
+                </StackPanel>
+            </ListViewItem>
+
+            <!--// MagazineCasings //-->
+            <ListViewItem x:Name="MagazineCasings" Margin="0,0,0,0" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal"
+                    Width="175" VerticalAlignment="Top" Height="25">
+
+                    <CheckBox x:Name="MagazineCasingsBox" Content="MagazineCasings" Margin="26,0,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="{StaticResource Purista}" FontSize="16" Height="20" Width="181"/>
+
+                </StackPanel>
+            </ListViewItem>
 
             <!--// 1 //-->
             <ListViewItem x:Name="VSync" Margin="0,0,0,0" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left">

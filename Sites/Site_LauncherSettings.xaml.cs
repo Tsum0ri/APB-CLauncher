@@ -4,6 +4,7 @@ using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
+using CLauncher2._0.Settings;
 using CLauncher2._0.Window;
 using Microsoft.Win32;
 
@@ -36,9 +37,18 @@ namespace CLauncher2._0.Sites
             var dialog = new OpenFileDialog();
             dialog.Filter = "Config files (*.config)|*.config|All files (*.*)|*.*";
 
-            if (dialog.ShowDialog() == true)
+            try
             {
-                File.Copy(dialog.FileName, ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.PerUserRoamingAndLocal).FilePath, true);
+                if (dialog.ShowDialog() == true)
+                {
+                    File.Copy(dialog.FileName, ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.PerUserRoamingAndLocal).FilePath, true);
+                }
+            }
+            catch (Exception ex) 
+            {
+                Windows.Fatal_Error FatalError = new Windows.Fatal_Error();
+                FatalError.Show();
+                FatalError.ErrorCode.Content = "<Error:Error Informations=" + '\u0022' + "Unable to import or write settings" + '\u0022' + ">";
             }
         }
 
@@ -48,9 +58,18 @@ namespace CLauncher2._0.Sites
             var dialog = new SaveFileDialog();
             dialog.Filter = "Config files (*.config)|*.config|All files (*.*)|*.*";
 
-            if (dialog.ShowDialog() == true)
+            try
+            {
+                if (dialog.ShowDialog() == true)
             {
                 File.Copy(ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.PerUserRoamingAndLocal).FilePath, dialog.FileName, true);
+            }
+            }
+            catch (Exception ex)
+            {
+                Windows.Fatal_Error FatalError = new Windows.Fatal_Error();
+                FatalError.Show();
+                FatalError.ErrorCode.Content = "<Error:Error Informations=" + '\u0022' + "Unable to export settings" + '\u0022' + ">";
             }
         }
 

@@ -9346,5 +9346,9 @@ contentsSimple[662] = "TaskObjectives_DB_BEM3_Inv1_Stage03_DispatchBrief=This is
             }
         }
 
+        internal void SaveBtn_Click()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -6,7 +6,10 @@ using System.Net;
 using Newtonsoft.Json;
 using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
-
+using System.Windows.Media.Imaging;
+using HtmlAgilityPack;
+using System.Linq;
+using System.IO;
 
 namespace CLauncher2._0
 {
@@ -19,44 +22,57 @@ namespace CLauncher2._0
         {
 
             InitializeComponent();
+            /* LoadBanner(); */
             LanguageSelector.SelectedIndex = UserSettings.Default.LanguageSelectorSetting;
             this.NoMovies.IsChecked = UserSettings.Default.NoMoviesSetting;
             
             ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
             
 
-            
+            try
+            {
+
             var json = new WebClient().DownloadString("https://will.io/apb/stats.php");
             stats c = JsonConvert.DeserializeObject<stats>(json);
             CpopNumber.Content = c.Citadel[c.Citadel.Length - 1];
             JpopNumber.Content = c.Jericho[c.Jericho.Length - 1];
 
-            //string[] Citadeloff = new string[c.Citadel.Length - 1];
-            //Citadeloff[c.Citadel.Length - 1] = "null";
+                //string[] Citadeloff = new string[c.Citadel.Length - 1];
+                //Citadeloff[c.Citadel.Length - 1] = "null";
 
-            if (c.Citadel == null) //set Status Text & Color
-            {
-                c_status.Content = "OFFLINE";
-                c_status.Foreground = new SolidColorBrush(Colors.Red);
-                CpopNumber.Content = "0";
+                if (c.Citadel == null) //set Status Text & Color
+                {
+                    c_status.Content = "OFFLINE";
+                    c_status.Foreground = new SolidColorBrush(Colors.Red);
+                    CpopNumber.Content = "0";
+                }
+                else
+                {
+                    c_status.Content = "ONLINE";
+                    c_status.Foreground = new SolidColorBrush(Colors.Green);
+                }
+
+                if (c.Jericho is null) //set Status Text & Color
+                {
+                    j_status.Content = "OFFLINE";
+                    j_status.Foreground = new SolidColorBrush(Colors.Red);
+                    JpopNumber.Content = "0";
+                }
+                else
+                {
+                    j_status.Content = "ONLINE";
+                    j_status.Foreground = new SolidColorBrush(Colors.Green);
+                }
+
+
             }
-            else
+            catch (Exception ex) 
             {
-                c_status.Content = "ONLINE";
-                c_status.Foreground = new SolidColorBrush(Colors.Green);
+                Windows.Fatal_Error FatalError = new Windows.Fatal_Error();
+                FatalError.Show();
+                FatalError.ErrorCode.Content = "<Error:Error Informations=" + '\u0022' + "Unable to Load Population from https://will.io/apb/" + '\u0022' + ">";
             }
 
-            if (c.Jericho is null) //set Status Text & Color
-            {
-                j_status.Content = "OFFLINE";
-                j_status.Foreground = new SolidColorBrush(Colors.Red);
-                JpopNumber.Content = "0";
-            }
-            else
-            {
-                j_status.Content = "ONLINE";
-                j_status.Foreground = new SolidColorBrush(Colors.Green);
-            }
             
         }
 
@@ -323,6 +339,51 @@ namespace CLauncher2._0
             System.Windows.Application.Current.Shutdown();
         }
 
+
+        /*
+        private void LoadBanner()
+        {
+
+
+            // Create a WebClient object to download the webpage HTML
+            using (var client = new WebClient())
+            {
+                // Download the webpage HTML as a string
+                var html = client.DownloadString("https://www.gamersfirst.com/launchers/apb/");
+
+                // Load the HTML into an HtmlDocument using HtmlAgilityPack
+                var doc = new HtmlDocument();
+                doc.LoadHtml(html);
+
+                // Find the "ul" element with an "id" attribute value of "banner"
+                var bannerUl = doc.DocumentNode.SelectSingleNode("//ul[@id='banners']");
+
+                // Get the first "img" element inside the "ul" element and extract its "src" attribute value
+                var imgSrc = bannerUl?.Descendants("img").FirstOrDefault()?.GetAttributeValue("src", null);
+
+                if (!string.IsNullOrEmpty(imgSrc))
+                {
+                    // Combine the base URL of the webpage with the relative image URL
+                    var baseUrl = "https://www.gamersfirst.com/launchers/apb/";
+                    var imageUrl = new Uri(new Uri(baseUrl), imgSrc).AbsoluteUri;
+
+                    // Download the image using WebClient
+                    var imageData = client.DownloadData(imageUrl);
+
+                    // Convert the image data to a BitmapImage and set it as the source of an Image control
+                    var image = new BitmapImage();
+                    using (var stream = new MemoryStream(imageData))
+                    {
+                        image.BeginInit();
+                        image.CacheOption = BitmapCacheOption.OnLoad;
+                        image.StreamSource = stream;
+                        image.EndInit();
+                    }
+                    bannerImage.Source = image;
+                }
+            }
+        }
+        */
     }
 }
 

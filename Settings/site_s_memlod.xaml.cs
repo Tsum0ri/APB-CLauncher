@@ -764,6 +764,11 @@ namespace CLauncher2._0.Settings
         {
             Preview_Text.Text = "Hover over the settings to see what it does!";
         }
+
+        internal void SaveBtn_Click()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 

@@ -1729,7 +1729,7 @@ namespace CLauncher2._0.Configs
 
 
         //============================================= Killfeed - Textbox =============================================
-        private void TeamKill_Box_TextChanged(object sender, TextChangedEventArgs e)
+        public void TeamKill_Box_TextChanged(object sender, TextChangedEventArgs e)
         {
             Team_Kill = TeamKill_Box.Text;
             var length = 1000;
@@ -1746,7 +1746,7 @@ namespace CLauncher2._0.Configs
             });
         }
 
-        private void EnemyKill_Box_TextChanged(object sender, TextChangedEventArgs e)
+        public void EnemyKill_Box_TextChanged(object sender, TextChangedEventArgs e)
         {
             Enemy_Kill = EnemyKill_Box.Text;
             var length = 1000;
@@ -1776,6 +1776,11 @@ namespace CLauncher2._0.Configs
         private void EnemyKilled_Box_TextChanged(object sender, TextChangedEventArgs e)
         {
             Enemy_Killed = EnemyKilled_Box.Text;
+        }
+
+        internal void saveBtn_Click()
+        {
+            throw new NotImplementedException();
         }
 
         //TeamKill_Preview.Content = Team_Kill;

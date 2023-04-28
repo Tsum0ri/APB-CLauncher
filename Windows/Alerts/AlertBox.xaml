@@ -10,7 +10,7 @@
     <Grid x:Name="AlertBox_Grid" Background="#7F348A06">
         <Image HorizontalAlignment="Left" Height="31" VerticalAlignment="Center" Width="24" Margin="10,0,0,0" Source="/Resources/icons8_Save_104px.png"/>
         <Label Content="Sucessfully" HorizontalAlignment="Left" Margin="46,5,0,0" VerticalAlignment="Top" FontFamily="{StaticResource PuristaSemiBold}"/>
-        <Label Content="Configuration has been saved successfully" HorizontalAlignment="Left" Margin="46,24,0,0" VerticalAlignment="Top" FontFamily="{StaticResource Purista}"/>
+        <Label Content="Configuration was imported successfully" HorizontalAlignment="Left" Margin="46,24,0,0" VerticalAlignment="Top" FontFamily="{StaticResource Purista}"/>
         <ProgressBar HorizontalAlignment="Center" Height="7" Margin="0,42,0,0" VerticalAlignment="Top" Width="484" Background="#FF7DFF79" Value="1" Foreground="#FF46EF40"/>
 
     </Grid>
